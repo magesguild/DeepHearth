@@ -121,6 +121,10 @@ UNKNOWN
 -> the input register could not be inspected legally
 ```
 
+The readout also declares whether the operation is `COMPLETE`, `REFUSED`,
+`UNAVAILABLE`, `INTERRUPTED`, or `REST`. `UNKNOWN` describes the knowledge
+available to the reader; it is not permission to substitute a guess.
+
 These are output states, not judgments about what the player should do.
 
 ## Party and world use

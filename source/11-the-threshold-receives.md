@@ -18,6 +18,7 @@ moves: offer, keep, withdraw, Rest
 apparatus: sample, vial, threshold card, trace marker
 uncertainty: none unless the offered material is altered
 exit: received, carried, or Rest
+T-Stop set: COMPLETE / REFUSED / WITHDRAWN / REST / UNKNOWN
 ```
 
 The computation is the change in public relation. The threshold does not become

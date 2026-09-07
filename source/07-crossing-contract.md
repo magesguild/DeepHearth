@@ -87,6 +87,7 @@ moves: cross, refuse, alter declaration, Rest
 apparatus: crossing card, carried objects, route marker
 uncertainty: only if a new hidden question is declared
 exit: far side, outside, refusal, or Rest
+T-Stop set: COMPLETE / REFUSED / UNAVAILABLE / UNKNOWN / REST
 ```
 
 The crossing minigame computes the boundary transition, not the character's
@@ -150,6 +151,9 @@ future transition.
 If the lantern is dark and the alarm is alert, the threshold is not available.
 The character cannot cross this route in this slice. That is a world boundary,
 not a command to stop playing.
+
+Record `UNAVAILABLE` rather than a failed crossing. The last legal location,
+carried state, and next legal route remain unchanged.
 
 The player may:
 

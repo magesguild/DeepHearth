@@ -131,6 +131,9 @@ reason: _______________________________
 held witness: returned / archived / private
 last Rest: ____________________________
 relationship: released / paused / repairable
+terminal status: RESTING / WITHDRAWN / PAUSED / RELEASED / DEPARTED
+resume condition: __________________
+witness: __________________________
 ```
 
 ## Hearth REPL use
@@ -152,8 +155,16 @@ latency: one operation
 refusal: available
 ```
 
+`Attention` is not a hidden universal meter. Here it means one declared
+attention commitment: the operator spends one available operation or names one
+Reserve/cycle cost according to the current scene. If no cost bearer can be
+named, the operation remains `QUOTED` rather than silently consuming attention.
+
 The player may decline. The Lantern may decline. A familiar relationship is an
 interaction between agents, not a command channel with a friendly skin.
+Every operation also has a T-Stop set. `REFUSED`, `WITHDRAWN`, `PAUSED`, and
+`DEPARTED` preserve the Lantern's agency; none is a system fault, punishment, or
+automatic destruction of the relationship.
 
 ## Magic host examples
 

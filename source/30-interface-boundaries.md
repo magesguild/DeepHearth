@@ -22,8 +22,11 @@ core state
 3. Who may see the input and output?
 4. Who may refuse or leave the relationship?
 5. What exact event returns to shared memory?
+6. Which T-Stops are legal, and what resumes after each one?
 
 If any answer is unknown, the operation remains pending or returns `UNKNOWN`.
+An interface may not turn an unavailable capability, refusal, interruption, or
+death into a successful output merely to complete the packet.
 
 ## Familiar and non-familiar organs
 

@@ -3,6 +3,23 @@
 These cards turn the common ecologies into immediate table content. They are
 small enough to combine and open enough to extend.
 
+Every beast card also declares a T-Stop set, even when the first example does
+not need every terminal:
+
+```text
+CONTINUE / RETREAT / REFUSED / SURRENDERED / INCAPACITATED /
+RECOVERING / DEAD / REST
+```
+
+The habitat may omit `DEAD` when the scenario does not make death legal. A
+beast's ecology is not obligated to escalate to combat, and a player does not
+have to consume the body to resolve the encounter.
+
+Before the first turn, the facilitator writes each active beast register's
+initial face, advance trigger, threshold, and reset/recovery rule on the scene
+card. Registers advance only when their trigger occurs or when an explicit
+away-time tick includes the body. Background beasts use coarse habitat state.
+
 ## Giant Rat Colony
 
 ```text

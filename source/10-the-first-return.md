@@ -65,6 +65,7 @@ moves: choose, witness, carry, return, offer, keep, refuse
 apparatus: dust, vial, route, witness card
 uncertainty: route stability and possible alteration
 exit: arrived, altered, remained, unknown, or Rest
+T-Stop set: RETURN_ECHOED / RETURN_ALTERED / RETURN_REMAINED / RETURN_UNKNOWN / REST
 ```
 
 ## Dice habitat

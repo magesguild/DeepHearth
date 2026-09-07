@@ -82,12 +82,21 @@ family: Signal / Seed
 input: one prepared extract or one light charge
 cost: 1 Reserve and 2 cycles
 target: one lamp, room, or carried light organ
-duration: until fuel, boundary, or declared end
+focus: one active light operation; incompatible focus is refused
+duration: one declared scene by default, or until declared fuel is spent
 effect: makes one declared space readable
 interruption: disrupt or remove the light source
 residue: heat and a visible trace
 witness: light state and remaining fuel
 ```
+
+The input packet and quoted costs remain unspent until the player commits the
+spell. At commitment, the declared extract or charge is consumed, one Reserve
+is paid, two cycles are spent, and one focus slot is occupied. An interruption
+after commitment leaves the consumed material, heat, trace, and partial light
+state witnessed; an interruption before commitment leaves the input available.
+The local spell card may change these defaults, but must name the replacement
+duration, fuel, focus, and interruption result.
 
 Lantern Seed does not reveal all hidden state. It changes visibility according
 to the light's declared habitat.
@@ -142,6 +151,9 @@ Interruption: _________________
 Effect: _______________________
 Residue: ______________________
 Boundary: _____________________
+T-Stop set: ____________________
+Terminal reason: ______________
+Resume condition: _____________
 Witness: ______________________
 Recovery: _____________________
 ```

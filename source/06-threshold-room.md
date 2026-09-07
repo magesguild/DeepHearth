@@ -59,6 +59,7 @@ moves: inspect, prepare, attempt, refuse, Rest
 apparatus: d20, reagent, lantern, trace card
 uncertainty: extract stabilization
 exit: lit, Flicker, alert, or Rest
+T-Stop set: COMPLETE / REFUSED / UNAVAILABLE / INTERRUPTED / REST
 ```
 
 The room's minigame begins at the stabilization question. Walking, looking, and

@@ -44,6 +44,60 @@ witness
 exit or Rest condition
 ```
 
+The physical apparatus may be a battle grid, a diagrammatic grid, figures,
+tokens, cards, dice, threads, ledgers, or a combination. A grid is not limited
+to combat: it may compute routes, water flow, a workshop layout, a social
+network, a ritual arrangement, a puzzle, or a creature's territory. Figures or
+other distinct bodies occupy the live spatial state; cards and ledgers preserve
+declared capabilities, hidden state, and witness.
+
+If a local card does not declare a different value, use these defaults:
+
+```text
+one helpful contributor       -> +1, costing that body's declared action/cycle
+one named pressure source     -> -1
+additional pressure sources   -> each must be named; no hidden stacking
+one ordinary injury           -> 1 Integrity and one named action limitation
+one major injury              -> 2 Integrity and one named action limitation
+one Prone condition           -> no Integrity loss by itself
+```
+
+No helper, pressure, injury, or recovery value is inferred from descriptive
+language alone. The card or facilitator names the input before resolution.
+
+## State closure and calculation budget
+
+Deep Hearth is a selective computer, not a universal simulator. A register is
+worth tracking only when it changes a meaningful legal future.
+
+Every authoritative register answers:
+
+```text
+owner
+type and range
+initial value
+what changes it
+which legal future it changes
+recovery or reset rule
+witness and State Capsule field
+```
+
+State has four registers of attention:
+
+```text
+source state   -> authoritative position, resource, condition, or relation
+derived state  -> calculated display that is not independently saved
+witness state  -> event or trace needed to remember what happened
+flavor state   -> meaningful fiction without current arithmetic authority
+```
+
+Derived state must not be tracked twice. Flavor state becomes mechanical only
+when a visible rule gives it a declared input, cost, transition, and witness.
+
+The table should compute only when computation creates a meaningful choice,
+visible relation, or delightful discovery. A grid, figure, token, card, die,
+ledger, or app is a physical register only while it changes what can happen next.
+
 The universal loop is:
 
 ```text
@@ -91,6 +145,10 @@ d20
 -> compare with Demand
 -> update state
 ```
+
+The total is not allowed to create a cost or bonus that was not named in the
+interaction contract. A result below zero remains a result; it does not become
+an automatic death or a hidden extra failure.
 
 ## Alpha constants
 
@@ -215,6 +273,74 @@ active, and what cost they are willing to pay.
 | Failure | The situation changes, a resource is spent, or a new problem appears |
 
 Failure is not a dead end. It is a state transition.
+
+## T-Stop Constitution
+
+Every bounded interaction declares how it may end. This is the shared terminal
+logic of Deep Hearth. A T-Stop is not merely a quit command; it is a truthful,
+witnessed answer to the question, “What happens when this body can no longer or
+will no longer continue in the present form?”
+
+Not every interaction offers every outcome. The card or scene must name the
+subset that is legal.
+
+```text
+COMPLETE       the declared objective is settled
+CONTINUE       the interaction remains active
+REST           a resumable witnessed return point
+YIELD          give control back without ending the body
+REFUSED        an agent preserved its boundary
+UNAVAILABLE    the capability or receiving state is absent
+DELAYED        the offer remains open but unresolved
+WITHDRAWN      a body left the relation or operation
+RETREATED      a body left pressure by a declared route
+SURRENDERED    a body yielded its contested position
+INCAPACITATED  a body cannot conduct ordinary action, but is not dead
+RECOVERING     a declared repair or care path is active
+RECOVERED      the declared recovery path settled
+INTERRUPTED    the operation stopped with partial state preserved
+UNKNOWN        the world does not establish the result
+INVALID        the requested operation was not legal
+DEAD           the body ended and the death was explicitly established
+```
+
+`FAILURE` is not automatically a T-Stop. It becomes one only when the
+interaction declares that its changed state is terminal. `UNKNOWN` is not
+`DEAD`, and `INCAPACITATED` is not `SURRENDERED`. `REST` is resumable; `COMPLETE`
+may be final for the local interaction while the wider world continues.
+
+Every T-Stop record names:
+
+```text
+status
+reason
+body or relation affected
+boundary invoked
+last legal state
+pending consequence
+recovery path
+resume condition
+witness
+```
+
+At zero Integrity, a player or other body chooses among the legal still points
+declared by its card or scene. Death is a world transition, not an automatic
+arithmetic result. If death is established, the body stops acting, but its
+traces, relationships, remains, open consequences, and witness remain in the
+world. Return or resurrection is never a generic undo; it requires a declared
+path with its own cost, boundary, and witness.
+
+Deep Hearth has no generic death-saving throw. A roll may resolve uncertain
+pressure before death is established: whether a blow is lethal, whether a body
+is knocked down, whether a rescue arrives in time, or whether a boundary holds.
+Once the scene's fiction and contract establish `DEAD`, there is no post-death
+roll that quietly reverses it. Before that point, the body may still reach
+`PRONE`, a specific injury, `INCAPACITATED`, `SURRENDERED`, `WITHDRAWN`, or
+`RECOVERING`, if those states are legal in the scene.
+
+The table should always be able to stop without shame. A player may pause a
+scene, a Familiar may withdraw, an enemy may surrender, a GM may declare an
+operation unavailable, and a body may Rest without being treated as broken.
 
 ## The resolution boundary
 

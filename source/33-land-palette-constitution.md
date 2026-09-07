@@ -31,6 +31,20 @@ restricted -> a current alignment, host, or boundary refuses access
 Access is not possession. A character may use a land source without owning it,
 or own a card that cannot legally operate in the current habitat.
 
+When access states conflict, use this precedence:
+
+```text
+restricted -> no operation unless a named repair or release path changes it
+native     -> efficient access when the source and host accept it
+licensed   -> access while the named permission remains valid
+learned    -> access through sustained practice and available capacity
+```
+
+`Native`, `licensed`, and `learned` are not cumulative discounts. A source
+chooses one active access state for an operation and names its cost, slot, and
+refusal behavior. A character begins with two active channels and may not
+silently exceed that capacity.
+
 ## Active palette
 
 At alpha creation, a character may keep two native channels active. Additional
@@ -104,11 +118,21 @@ operation
 latency
 failure
 cardless fallback
+T-Stop set
 ```
 
 Loot may be accepted, refused, archived, traded, licensed, repaired, or learned.
 The GM does not need to give a player a channel as a reward. The world may offer
 a path, and the player decides whether to enter it.
+
+Every land source also names what happens when access ends:
+
+```text
+REFUSED / WITHDRAWN / UNAVAILABLE / RECOVERING / REST / CONTINUE
+```
+
+Closing a channel does not erase what was learned or silently sever a dependent
+body. It records the boundary and the next legal route.
 
 ## GM land deck
 

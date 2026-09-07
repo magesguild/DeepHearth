@@ -61,9 +61,26 @@ d6  -> water reserve
 d4  -> boar recovery state
 ```
 
+For the alpha scenario, initialize the registers before play: dryness 4/12,
+water reserve 6/6, boar state `calm`, and moth response `quiet`. Dryness advances
+one step at a Rest without a successful water-care transition; water reserve
+decreases only when the party spends it and recovers only through a witnessed
+water input. Moth response and boar state change only when light, water,
+territory, or a body crosses their declared boundary. The scenario card may
+replace these values, but must write the replacement and its threshold.
+
 The orchard has no required combat. Its failure states are darkness, migration,
 root injury, and loss of a route. Its Rest condition is a stable water path and
 one witnessed care action.
+
+The orchard's T-Stop set is:
+
+```text
+COMPLETE / REFUSED / MIGRATED / RECOVERING / ROUTE_LOST / REST
+```
+
+Darkness and route loss are changed ecological states, not automatic deaths for
+the orchard or its inhabitants.
 
 ## The First Descent
 
@@ -99,4 +116,6 @@ Archive Warden: permission and memory boundary
 
 Rest may occur at the Yawning Portal, a protected chamber, a negotiated
 sanctuary, or another declared still point. The party records what Undermountain
-changed while they were below.
+sanctuary, or another declared still point. The party records what Undermountain
+changed while they were below, and names any T-Stop reached by a body, relation,
+or route.

@@ -96,6 +96,11 @@ Legal responses: ______________
 Primary die: __________________
 Support dice: _________________
 Failure states: _______________
+T-Stop set: ____________________
+Terminal reason: _______________
+Last legal state: ______________
+Recovery path: _________________
+Resume condition: ______________
 Rest: _________________________
 Externalities: ________________
 Persistent traces: ____________
@@ -119,6 +124,11 @@ Inventory deltas: ______________
 Alignment and land palette: ____
 Familiar / organ state: ________
 Pending events: ________________
+Terminal status: _______________
+Terminal reason: _______________
+Last legal state: ______________
+Recovery / custody path: _______
+Resume condition: _____________
 Secrets sealed: ________________
 Entropy record: ________________
 Rest point: ____________________

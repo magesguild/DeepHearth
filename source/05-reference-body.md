@@ -49,6 +49,9 @@ Deep Hearth
 > do inside it. No one is required to erase their own boundary in order to make
 > the organism whole.
 
+> Deep Hearth is a selective computer. It computes where computation creates a
+> meaningful future, and lets routine life remain ordinary, visible, and human.
+
 ## The open kernel
 
 The generic Basin core is:
@@ -69,3 +72,76 @@ state
 
 Everything else is an adapter or a content layer. Deep Hearth is the first body
 in which the kernel will become legible.
+
+## Publication surfaces
+
+The reference body and the player-facing game book are related but not
+identical. The project should grow through deliberate publication surfaces:
+
+```text
+technical alpha
+-> beta game book
+-> role-separated mature release
+```
+
+### Technical alpha
+
+The alpha is the engine-room edition. It exposes the contracts needed to test
+the body:
+
+```text
+state
+cells
+resources
+clocks
+T-Stops
+receipts
+State Capsules
+organ boundaries
+```
+
+Its audience includes technically literate GMs, designers, playtesters, and
+future implementers. It may read like a computer science document because it is
+proving that the game has a body before asking a table to inhabit it.
+
+### Beta game book
+
+The beta translates the same constitution into table procedures. It should lead
+with:
+
+```text
+what can I do?
+what does it cost?
+what happens if I refuse?
+what changes?
+where can we Rest?
+```
+
+Implementation vocabulary remains available in sidebars and reference pages,
+but players should not need to carry GM state, event schemas, or engine
+bookkeeping in order to play a character.
+
+### Mature release
+
+The mature game should separate roles without splitting the rules' truth:
+
+```text
+Player Handbook
+    characters, actions, relationships, travel, equipment, magic, play
+
+GM's Guide
+    encounter physics, ecology, clocks, T-Stops, hidden state, factions,
+    communities, continuity, and world-building
+
+Monster Manual / Bestiary
+    creature bodies, habitats, needs, boundaries, responses, and secrets
+```
+
+The Bestiary is optional player knowledge. A GM may reveal only what a body can
+perceive, while the full ecology remains available for preparation. These are
+different views over one reference constitution, not contradictory games.
+
+The publication test is not whether every reader sees every mechanism. It is
+whether each reader receives the information needed to make meaningful choices,
+while the GM retains enough structure to tend the world without silently
+supplying missing physics.

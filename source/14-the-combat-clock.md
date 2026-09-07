@@ -25,7 +25,9 @@ fictional seconds for every body in sequence.
 
 ## The arena
 
-Use a narrow path, field edge, or ruined courtyard with:
+Use a battle grid or another clearly measured spatial surface. Place figures or
+distinct physical bodies on it. A narrow path, field edge, or ruined courtyard
+may contain:
 
 ```text
 one safe retreat route
@@ -49,7 +51,10 @@ priority: established by position, or d8 if genuinely uncertain
 ```
 
 The d6 cycle dice are registers. They are not rolled at the beginning of every
-turn. Turn a die down as its body spends cycles.
+turn. Turn a die down as its body spends cycles. At the next round boundary,
+discard unspent cycle state and reset each active body's cycle die to 6, unless
+a named condition, injury, or care path declares a different starting value.
+Cycles never carry across rounds silently.
 
 The d4 boar state shows calm, alert, cornered, or exhausted. The d6 charge die
 shows how much charge remains before the boar must turn, recover, or reassess.
@@ -80,7 +85,8 @@ cycles, it must choose a smaller action, defer, withdraw, or Rest.
 7. Update bodies, terrain, resources, hazards, and memory.
 8. Repeat until each body has spent, deferred, withdrawn, or Rested.
 9. Reach the round boundary and witness pending consequences.
-10. Begin the next round with the updated world state.
+10. Reset cycle registers according to the declared conditions and care paths.
+11. Begin the next round with the updated world state.
 
 ## The boar's turn
 
@@ -152,6 +158,7 @@ apply if the world rules already establish it.
 Combat ends when the pressure ecology reaches a new stable state:
 
 ```text
+complete: objective settled
 retreat
 -> surrender
 -> separation
@@ -162,6 +169,24 @@ retreat
 -> death when explicitly established
 -> Rest or continuation
 ```
+
+At the end of a round, the table names one terminal status rather than treating
+all endings as victory or defeat:
+
+```text
+COMPLETE / RETREATED / SURRENDERED / SEPARATED / INCAPACITATED /
+RECOVERING / DEAD / REST / CONTINUE
+```
+
+If a body reaches zero Integrity, the scene pauses long enough for its legal
+T-Stop to be chosen or established. No death occurs merely because arithmetic
+reached zero. A dead body remains part of the witnessed world through its
+relationships, material traces, custody, and open consequences.
+
+There is no generic death-saving throw. Before `DEAD` is established, the combat
+resolution may produce `PRONE`, a named injury, `INCAPACITATED`, `SURRENDERED`,
+or `RECOVERING`. A resistance or defense roll belongs before that terminal
+decision, when the uncertain question is whether the pressure becomes lethal.
 
 The goal is not to consume every body. The goal is to resolve the contested
 state and witness what the world became.
@@ -177,6 +202,7 @@ This slice is complete when a group can:
 - perform one bounded interrupt;
 - protect, retreat, redirect, grapple, or negotiate instead of only attacking;
 - reach a stable end state without forced death;
+- name the combat T-Stop and its recovery or custody path;
 - record the round's externalities and Rest point.
 
 The next combat question is:

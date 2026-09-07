@@ -68,6 +68,11 @@ boundary: will not open the gate without a legal receiving state
 The numbers are local card values for this slice. They are not a final capacity
 list for the whole game.
 
+`Force` and `Guard` are explicit local aliases for this card only. They do not
+silently add a second universal capacity system. A future card must state which
+canonical capacity it aliases, or remain a local value with its own range,
+initial state, cost, transition, and witness.
+
 ## Equipment signatures
 
 ### Spear

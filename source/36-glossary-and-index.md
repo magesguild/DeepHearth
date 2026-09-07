@@ -49,6 +49,14 @@ cost, output, error behavior, and witness.
 **State Capsule:** The smallest public state required to resume at a witnessed
 checkpoint.
 
+**T-Stop:** The declared terminal, yield, refusal, interruption, recovery, or
+death result of a bounded interaction. A T-Stop preserves the last legal state
+and names what may happen next.
+
+**Terminal outcome:** A witnessed local ending such as `COMPLETE`, `REST`,
+`REFUSED`, `INCAPACITATED`, `RECOVERING`, `DEAD`, `UNKNOWN`, or `INTERRUPTED`.
+Terminal does not mean erased, and death is not automatic at zero Integrity.
+
 **Still point:** A safe paused state awaiting recovery or return.
 
 **Trace:** Evidence left by a transition.
@@ -69,6 +77,8 @@ checkpoint.
 ### Agency and care
 
 - refusal: **Core Rules**, **Agency and refusal**;
+- T-Stop: **Core Rules**, **T-Stop Constitution**;
+- death and recovery: **Character Creation**, **Combat Clock**, **Memory and Return**;
 - consent and crossing: **The Crossing Contract**;
 - surrender and repair: **The First Armed Exchange**;
 - familiar boundaries: **The First Familiar**;

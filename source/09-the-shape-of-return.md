@@ -31,6 +31,7 @@ moves: choose, declare, carry, refuse, alter, Rest
 apparatus: sample, vial, return card, route marker
 uncertainty: meaning and prior motive
 exit: echoed, altered, refused, or unknown return
+T-Stop set: RETURN_ECHOED / RETURN_ALTERED / RETURN_REFUSED / RETURN_UNKNOWN / REST
 ```
 
 The return minigame computes a public relation while leaving interpretation

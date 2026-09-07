@@ -29,6 +29,7 @@ moves: inspect, carry, leave, refuse, ask, Rest
 apparatus: Mark, vial, witness card, inventory
 uncertainty: prior identity and return outcome remain unknown
 exit: inherited, declined, carried, or Rest
+T-Stop set: COMPLETE / REFUSED / UNKNOWN / REST
 ```
 
 The inheritance minigame computes provenance and custody. It does not compute
