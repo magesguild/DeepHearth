@@ -89,7 +89,20 @@ For each interface, identify who owns the rule and who merely translates it:
 - party and world state receive only accepted public outputs;
 - cardless play remains complete without the extension.
 
-## Pass eight: publication
+## Pass eight: alignment
+
+Check that alignment:
+
+- has player-authored anchors;
+- changes receiving systems rather than private intent;
+- can restrict classes, spells, items, familiars, factions, planes, and organs;
+- changes only through witnessed clear, consequential traces or an earned path;
+- records GM changes with old state, trigger, new state, and restrictions;
+- provides atonement without erasing history or forcing forgiveness;
+- does not moralize animal ecology or instinctive behavior;
+- does not require the party to share one alignment.
+
+## Pass nine: publication
 
 Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
 MIT licensing, and the separation between open Basin mechanics and private

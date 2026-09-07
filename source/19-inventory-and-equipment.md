@@ -111,6 +111,20 @@ source
 
 Gift, loan, sale, archive, theft, and surrender are different events.
 
+## Alignment compatibility
+
+An item or organ may declare an alignment membrane:
+
+```text
+accepted alignment: __________________
+refused alignment: ___________________
+effect of mismatch: refuse / cost / change / warning
+repair or transformation path: ________
+```
+
+The item does not prevent the character from wanting to use it. It determines
+whether the item, artifact, or host system will receive that use.
+
 ## Minimum character kit
 
 Every alpha character begins with:

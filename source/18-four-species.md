@@ -137,3 +137,19 @@ witnessed reason and a cost.
 
 The new membrane must declare what it senses, consumes, produces, protects,
 refuses, and how it rests.
+
+## Alignment affinity
+
+Species have affinities, not absolute alignment locks. A class may declare that
+some powers, mentors, factions, or growth paths require a compatible alignment,
+but the player remains free to choose another alignment and accept the changed
+world response.
+
+```text
+Alchemist -> order of method / freedom of experiment
+Wayfinder -> reliable return / unbounded discovery
+Bastion -> protective order / rebellious sanctuary
+Hearthkeeper -> care and continuity / liberating release
+```
+
+These are questions for growth, not preassigned moral labels.

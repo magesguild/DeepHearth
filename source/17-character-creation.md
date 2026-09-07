@@ -46,12 +46,17 @@ Demand - 5 or less -> failure
 7. Record `Integrity 3`, `Reserve 3`, and `Condition clear`.
 8. Name a question the character wants to carry into the world.
 
+9. Choose an alignment and write one anchor for each axis.
+
 The player may also declare:
 
 ```text
 Familiar: none / desired / present
 Relationship: __________________
 Familiar boundary: ______________
+Alignment: ______________________
+Law/Chaos anchor: _______________
+Good/Evil anchor: ________________
 ```
 
 No character is incomplete without a familiar. Choosing none is a complete
@@ -147,6 +152,7 @@ Rest practice: ________________
 Inventory: ____________________
 Words: ________________________
 Relationships: ________________
+Alignment traces: ______________
 Open consequences: ____________
 Witness marker: _______________
 ```

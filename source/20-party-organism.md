@@ -56,6 +56,11 @@ transferring custody.
 The party cannot spend a member's body, consent, or private memory as a shared
 resource.
 
+Alignment differences do not automatically dissolve a party. They may change
+trust, faction access, divine access, familiar relationships, or the receiving
+state of a shared action. The party records those consequences rather than
+forcing every member into one alignment.
+
 The same boundary applies to organs and familiars. A party may receive a
 declared organ output, but it does not automatically receive the organ, its
 private transcript, its input packets, or a familiar's consent.

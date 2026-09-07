@@ -50,6 +50,11 @@ departure condition: ___________________
 The player does not own the Lantern. The player carries responsibility for the
 relationship only to the extent they accept it.
 
+The Lantern may also have an alignment membrane. It can refuse to carry a trace,
+enter a place, or operate an organ when the relationship's declared alignment
+boundary is crossed. This refusal is the familiar's action, not the player's
+alignment being used to speak for it.
+
 ## Familiar state
 
 ```text

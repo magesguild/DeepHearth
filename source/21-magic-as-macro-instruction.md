@@ -62,6 +62,10 @@ Magic organ       -> Magic rules plus plugin contract
 The Familiar System's Hearth REPL may display the organ's command and output, but it may not
 replace the Magic stack, card text, costs, zones, or priority rules.
 
+Magic may declare alignment compatibility for a spell, deity, ward, artifact, or
+host organ. A mismatch can produce refusal, altered cost, changed effect, or a
+new alignment trace. It never selects the caster's private intent.
+
 If a Magic card or deck is operated by a familiar, the familiar relationship is
 separate from the Magic host law. The player may use the cards without having a
 familiar, or have a familiar that operates no Magic organ.

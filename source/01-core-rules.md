@@ -128,6 +128,8 @@ Use these meanings consistently:
 | Rest | a witnessed return point and state transition |
 | Still point | a safe paused state awaiting recovery or return |
 
+| Alignment | world-facing orientation and compatibility membrane |
+
 No later subsystem should use one of these words with a contradictory meaning.
 
 ## Responsibility boundaries
@@ -146,6 +148,42 @@ are separate:
 
 An interface may translate between layers only through an explicit packet,
 contract, cost, receiving state, and witness.
+
+## Alignment as a membrane
+
+Alignment describes a body's relationship to world-scale forces. It does not
+command private intent.
+
+```text
+player chooses action
+-> action may fit or conflict with alignment
+-> world records the trace
+-> powers, relationships, and permissions respond
+-> alignment may change
+```
+
+The alpha axes are:
+
+```text
+Law <-> Chaos
+Good <-> Evil
+```
+
+Law concerns reliability, principle, regularity, order, and prescribed structure.
+Chaos concerns freedom, flux, unpredictability, and resistance to imposed order.
+Good concerns harmlessness, kindness, helpfulness, dignity, and respect for
+life. Evil concerns harm, corruption, cruelty, oppression, and disregard for
+others.
+
+The axes are independent. Law is not automatically Good, and Chaos is not
+automatically Evil.
+
+Alignment restrictions may affect classes, spells, familiars, organs, equipment,
+factions, planes, resurrection, and social access. They constrain what a system
+will receive or provide; they do not decide what a player wants to attempt.
+
+Animals and instinctive bodies may be unaligned. Need, territory, hunger, and
+defense are not moral verdicts.
 
 Players decide what capacity matters, which help is real, what pressure is
 active, and what cost they are willing to pay.
