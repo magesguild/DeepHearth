@@ -1,0 +1,171 @@
+# The Crossing Contract
+
+## Access is not consent
+
+The Threshold Room can become open without requiring the Alchemist to cross.
+Opening is a world transition. Crossing is a character choice.
+
+```text
+lantern becomes stable
+-> threshold opens
+-> route becomes available
+-> player chooses whether to cross
+```
+
+The room does not roll to decide whether the character consents to enter. The
+player owns that choice.
+
+## What the threshold remembers
+
+The threshold records public events and their consequences. It does not claim to
+know private motives.
+
+```text
+last witness
+cost paid
+lantern state
+threshold state
+route state
+alarm state
+visible trace
+open consequence
+return path
+```
+
+The first Threshold Room witness card can therefore be extended with:
+
+```text
+Crossing: refused / not yet / crossed
+Body crossing: __________________
+Carried across: ________________
+Left behind: ____________________
+Return condition: _______________
+Public consequence: _____________
+```
+
+The card records what happened, not why the character chose it. A later scene
+may ask the character to explain, but the room does not invent an interior
+motivation.
+
+## The contract
+
+Before crossing, the player declares:
+
+1. what body crosses;
+2. what is carried;
+3. what may be left behind;
+4. what counts as a return path;
+5. what public consequence is accepted;
+6. whether to cross or refuse.
+
+The facilitator repeats the declaration so the table shares one witness.
+
+## Safe crossing
+
+If the route is safe, crossing is deterministic.
+
+```text
+declare crossing
+-> update location to far side
+-> mark route crossed
+-> preserve return path
+-> record carried and left-behind state
+-> Rest or continue
+```
+
+No roll is needed. The world already knows what a safe route does.
+
+The player may still refuse. The threshold remains open, the route remains
+available, and the refusal becomes a witnessed choice rather than a failure.
+
+## Unstable crossing
+
+If the route has `Flicker`, the consequence is known rather than hidden:
+
+```text
+declare crossing
+-> update location to far side
+-> retain Flicker
+-> mark route crossed but unstable
+-> preserve a return path with Flicker
+-> record the exposure
+-> Rest or continue
+```
+
+The Alchemist does not roll merely because the route is dangerous. The player
+chooses whether the known consequence is acceptable. A later action may ask a
+new uncertain question about the Flicker, but this crossing contract does not
+invent one.
+
+The player may refuse and Rest outside. The unstable route remains a possible
+future transition.
+
+## Failure state
+
+If the lantern is dark and the alarm is alert, the threshold is not available.
+The character cannot cross this route in this slice. That is a world boundary,
+not a command to stop playing.
+
+The player may:
+
+- Rest outside;
+- return with another resource;
+- ask another question about the alerted room;
+- bring another body or organ;
+- leave the room and preserve the smoke trace.
+
+The room remembers the failed attempt without becoming a moral judge.
+
+## Bodies at the boundary
+
+The Alchemist is the first body because it can make the light. It is not the only
+body that can belong at the threshold.
+
+| Body | Question carried across |
+| --- | --- |
+| Alchemist | Can what I carry become a usable passage? |
+| Wayfinder | Where does the passage lead, and can I find the way back? |
+| Bastion | Can I hold the crossing open under pressure? |
+| Hearthkeeper | Can someone cross without losing the conditions of return? |
+
+These are invitations for later species, not permissions to bypass the current
+room's state. Every body must still declare cost, boundary, choice, and return.
+
+## Worked crossings
+
+### Open and refused
+
+The Alchemist achieves success. The lantern is lit and the threshold is open.
+The player chooses not to cross. The witness records `Crossing: refused`, while
+the room remains open. Rest occurs outside.
+
+### Open and crossed
+
+The Alchemist achieves strong success and declares that the prepared lamp remains
+behind while the character carries a notebook across. The route is safe. The
+character moves to the far side, the handhold becomes a public trace, and the
+return path remains open.
+
+### Flicker and crossed
+
+The Alchemist achieves a strained result. The player declares that the notebook
+and one empty vial cross, while the spent reagent remains behind. The character
+accepts Flicker, crosses, and records the unstable return path. No additional
+roll is added merely to make the choice dramatic.
+
+## Completion test
+
+This slice is complete when a group can:
+
+- distinguish an open route from a chosen crossing;
+- state what crosses and what remains behind;
+- refuse an open route without being punished by the rules;
+- cross a safe route without an unnecessary roll;
+- cross an unstable route with a visible known consequence;
+- record the public event without inventing private motive;
+- preserve a return path at Rest;
+- resume from the combined Threshold Room witness and Crossing Contract.
+
+The room's next question is not yet a demand for another rule:
+
+> Who was here before, and what did they leave on the far side?
