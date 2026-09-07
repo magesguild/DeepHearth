@@ -129,6 +129,10 @@ cardless equivalent: ___________
 Land sources are not automatically owned by the player. A source may be borrowed,
 licensed, offered, protected, contested, or refused.
 
+Loot follows the same distinction: held is not installed, known is not active,
+and offered is not accepted. A character may carry a wonderful object for a long
+time before becoming the body that can receive it.
+
 ## Alignment compatibility
 
 An item or organ may declare an alignment membrane:

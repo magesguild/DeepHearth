@@ -34,6 +34,10 @@ Land Source Cards
 Loot Cards
 ```
 
+Loot Cards preserve source, lineage, compatibility, Load, installation state,
+and the witness that made the packet available. A restored world must not turn
+an archived or refused packet into an active ability.
+
 Content decks describe what could exist. The State Deck records what happened.
 
 ## Manifest Card

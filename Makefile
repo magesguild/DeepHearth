@@ -41,7 +41,8 @@ SOURCE_FILES := \
   source/31-the-first-familiar.md \
   source/32-alignment-constitution.md \
   source/33-land-palette-constitution.md \
-  source/34-gm-state-deck-and-app-adapter.md
+  source/34-gm-state-deck-and-app-adapter.md \
+  source/35-growth-and-loot-constitution.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 

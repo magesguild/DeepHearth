@@ -126,6 +126,18 @@ Check that:
 - alignment changes can open or close access without erasing history;
 - land sources have custody, cost, witness, and a receiving state.
 
+## Pass twelve: growth and loot
+
+Check that:
+
+- growth is chosen by the player and witnessed by the GM;
+- known cards, active cards, and held loot remain distinct;
+- Load, cycles, Reserve, latency, and alignment balance breadth;
+- loot preserves provenance and refusal;
+- universal classes pay for breadth;
+- specialist classes receive depth rather than arbitrary superiority;
+- Growth Rings and loot survive State Deck restoration.
+
 ## Pass eleven: state restoration and apps
 
 Check that:

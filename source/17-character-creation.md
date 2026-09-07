@@ -82,6 +82,10 @@ How do I recover?
 What does the world remember about me?
 ```
 
+The character begins at `Seed`, with Load Limit 3 and one Companion Port. Known
+cards may exceed active Load, but only installed cards operate in the current
+scene.
+
 ## Integrity and Reserve
 
 **Integrity** is the body's capacity to remain a functioning cell under

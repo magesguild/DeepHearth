@@ -86,6 +86,10 @@ or sustained practice. The player chooses whether the desire is worth pursuing.
 Unlocking a channel grants access, not mastery. New operations still require
 cards, words, equipment, slots, cycles, Reserve, and receiving states.
 
+Land access is a growth or loot result, not a free level bonus. A licensed source
+may be active only while its place, faction, relationship, or alignment contract
+remains satisfied.
+
 ## Loot and land
 
 A land card or object is a capability packet:
