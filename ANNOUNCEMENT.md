@@ -1,5 +1,7 @@
 # Deep Hearth: A Tactile Computer in a Tabletop World
 
+**Basin Game Studios**
+
 Deep Hearth is an open-source tabletop game about worlds that remember.
 
 It is a small, playable reference ecology where characters, parties, rooms,
@@ -20,7 +22,7 @@ The generic card substrate is called **The Tableau**. Magic is one Tableau host;
 ordinary playing cards, tiles, counters, and other card systems can enter through
 the same optional boundary.
 
-The wider computational playground is the [Mage's Guild](https://www.magesguild.io/),
+The broader home for this work is [magesguild.io](https://www.magesguild.io/),
 including [Khipu Arcade and the Master Yupana](https://www.magesguild.io/Downloads/),
 free games and instruments for exploring material computation.
 
