@@ -65,6 +65,26 @@ witness: light state and remaining fuel
 Lantern Seed does not reveal all hidden state. It changes visibility according
 to the light's declared habitat.
 
+## Integration test
+
+The first spell must work with every existing alpha layer:
+
+```text
+prepared extract -> inventory custody
+1 Reserve        -> resource cost
+2 cycles         -> Combat Clock latency
+focus            -> active register
+Lantern Seed     -> visible state transition
+heat and trace   -> residue and externality
+interruption     -> bounded response
+light state      -> witness and State Capsule
+```
+
+If the player lacks the extract, Reserve, cycles, or legal target, the spell
+cannot silently proceed. If the spell is interrupted, the partial state and
+residue remain witnessed. If it completes, the light changes what can be sensed
+without pretending to reveal every hidden fact.
+
 ## Rituals
 
 A ritual is slow compilation:

@@ -244,6 +244,22 @@ A body may yield when it decides that continuing the exchange is not acceptable.
 The receiving body must declare what it will do with that surrender. A surrender
 without a legal receiving state remains a dangerous unresolved offer.
 
+Surrender has its own receiving contract:
+
+```text
+body offering surrender: ______
+terms requested: ______________
+receiving body: _______________
+safe receiving state: __________
+accepted / refused / delayed: __
+public witness: _______________
+```
+
+If the receiving body accepts, the offered body enters a named safe state. If it
+refuses, the offering body retains its legal actions and may retreat, bargain,
+or continue. No body is entitled to another body's surrender merely because it
+won a transition.
+
 Retreat is a transition with a route, cost, and consequence. It is not a loss of
 the right to return later.
 
@@ -256,6 +272,10 @@ injury
 -> changed but witnessed body
 -> Rest or continuation
 ```
+
+Repair must identify who or what receives the injured body. A bandage, spell,
+sanctuary, companion, or Rest may be the receiving state, but care is never
+assumed merely because combat ended.
 
 The Warden may lower the spear. The Wayfinder may stop advancing. The gate may
 remain closed while the world becomes safer.

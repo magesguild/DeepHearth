@@ -88,6 +88,41 @@ What is the next return point?
 Who witnessed it?
 ```
 
+## Full-loop audit
+
+Use this sequence when reviewing or playtesting the golden seed:
+
+```text
+create character
+-> Threshold Room
+-> crossing
+-> Return Mark
+-> sample and return
+-> Reciprocal Trace
+-> Wayfinder
+-> exchange
+-> combat clock
+-> grapple or armed exchange
+-> Lantern Seed
+-> injury, surrender, repair, or retreat
+-> Rest
+-> State Capsule
+-> return
+```
+
+At every arrow ask:
+
+- What state changed?
+- What did it cost?
+- Who could refuse?
+- What information was visible?
+- What trace was left?
+- What can happen next?
+- Where can the body or group Rest?
+
+The audit is not complete until no transition requires a hidden rule, an
+unrecorded cost, or an invented consent.
+
 ## Alpha table kit
 
 ```text

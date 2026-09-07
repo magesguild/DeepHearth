@@ -32,7 +32,8 @@ SOURCE_FILES := \
   source/22-encounter-programs.md \
   source/23-seven-beast-cards.md \
   source/24-three-scenarios.md \
-  source/25-quick-reference-and-forms.md
+  source/25-quick-reference-and-forms.md \
+  source/26-review-passes.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 

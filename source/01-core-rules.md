@@ -92,6 +92,44 @@ d20
 -> update state
 ```
 
+## Alpha constants
+
+The golden seed uses these values unless a local card explicitly declares an
+exception:
+
+```text
+capacities: Body, Sense, Craft, Will
+Demand: 8, 12, 16, 20, 24
+default Integrity: 3
+default Reserve: 3
+combat round: 6 world seconds
+ordinary cycle budget: 6 cycles
+```
+
+Class membranes may change Integrity or Reserve. A local encounter may change
+Demand. The exception must be visible on the card that introduces it.
+
+## Canonical vocabulary
+
+Use these meanings consistently:
+
+| Word | Alpha meaning |
+| --- | --- |
+| State | persistent facts that determine legal transitions |
+| Condition | named change to an action space or recovery path |
+| Pressure | active force making a transition harder or more costly |
+| Integrity | capacity to remain a functioning body or group |
+| Reserve | immediately available spendable resource |
+| Boundary | declared limit on what may cross or be done |
+| Refusal | a legal choice that preserves a boundary |
+| Witness | a record of a public transition |
+| Trace | evidence left by a transition |
+| Memory | accumulated witnessed state and unresolved consequence |
+| Rest | a witnessed return point and state transition |
+| Still point | a safe paused state awaiting recovery or return |
+
+No later subsystem should use one of these words with a contradictory meaning.
+
 Players decide what capacity matters, which help is real, what pressure is
 active, and what cost they are willing to pay.
 
