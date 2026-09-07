@@ -19,6 +19,21 @@ the return is unknown
 The visitor's identity remains open. The group may discover it later, inherit
 the question, or decide that the unknown person deserves to remain unknown.
 
+## This minigame
+
+```text
+question: what can be inherited without claiming another life?
+initial state: Return Mark and empty vial on far side
+participants: present body, prior trace, and room memory
+moves: inspect, carry, leave, refuse, ask, Rest
+apparatus: Mark, vial, witness card, inventory
+uncertainty: prior identity and return outcome remain unknown
+exit: inherited, declined, carried, or Rest
+```
+
+The inheritance minigame computes provenance and custody. It does not compute
+the absent visitor's private motive.
+
 ## The mark
 
 On the far side, a small Return Mark has been made in the stone from whatever

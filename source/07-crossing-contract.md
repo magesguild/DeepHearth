@@ -77,6 +77,21 @@ return state: __________________
 The threshold receives only the crossing that was declared. It does not acquire
 the character's private motive, unspoken consent, or unoffered possessions.
 
+## This minigame
+
+```text
+question: will this body cross this route?
+initial state: open or Flickering route
+participants: crossing body and threshold boundary
+moves: cross, refuse, alter declaration, Rest
+apparatus: crossing card, carried objects, route marker
+uncertainty: only if a new hidden question is declared
+exit: far side, outside, refusal, or Rest
+```
+
+The crossing minigame computes the boundary transition, not the character's
+private consent.
+
 ## Safe crossing
 
 If the route is safe, crossing is deterministic.

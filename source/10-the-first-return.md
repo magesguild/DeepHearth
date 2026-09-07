@@ -54,6 +54,19 @@ witness: return record
 The threshold is allowed to receive only what is offered. The player is allowed
 to keep, transform, archive, or refuse the packet.
 
+The first return is a complete material minigame. Its sample is deliberately
+ordinary so the computation reveals relation rather than treasure.
+
+```text
+question: can a small thing travel home?
+initial state: dust beside the Return Mark, empty vial
+participants: carrier and threshold
+moves: choose, witness, carry, return, offer, keep, refuse
+apparatus: dust, vial, route, witness card
+uncertainty: route stability and possible alteration
+exit: arrived, altered, remained, unknown, or Rest
+```
+
 ## The first return procedure
 
 ### 1. Choose

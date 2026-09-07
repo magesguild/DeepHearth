@@ -20,6 +20,48 @@ points, gold, supplies, morale, time, attention, daily abilities, and social
 permission. A resource is interesting when spending it changes what can happen
 next.
 
+## Computational interactions
+
+When an interaction contains meaningful uncertainty, competing action, hidden
+state, or a consequential resource choice, it becomes a small game inside the
+larger game.
+
+Every computational interaction declares:
+
+```text
+question
+initial state
+participants
+legal moves
+resources
+visible and hidden information
+physical apparatus
+uncertainty source
+transition rules
+outcomes
+externalities
+witness
+exit or Rest condition
+```
+
+The universal loop is:
+
+```text
+boot
+-> inspect
+-> choose
+-> pay or commit
+-> compute
+-> change state
+-> witness
+-> continue or Rest
+```
+
+The minigame is the interaction's computable surface. It must be short,
+composable, physically legible, replayable, interruptible, and meaningful when
+it ends in refusal or no exchange. Deterministic actions remain ordinary
+actions; a minigame begins only where multiple futures genuinely matter.
+
 ## Events
 
 An event is a roll, action, spell, attack, movement choice, environmental change,

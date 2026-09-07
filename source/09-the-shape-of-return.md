@@ -21,6 +21,21 @@ This describes the shape of the act, not the whole reason for it. It does not
 tell us whom they meant to meet, what they hoped to carry, or whether they
 completed the journey.
 
+## This minigame
+
+```text
+question: what shape of return can be witnessed honestly?
+initial state: marked route and empty container
+participants: returning body, possible recipient, and witness
+moves: choose, declare, carry, refuse, alter, Rest
+apparatus: sample, vial, return card, route marker
+uncertainty: meaning and prior motive
+exit: echoed, altered, refused, or unknown return
+```
+
+The return minigame computes a public relation while leaving interpretation
+open.
+
 ## Three parts of the shape
 
 ### Reciprocal

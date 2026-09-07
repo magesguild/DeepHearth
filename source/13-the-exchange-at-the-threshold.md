@@ -16,6 +16,21 @@ question is:
 
 > What can two different bodies share without becoming one body?
 
+## This minigame
+
+```text
+question: can two bodies share capability without losing identity?
+initial state: two bodies, two packets, two boundaries
+participants: Alchemist and Wayfinder
+moves: offer, accept, transform, archive, refuse, delay, Rest
+apparatus: two contract cards, sample, route record, witness ledger
+uncertainty: receiving state and externality
+exit: reciprocal, asymmetric, refused, delayed, or Rest
+```
+
+The simultaneous contracts are the minigame board. The packets and boundaries
+are its pieces. The witness ledger is its output memory.
+
 ## Exchange packets
 
 An exchange packet may be material, informational, relational, or temporal:

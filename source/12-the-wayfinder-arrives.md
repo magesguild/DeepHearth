@@ -19,6 +19,21 @@ Rest: mark the route and return to a witnessed state
 The Alchemist made a relation possible. The Wayfinder gives that relation
 orientation.
 
+## This minigame
+
+```text
+question: can a relation be followed without inventing its meaning?
+initial state: Reciprocal Trace and unknown destination
+participants: Wayfinder, existing witnesses, and possible party
+moves: inspect, follow, mark, preserve, refuse, Rest
+apparatus: route thread, trace, map, State Capsule
+uncertainty: continuation beyond the visible far side
+exit: direction, continuation, Flicker, uncertainty, or Rest
+```
+
+The Wayfinder's minigame computes attention and route state. It does not force
+the Wayfinder to follow what it can perceive.
+
 ## The question
 
 The Wayfinder asks:

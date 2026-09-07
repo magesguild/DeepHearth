@@ -49,6 +49,21 @@ The Alchemist may inspect, prepare, attempt, refuse, record, and Rest. Inspectio
 and preparation are deterministic when their inputs and effects are known. The
 uncertain part is whether the prepared extract will stabilize the old lantern.
 
+## This minigame
+
+```text
+question: can a safe light be made?
+initial state: dark lantern, closed threshold, quiet alarm
+participants: Alchemist and room physics
+moves: inspect, prepare, attempt, refuse, Rest
+apparatus: d20, reagent, lantern, trace card
+uncertainty: extract stabilization
+exit: lit, Flicker, alert, or Rest
+```
+
+The room's minigame begins at the stabilization question. Walking, looking, and
+recording known state remain ordinary actions.
+
 ## The room
 
 ```text

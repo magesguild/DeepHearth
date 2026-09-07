@@ -62,6 +62,17 @@ when access, transfer, combination, and loss change what the party can do.
 
 ## Combat and magic
 
+Combat and magic are not exceptions to the minigame contract. They are two
+families of computational interaction.
+
+```text
+combat -> pressure, response, position, and changed action sets
+magic  -> inputs, macro-instruction, interruption, and residue
+```
+
+Each encounter names its board, moves, resources, uncertainty, externalities,
+and exit state before play begins.
+
 Combat is a live program, not only a damage exchange:
 
 ```text

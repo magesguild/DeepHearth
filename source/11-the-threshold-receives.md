@@ -8,6 +8,21 @@ Threshold Room a bounded response.
 The response is not a voice, prophecy, reward, or secret command. It is a
 visible change in the room's public state.
 
+## This minigame
+
+```text
+question: how does a place receive its own far-side evidence?
+initial state: returned sample, threshold, and visible groove
+participants: offering body and threshold physics
+moves: offer, keep, withdraw, Rest
+apparatus: sample, vial, threshold card, trace marker
+uncertainty: none unless the offered material is altered
+exit: received, carried, or Rest
+```
+
+The computation is the change in public relation. The threshold does not become
+an oracle or a player with hidden motives.
+
 The player asks:
 
 > What does the threshold do when it receives evidence from its own far side?
