@@ -194,5 +194,5 @@ The Hearth REPL slice is complete when a group can:
 - run a cardless equivalent when the host organ is absent;
 - resume the organ from a State Capsule.
 
-The next organ slice is `KINDLE-RAT`: the smallest Magic-derived population
-register that can run in both Magic and cardless modes.
+The first organ implemented by this contract is `KINDLE-RAT`, the smallest
+Magic-derived population register that can run in both Magic and cardless modes.
