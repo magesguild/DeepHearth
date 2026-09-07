@@ -18,7 +18,8 @@ SOURCE_FILES := \
   source/08-the-return-mark.md \
   source/09-the-shape-of-return.md \
   source/10-the-first-return.md \
-  source/11-the-threshold-receives.md
+  source/11-the-threshold-receives.md \
+  source/12-the-wayfinder-arrives.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
