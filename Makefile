@@ -22,7 +22,8 @@ SOURCE_FILES := \
   source/12-the-wayfinder-arrives.md \
   source/13-the-exchange-at-the-threshold.md \
   source/14-the-combat-clock.md \
-  source/15-grapple-hold-relation.md
+  source/15-grapple-hold-relation.md \
+  source/16-the-first-armed-exchange.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
