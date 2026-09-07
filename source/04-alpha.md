@@ -20,6 +20,43 @@ Every alpha interaction also declares a small **T-Stop set**. The seed teaches
 that completion, refusal, interruption, recovery, and death are different
 answers, and that no die forces a player or character to continue.
 
+## Alpha 4: Responsive Neighborhood Alpha
+
+Alpha 4 is called the **Responsive Neighborhood Alpha** because it extends the
+golden seed into one populated Waterdeep neighborhood that can answer back. The
+name describes the experience and the implementation boundary: a small social
+world becomes responsive without requiring a complete city simulation.
+
+The Alpha 4 vertical slice contains:
+
+```text
+one household
+one baker job
+one guild or institution
+one shared resource
+one ecological pressure
+one terrain problem
+one knowledge boundary
+one player intervention
+one persistent consequence
+one Rest
+one return
+```
+
+The systems are being built to support a larger world iteratively. This pass
+captures the spirit of that world. A later review pass will tighten numbers,
+calculation procedures, and exact registers after the experience is coherent.
+
+The Responsive Neighborhood may be authored directly or converted from an
+existing campaign module. Conversion preserves the host's premise and spatial
+content while adding job stamps, resident depth, knowledge boundaries,
+relationships, community consequences, T-Stops, witnesses, and State Capsule
+fields. This is a projection layer, not a replacement setting.
+
+Software or app-assisted exercise may reveal contradictions in this technical
+alpha slice. It is not a substitute for the real human play reports required to
+label a later release Beta.
+
 ## Pure Compute
 
 Begin with one character, one challenge, one resource, and one output:
@@ -55,14 +92,14 @@ actions, and when a die is rolled.
 It must let a new group:
 
 - create one character;
-- choose or build a class membrane;
+   - choose a seed membrane and name a possible job or question;
 - run Pure Compute;
 - play one ecological encounter;
 - resolve combat;
 - use one spell;
 - manage inventory;
 - save and load a State Capsule;
-- create one new class or monster from a template;
+   - create one new job, resident, community body, or monster from a template;
 - choose a legal T-Stop in every interaction;
 - improvise without breaking the world's physics.
 
@@ -82,6 +119,17 @@ state, and a Rest condition that is not identical to victory.
 
 A private Forgotten Realms campaign opening beneath Waterdeep, where the rules
 remain Basin's and the populated setting layer remains bounded and separate.
+
+### The Responsive Neighborhood
+
+The first Alpha 4 social ecology in Waterdeep. A household's water is unsafe, a
+guild controls repair access, displaced rats have moved through the neighborhood,
+and a baker knows part of the history but not all of it. The party may buy water,
+investigate, ask, negotiate, organize, repair, expose, or leave.
+
+The scenario is complete when a player touch activates a resident, a bounded
+interaction changes an individual and a higher social or ecological body, the
+change is witnessed, and a later return finds the neighborhood altered.
 
 ## First ecology
 

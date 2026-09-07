@@ -29,6 +29,8 @@ scope: private by default
 land channel: Black
 channel mode: native / licensed / learned
 latency: one declared operation
+active Load: 2
+active slot: 1 organ slot
 Rest: output witnessed and no pending host event
 ```
 
@@ -58,6 +60,7 @@ cost: host-defined legal Pack Rat activation, including 2B
 operation: resolve the host ability without altering card law
 output: host-defined Rat token or copied Rat state
 register: population + 1
+latency: 1 organ operation; use 1 cycle when a cycle clock is active
 witness: Magic event history and Basin organ event
 ```
 
@@ -74,6 +77,7 @@ cost: 3 Reserve marked as black energy
 operation: place the sample in the organ archive
 output: one Rat population token
 register: population + 1
+latency: 1 organ operation; use 1 cycle when a cycle clock is active
 witness: organ transcript and State Capsule
 ```
 
@@ -119,6 +123,10 @@ Rat population: 0 -> 1
 witness: rat-event-001
 Rest: available
 ```
+
+This example assumes a body with 3 available Reserve. Other bodies pay the
+declared cost from their own current Reserve; the organ never assumes a universal
+starting value.
 
 The player may decline after seeing the cost. The organ does not spend an
 unoffered Reserve.

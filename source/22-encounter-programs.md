@@ -24,6 +24,21 @@ Rest condition
 persistent traces
 ```
 
+For a social or populated encounter, also declare:
+
+```text
+job or public role
+knowledge source and boundary
+relationship depth
+community or institution affected
+shared resource, if any
+first-touch signal
+```
+
+These fields do not require a full character sheet. They show how a generic
+resident can answer a meaningful touch and when a consequence propagates into a
+higher social body.
+
 ## Hard law and soft ecology
 
 Hard law includes timing, costs, movement, boundaries, sensing, crossings,
@@ -49,6 +64,10 @@ respecting established state.
 10. Choose a declared T-Stop, Rest, continuation, or changed local state.
 11. Record the terminal reason, last legal state, recovery path, and resume
     condition when the encounter stops.
+
+For Alpha 4, let a resident remain ordinary until a player touches them with a
+meaningful question, offer, gift, exchange, threat, or request. Deepen the
+resident only when the table wants the relationship or consequence to persist.
 
 ## Example encounter card
 

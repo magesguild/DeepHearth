@@ -19,6 +19,8 @@ Players need:
 - how hidden state can exert influence without becoming arbitrary;
 - how knowledge, language, partial comprehension, and private memory affect legal
   choices;
+- how the Familiar System changes play from direct operation to relational
+  operation, while keeping no-familiar play complete;
 
 Players do not need hidden GM state, encounter construction algorithms, or the
 full implementation vocabulary in order to make meaningful choices.
@@ -43,6 +45,14 @@ The GM needs:
 
 The system tier and build-order document determines which procedures belong in
 the first beta book and which remain GM-facing or optional modules.
+
+The GM-facing publication must also include at least one complete campaign
+module, with a player-facing entry, GM-facing hidden state, named characters,
+jobs, factions, ecology, monsters, scenarios, growth, treasure, and return points.
+
+The module may be original or a conversion layer over an existing campaign host.
+Conversion procedures belong in the GM's Guide; protected host text and setting
+content remain outside the open Basin rules body.
 
 ## Monster Manual / Bestiary
 

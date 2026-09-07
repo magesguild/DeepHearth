@@ -26,8 +26,10 @@ The broader home for this work is [magesguild.io](https://www.magesguild.io/),
 including [Khipu Arcade and the Master Yupana](https://www.magesguild.io/Downloads/),
 free games and instruments for exploring material computation.
 
-Deep Hearth is now a public alpha. It needs playtesting. The rules are complete
-enough to create characters, run scenarios, resolve combat and magic, use
+Deep Hearth is now a public Alpha 4 technical reference body, the Responsive
+Neighborhood Alpha. Alpha 3 remains available as a separate historical seed. It
+needs playtesting. The rules are complete enough to create characters, run
+scenarios, resolve combat and magic, use
 optional familiars and compute organs, save a world, and return to it, but the
 numbers, forms, and table procedures still need real groups to challenge them.
 

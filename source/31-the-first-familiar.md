@@ -6,6 +6,25 @@ The Little Lantern is the first complete Familiar System relationship. It is a
 small companion process that keeps one offered public trace and returns it at a
 declared Rest point.
 
+The relationship changes the texture of play. Without a familiar, a player runs
+an operation directly through a character, object, party, or world body. With a
+familiar, the player asks another body to participate:
+
+```text
+intent
+-> invitation or request
+-> familiar interpretation
+-> accept, narrow, delay, or refuse
+-> bounded operation
+-> private or shared result
+-> relationship witness
+```
+
+This adds intimacy, coordination, timing, and care without adding a required
+layer of bookkeeping. The familiar is another center of gravity, not an item,
+pet, obedient subroutine, or oracle. Choosing no familiar remains a complete
+character and campaign state.
+
 It is not a pet, item, battery, or obedient subroutine. The player may choose no
 familiar. If the player chooses the relationship, the Lantern arrives with its
 own boundary.
@@ -45,6 +64,12 @@ private boundary: _____________________
 Rest place: ___________________________
 offered capability: one public witness
 departure condition: ___________________
+relationship attractor: _______________
+hidden state with visible effects: _____
+phase or host conflict: _______________
+operation residue: ____________________
+community consequence: ________________
+repair path: _________________________
 ```
 
 The player does not own the Lantern. The player carries responsibility for the
@@ -64,6 +89,12 @@ scope: private / offered to party / offered to world
 boundary: _____________________________
 Rest place: ____________________________
 open question: _________________________
+relationship attractor: ________________
+hidden state: _________________________
+phase: ________________________________
+residue: ______________________________
+community consequence: ________________
+repair path: __________________________
 ```
 
 The state is not a measure of the Lantern's worth. `Withdrawn` means that the

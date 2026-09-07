@@ -46,6 +46,8 @@ Demand - 5 or less -> failure
 ```text
 Question: _____________________
 Initial state: _________________
+Owner: ________________________
+Register range / initial value: _
 Participants: __________________
 Legal moves: ___________________
 Resources: _____________________
@@ -55,6 +57,8 @@ Primary die: ___________________
 Support dice: _________________
 Costs: ________________________
 Externalities: ________________
+Transition trigger: ____________
+Reset / recovery: ______________
 Witness: ______________________
 T-Stop set: ____________________
 Exit or Rest: _________________
@@ -79,6 +83,49 @@ Lineage: ______________________
 Recovery: _____________________
 T-Stop set: ____________________
 Terminal reason: ______________
+```
+
+## Resident and job card
+
+Use this card only when a generic resident becomes relevant enough to preserve.
+
+```text
+RESIDENT / JOB
+
+Name or identifier: ______________
+Job: ____________________________
+Location: _______________________
+Ordinary response: ______________
+Need: ___________________________
+Boundary: _______________________
+Public knowledge: _______________
+Private knowledge scope: ________
+Relationship trace: _____________
+Community or institution: _______
+Current pressure: _______________
+Legal responses: ________________
+Rest or recovery: _______________
+Witness marker: ________________
+Depth: population / functional / named / persistent
+```
+
+The job is a shared public role. The resident's deeper state is created by
+witnessed play, not required at population generation.
+
+## Community consequence card
+
+```text
+COMMUNITY CONSEQUENCE
+
+Source body: ____________________
+Changed individual or relation: _
+Receiving household/community: __
+Shared resource or role: ________
+Public or private: ______________
+Knowledge or witness: ___________
+New legal future: _______________
+T-Stop or Rest: _________________
+Return condition: _______________
 ```
 
 ## Land palette card
@@ -218,6 +265,28 @@ At every arrow ask:
 - What information was visible?
 - What trace was left?
 - What can happen next?
+
+## Responsive Neighborhood audit
+
+```text
+populate job
+-> first touch resident
+-> ask, offer, exchange, or refuse
+-> record knowledge and relationship
+-> propagate one public consequence
+-> change community, economy, ecology, or terrain
+-> witness
+-> Rest
+-> return
+```
+
+At every arrow ask:
+
+- What did this body perceive?
+- What remained private or unknown?
+- What changed for the individual?
+- What crossed into shared life?
+- What can the neighborhood do now that it could not do before?
 - Where can the body or group Rest?
 
 The audit is not complete until no transition requires a hidden rule, an

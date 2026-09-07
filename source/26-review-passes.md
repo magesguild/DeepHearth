@@ -187,6 +187,27 @@ For every authoritative register, verify:
 - a grid, figure, card, die, token, ledger, or app earns its handling cost by
   creating a meaningful choice, relation, or discovery.
 
+## Pass fifteen: Responsive Neighborhood spirit
+
+Before tightening Alpha 4 numbers, walk the Waterdeep neighborhood slice and
+verify that:
+
+- generic residents can be generated from jobs without full sheets;
+- first touch activates a resident through a meaningful signal or exchange;
+- a persistent resident has a need, boundary, knowledge scope, relationship, and
+  Rest or recovery path;
+- one interaction can change an individual and a higher social or ecological
+  body without simulating unrelated populations;
+- jobs remain public roles rather than second classes or fixed permutations;
+- knowledge remains situated, partial, private, shared, or contested;
+- care can repair a household, relationship, resource, or habitat;
+- the State Capsule preserves the changed future;
+- the table feels the neighborhood answer and remember it.
+
+This pass protects the spirit of the Responsive Neighborhood Alpha. The next
+pass may tighten math, Demand choices, register ranges, and calculation
+procedures without losing that experience.
+
 The final review question is:
 
 > Can another group enter, change, remember, Rest, return, and extend the world

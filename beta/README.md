@@ -28,7 +28,7 @@ is a state of the whole body.
 ## Current rules
 
 - Published Alpha 2 remains historical and unchanged.
-- Alpha 3 is the current technical reference direction.
+- Alpha 4 is the current Responsive Neighborhood technical reference direction.
 - `source/` is authoritative for currently released rules.
 - `beta/` is design and acceptance material until explicitly promoted.
 - `release-candidate/` will be created only after beta graduation.
@@ -57,12 +57,20 @@ is a state of the whole body.
   partial comprehension, provenance, and cultural sediment.
 - `11-system-needs-and-build-order.md` — tiered system scope, required contracts,
   optional depth, and the beta implementation sequence.
+- `12-alpha-4-responsive-neighborhood.md` — final Alpha 4 infusion: a socially
+  responsive Waterdeep vertical slice before human beta playtesting.
+- `13-beta-world-support-and-parity.md` — full-world beta gate, gods and worship,
+  planes, robust Bestiary, publication separation, d20/OGL-compatible
+  Forgotten Realms support, and the complete campaign-module requirement.
+- `13-beta-world-support-and-parity.md` — full-world beta gate, gods and worship,
+  planes, robust Bestiary, publication separation, and d20/OGL-compatible
+  Forgotten Realms support.
 
 ## Release Boundary
 
 The beta directory is design and acceptance material until the whole body passes
 the graduation gate. A real beta release requires reports from real human table
 play. Software simulations and internal walkthroughs may guide revisions, but
-they cannot substitute for that evidence. The current Alpha 3 source remains the
+they cannot substitute for that evidence. The current Alpha 4 source remains the
 authoritative released rules body, and the beta documents are not included in
-the Alpha 3 publication build.
+the Alpha 4 publication build.

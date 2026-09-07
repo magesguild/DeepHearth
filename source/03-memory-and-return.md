@@ -15,7 +15,17 @@ character-07
   conditions
   relationships
   learned_words
+  job
+  knowledge_scope
   resources
+
+community-07
+  members_and_roles
+  shared_resources
+  authority
+  active_pressure
+  public_memory
+  receiving_state
 ```
 
 This representation may live on paper, in a campaign ledger, or inside a video
@@ -59,6 +69,7 @@ capacities and ceilings
 active Load and installed operations
 inventory changes and custody
 active land channels and licenses
+active land slots
 known words
 public relationships
 party registers, if applicable
@@ -77,6 +88,12 @@ witness marker
 The player keeps the living character sheet. The world keeps a compact witness
 copy. Private player memory, GM-hidden state, and shared public state remain
 distinct.
+
+Alpha 4 may preserve an NPC, household, or community at the same boundary. A
+generic body remains an aggregate until first touch or consequence makes its
+individual state relevant. A persistent body records only the knowledge,
+relationship, job, boundary, and public or private witness fields that change a
+future legal action.
 
 Loading follows this procedure:
 

@@ -143,6 +143,24 @@ memory, and relationship. Language is a boundary membrane; culture is knowledge
 that has sedimented into custom, jobs, ritual, and public memory. The detailed
 content and procedures live in `10-knowledge-language-and-culture.md`.
 
+### Familiar Texture
+
+The Familiar System is an optional relationship surface. Without a familiar,
+play operates a capability directly through a character, object, party, or world
+body. With a familiar, computation becomes relational:
+
+```text
+intent
+-> invitation or request
+-> familiar accepts, narrows, delays, or refuses
+-> bounded operation
+-> shared or private result
+-> relationship witness
+```
+
+A familiar adds another center of gravity, not a required power layer. Choosing
+no familiar is complete play.
+
 ## The Table Translation
 
 The player-facing translation of the laws is:

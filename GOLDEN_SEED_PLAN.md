@@ -258,6 +258,20 @@ Rest, return, and extend the world while preserving the same physics. It does
 not need every future class, world, adapter, or digital implementation. It needs
 one trustworthy body from which those things can grow.
 
+## Alpha 4 extension: Responsive Neighborhood
+
+The next alpha grows the golden seed into one populated Waterdeep neighborhood.
+It tests household, job, relationship, knowledge, community, economy, ecology,
+terrain, care, and return without requiring a full city simulation. Existing
+campaign modules may receive the same Deep Hearth layer through a documented
+conversion projection.
+
+The Alpha 4 spirit pass is complete when a group can populate a neighborhood from
+job templates, touch a resident, change an individual and a higher social or
+ecological body, witness the consequence, Rest, and return to find the changed
+world. Numeric and calculation tightening follows this spirit pass; the Beta
+release remains gated on real human play reports and a complete campaign module.
+
 ## Cultivation protocol
 
 The document itself is a garden. We do not implement it as a stack of chapters

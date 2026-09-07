@@ -18,6 +18,41 @@ The first alpha species are:
 Each character declares what they sense, contribute, consume, protect, refuse,
 and how they recover.
 
+## Population, jobs, and first touch
+
+The Alpha 4 population is generated through jobs and local bodies rather than
+complete sheets for every resident. A generic resident may begin with:
+
+```text
+job
+location
+ordinary response
+one need
+one boundary
+```
+
+When a player touches the resident with a meaningful question, offer, gift,
+exchange, threat, or request, the resident may deepen:
+
+```text
+population body
+-> functional body
+-> named body
+-> persistent organism
+```
+
+The job is a stable public role. The individual becomes unique through witnessed
+relationship, knowledge, consequence, and Rest. The table chooses when a resident
+deserves deeper state.
+
+Jobs provide public capabilities, tools, ordinary knowledge, permissions, and
+obligations. A baker is a baker because the job is shared; a particular baker
+becomes memorable because the relationship is not.
+
+An individual interaction changes a higher community or economy only when it
+crosses a public witness, shared resource, role, permission, labor, obligation,
+or threshold. Private contact may remain private.
+
 ## The party organism
 
 The party is a multicellular organism whose cells remain distinct, conscious,

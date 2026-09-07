@@ -34,6 +34,10 @@ Trace and Delta Cards
 Pending Event Cards
 Secret Cards
 Relationship Cards
+Job Cards
+Knowledge and Signal Cards
+Community Consequence Cards
+Familiar Relationship Cards
 Land Source Cards
 Loot Cards
 ```
@@ -109,6 +113,37 @@ terminal reason
 recovery or custody path
 resume condition
 ```
+
+A Familiar Relationship Card additionally records:
+
+```text
+familiar identity
+player relationship
+relationship attractor
+private boundary
+offered capabilities
+hidden state with observable effects
+phase or host conflict
+operation residue
+community consequence
+Rest and departure path
+repair condition
+```
+
+For a resident or community cell, the card may additionally carry:
+
+```text
+job or public role
+need and boundary
+knowledge source and scope
+relationship depth
+community or institution
+shared resource or pressure
+public and private witness
+```
+
+These fields are added when first touch or consequence makes them relevant. A
+population resident does not require a complete card.
 
 A rat, faction agent, Familiar, machine, Talisman, gate, or land source may be a
 cell.

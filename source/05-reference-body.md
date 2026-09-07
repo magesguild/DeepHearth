@@ -14,6 +14,12 @@ Deep Hearth should be:
 It is the living reference body for Basin. The abstractions are not complete
 until people can use them at a table.
 
+Alpha 4 is the **Responsive Neighborhood Alpha**: the next iterative body that
+tests how the same kernel supports a populated Waterdeep neighborhood, jobs,
+relationships, knowledge, community, economy, ecology, terrain, care, and
+return. It does not attempt to simulate the whole city. It makes one local body
+responsive enough to show how a larger world can grow.
+
 ## Bare-metal distillation
 
 The bare-metal candidate is not a rewrite made from guesses. It is a reduction
@@ -68,6 +74,16 @@ state
 -> memory
 -> witness
 -> Rest
+```
+
+Alpha 4 makes two additional cross-cutting surfaces visible without changing
+their ownership:
+
+```text
+perception and projection
+relationships and jobs
+public and private knowledge
+community and shared resources
 ```
 
 Everything else is an adapter or a content layer. Deep Hearth is the first body

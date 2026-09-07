@@ -16,6 +16,18 @@ The party sheet carries:
 
 Use three marks for each register unless the scenario declares another scale.
 
+Unless a scenario declares otherwise, a new party begins at:
+
+```text
+Cohesion: 3 / 3
+Reserve: 3 / 3
+Integrity: 3 / 3
+Memory: 1 / 3
+```
+
+`Memory 1` is the shared purpose or starting witness anchor. The party may
+archive or release that anchor before adding another.
+
 In the alpha, each party register runs from 0 to 3. The full event ledger is an
 unbounded archive; the three-point party `Memory` register counts active shared
 anchors that the group can presently hold in attention.
@@ -32,6 +44,21 @@ declares a coupled transition. A member joining or leaving names the register
 changes, private boundaries, and the new shared purpose. Individual Reserve and
 Integrity remain distinct from party registers unless a card declares a transfer.
 
+Use these defaults until a party or scenario card names a different transition:
+
+```text
+shared success or care       -> Cohesion +1, capped at maximum
+shared cost or loss           -> Reserve -1, if the party resource paid it
+member joining or leaving     -> Cohesion changes by a declared 1 or 0
+new shared anchor             -> Memory +1, if an anchor slot is available
+party injury or rupture       -> Integrity -1, when the group remains a body
+safe Rest with care           -> restore one named register by 1
+```
+
+An event written to the unbounded ledger does not automatically change the
+numeric Memory register. The register counts active shared anchors; the ledger
+preserves the full history.
+
 ## Collective action
 
 1. One body declares the shared intent.
@@ -47,6 +74,26 @@ party intent
 -> one witnessed transition
 -> changed bodies and world
 ```
+
+## The party in a populated world
+
+Alpha 4 places the party inside households, jobs, communities, institutions, and
+ecologies. A party interaction may remain local or propagate upward when it
+changes a public witness, shared resource, role, permission, labor, obligation,
+or threshold.
+
+The party does not need to simulate the surrounding neighborhood. It records the
+smallest public consequence that changes a future:
+
+```text
+party contact
+-> individual or relationship change
+-> household, job, or community response
+-> public or private witness
+```
+
+Private contact remains private unless a body offers it or a declared public
+transition makes it shared.
 
 ## Disagreement
 

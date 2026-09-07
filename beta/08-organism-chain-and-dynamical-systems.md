@@ -20,7 +20,7 @@ the world responds lawfully
 -> the table tracks only what can change play
 ```
 
-This is a beta design layer. It does not replace the Alpha 3 rules yet.
+This is a beta design layer. It does not replace the Alpha 4 rules yet.
 
 The playable expression of the shared laws is defined in
 `09-unified-physics-and-delightful-play.md`. This document describes where the

@@ -249,6 +249,9 @@ Acceptance:
 - no optional module is required to understand or enjoy the golden seed;
 - each active system has a physical or written representation small enough to
   use at the table.
+- the Familiar System adds identity, refusal, privacy, Rest, and departure rather
+  than free action economy;
+- a player choosing no familiar retains a complete character and campaign path;
 
 ## 12. Knowledge, language, and culture
 
@@ -276,7 +279,31 @@ Acceptance:
 - knowledge provenance survives a State Capsule return;
 - a table can choose ordinary, bounded, or persistent depth for an exchange.
 
-## 13. Accessibility and care
+## 13. Campaign module
+
+Produce at least one complete, runnable campaign module that exercises the shared
+constitution across a populated world rather than presenting disconnected
+scenarios.
+
+Acceptance:
+
+- the module has a player-facing premise and entry point;
+- the GM can run it without private designer explanation;
+- named characters have jobs, needs, boundaries, and lawful responses;
+- the module contains communities, factions, resources, ecology, monsters,
+  knowledge boundaries, and spatial surfaces;
+- growth, jobs, worship or divine pressure, treasure, and relationships can
+  develop through play;
+- multiple lawful paths and endings exist;
+- the module supplies State Capsule stops, return points, and persistent
+  consequences;
+- the module can be used with the Player Guide, GM Guide, and Bestiary projections.
+- the module may be an original campaign or a documented conversion of an
+  existing campaign host;
+- conversion preserves host content while adding jobs, body projections,
+  relationships, ecology, T-Stops, witnesses, and State Capsules.
+
+## 14. Accessibility and care
 
 Beta work must test:
 
@@ -288,7 +315,7 @@ Beta work must test:
 - safe stopping and recovery;
 - no required hidden knowledge for basic participation.
 
-## 14. Documentation and source truth
+## 15. Documentation and source truth
 
 Beta goals must not create a second contradictory rulebook. Every promoted rule
 has one source of truth, one glossary meaning, one worked example, and one

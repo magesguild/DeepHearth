@@ -46,6 +46,8 @@ Observe:
 - which system tier was active and whether its depth was appropriate;
 - whether an optional system felt genuinely optional;
 - whether a rule created an adventure, a meaningful choice, or only maintenance;
+- whether the campaign module could be run without designer intervention;
+- whether the module offered enough content and structure for another session;
 
 ## After play
 

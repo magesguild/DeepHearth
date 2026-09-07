@@ -212,6 +212,18 @@ agriculture and disease
 regional systems
 ```
 
+### Slice 6: Campaign Module
+
+As the beta graduation body, assemble at least one complete campaign module from
+the tested slices. Do not write it as a lore packet only. It must provide a
+player entry, GM procedures, named jobs and characters, factions, ecology,
+monsters, resources, scenarios, growth, multiple lawful endings, and State
+Capsule return points.
+
+The module may be original or converted from an existing campaign host. The
+conversion must preserve host content while adding job stamps, body projections,
+relationships, T-Stops, witnesses, and return state.
+
 ## What We Do Not Build
 
 The beta does not require:

@@ -49,7 +49,11 @@ Demand - 5 or less -> failure
 
 9. Choose an alignment and write one anchor for each axis.
 
-10. Record native, licensed, learned, and restricted land channels.
+10. Record native, licensed, learned, and restricted land channels, with 2 active
+    land slots at Seed unless the species or local card declares another value.
+
+11. Choose or leave open a first job invitation. A job is a community role, not
+    a second class. It may be accepted, refused, or discovered through play.
 
 The player may also declare:
 
@@ -83,6 +87,15 @@ How do I recover?
 What does the world remember about me?
 ```
 
+For Alpha 4, the character may also begin with a public role or job question:
+
+```text
+What work might this body do here?
+Who could teach, employ, license, or refuse me?
+What knowledge does this work require?
+What would this work ask me to protect?
+```
+
 The character begins at `Seed`, with Load Limit 3 and one Companion Port. Known
 cards may exceed active Load, but only installed cards operate in the current
 scene.
@@ -109,9 +122,15 @@ Integrity and removes one named condition, up to the body's maximums. A care pat
 may restore a different amount, but must name its material, time, permission,
 recipient, and witness. Rest alone does not heal a body by implication.
 
-At zero Integrity, the player chooses a legal still point: withdraw,
-incapacitate, surrender, shelter, or another declared recovery state. Death is a
-world transition, not an automatic arithmetic result.
+The default Reserve care input at a safe Rest restores 1 Reserve. A different
+amount must be named by the care path. Integrity, Reserve, and condition changes
+are separate witnessed transitions unless the care path explicitly couples them.
+
+At zero Integrity, the scene or card first declares the legal still-point set. The
+player chooses one option within that set: withdraw, incapacitate, surrender,
+shelter, recovering, or another declared recovery state. If the scene declares no
+choice, the facilitator establishes the least irreversible legal still point and
+witnesses why. Death is a world transition, not an automatic arithmetic result.
 
 The table records the chosen T-Stop:
 
@@ -139,12 +158,17 @@ longer possess.
 
 A condition must name the action space it changes.
 
+Unless a condition card declares otherwise, a condition persists until its named
+repair, fulfilled trigger, assistance, or Rest path settles it. Conditions do not
+stack silently; a second instance must name whether it increases pressure,
+extends duration, or is redundant.
+
 | Condition | Effect |
 | --- | --- |
 | Pressured | One declared action carries one named `-1` pressure |
-| Injured | One body field or capacity is specifically limited; ordinary injury also costs 1 Integrity unless the injury card says otherwise |
+| Injured | One body field or capacity is specifically limited; the ordinary injury transition costs 1 Integrity once unless the injury card says otherwise |
 | Prone | The body is knocked down or otherwise grounded; movement and position actions are limited until it stands, is helped, or reaches another declared state |
-| Fatigued | The next Rest or cycle budget is reduced by a named amount; default combat reduction is 1 cycle |
+| Fatigued | The next Rest or cycle budget is reduced by a named amount; default combat reduction is 1 cycle, then the condition settles unless another path keeps it active |
 | Bound | Named movement, object, or boundary actions are unavailable |
 | Incapacitated | The body cannot conduct ordinary action, but may receive care, speak, refuse, or be moved as the scene permits |
 | Flicker | A route or process remains available but unstable |
@@ -180,7 +204,8 @@ must leave a trace in character memory.
 DEEP HEARTH CHARACTER
 
 Name: _________________________
-Species: ______________________
+Seed membrane: ________________
+Job or open invitation: ________
 Question: _____________________
 
 Body:  ____   Sense: ____
@@ -204,12 +229,15 @@ What I contribute: ____________
 What I protect: _______________
 What I refuse: ________________
 Rest practice: ________________
+Known words and signals: _______
+Acquired verbs: ________________
 
 Inventory: ____________________
 Words: ________________________
 Relationships: ________________
 Alignment traces: ______________
 Land palette: __________________
+Active land slots: ______________
 Open consequences: ____________
 Witness marker: _______________
 ```

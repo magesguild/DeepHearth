@@ -48,7 +48,7 @@ because the route matters.
 Sense: +3
 cycles: d6 showing 6
 equipment: route marker, light tool, travel blade
-integrity: steady
+Integrity: 3 / 3
 goal: open or safely pass the route
 boundary: will not abandon the return path without declaring it
 ```
@@ -56,11 +56,11 @@ boundary: will not abandon the return path without declaring it
 ### Gate Warden
 
 ```text
-Force: +2
-Guard: +3
+Force (Body): +2
+Guard (Will): +3
 cycles: d6 showing 6
 equipment: spear, shield, gate key
-integrity: steady
+Integrity: 3 / 3
 goal: preserve the gate boundary
 boundary: will not open the gate without a legal receiving state
 ```
@@ -68,10 +68,8 @@ boundary: will not open the gate without a legal receiving state
 The numbers are local card values for this slice. They are not a final capacity
 list for the whole game.
 
-`Force` and `Guard` are explicit local aliases for this card only. They do not
-silently add a second universal capacity system. A future card must state which
-canonical capacity it aliases, or remain a local value with its own range,
-initial state, cost, transition, and witness.
+`Force` and `Guard` are explicit local labels for canonical `Body` and `Will` on
+this card. They do not add a second universal capacity system.
 
 ## Equipment signatures
 
@@ -178,7 +176,7 @@ declare a transition.
 
 ```text
 Wayfinder: d20 + Sense + help - pressure
-Warden:    d20 + Guard + shield - pressure
+Warden:    d20 + Will + shield - pressure
 ```
 
 Compare the totals as in Hold Relation:

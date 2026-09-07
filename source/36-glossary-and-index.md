@@ -16,11 +16,17 @@ to a declared transition.
 **Cell:** Anything with persistent state: a character, creature, room, item,
 faction, route, organ, machine, or relationship.
 
+**Community:** A population and relationship cell with shared place, purpose,
+practice, history, or mutual dependence. A community may receive, offer,
+negotiate, refuse, restrict, migrate, fragment, or repair.
+
 **Condition:** A named change to an action space or recovery path.
 
 **Demand:** The threshold used when meaningful uncertainty requires a roll.
 
-**Entropy:** A physical or simulated source of uncertainty.
+**Entropy:** The uncertainty and irreversible residue of a transition, including
+declared physical randomness, spent resources, changed relationships, revealed
+information, obligations, and traces.
 
 **Familiar:** An optional companion process with identity, needs, boundaries,
 refusal, capability, Rest, and departure.
@@ -28,12 +34,20 @@ refusal, capability, Rest, and departure.
 **Integrity:** A body's capacity to remain a functioning cell or group under
 pressure. It is not a measure of worth.
 
+**Job:** A public community role with ordinary capabilities, tools, knowledge,
+permissions, obligations, boundaries, and a possible growth path. A job is not a
+second class.
+
 **Land channel:** A material and philosophical resource ecology such as White,
 Blue, Black, Red, or Green.
 
 **Load:** The active complexity a character, organ, or deck can carry.
 
 **Memory:** Accumulated witnessed state and unresolved consequence.
+
+**Knowledge state:** The provenance and current visibility of a claim or signal,
+such as `SENSED`, `OBSERVED`, `INFERRED`, `SHARED`, `TRUSTED`, `CONTESTED`,
+`PRIVATE`, or `FORGOTTEN`.
 
 **Organ:** A bounded computational component with declared input, operation,
 cost, output, error behavior, and witness.
@@ -82,6 +96,7 @@ Terminal does not mean erased, and death is not automatic at zero Integrity.
 - consent and crossing: **The Crossing Contract**;
 - surrender and repair: **The First Armed Exchange**;
 - familiar boundaries: **The First Familiar**;
+- familiar texture and optionality: **The Familiar System**, **The First Familiar**;
 - alignment change: **The Alignment Constitution**;
 
 ### Computation
@@ -97,6 +112,9 @@ Terminal does not mean erased, and death is not automatic at zero Integrity.
 ### World and society
 
 - party: **The Party Organism**;
+- Responsive Neighborhood Alpha: **Three Scenarios**;
+- jobs, growth, and public roles: **Character Creation**, **The Growth and Loot Constitution**;
+- knowledge, relationships, and community effects: **Memory and Return**, **Encounter Programs**;
 - encounters: **Encounter Programs**;
 - common beasts: **Seven Beast Cards**;
 - scenarios: **Three Scenarios**;

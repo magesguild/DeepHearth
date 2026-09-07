@@ -19,6 +19,7 @@ feature list, has earned the transition.
   procedures without requiring a full world simulation.
 - Persistent NPCs, communities, and systems preserve forward transitions and
   reverse-readable witnesses.
+- At least one complete campaign module is runnable without the designer present.
 
 ## Required evidence of play
 
@@ -45,6 +46,8 @@ witnessed reports covering:
   ecological pressure, terrain problem, and knowledge boundary;
 - one demonstration that an optional module can remain absent without breaking
   the core session.
+- one complete campaign module run through its player entry, GM procedures,
+  persistent consequences, and State Capsule return points.
 
 Software simulations, automated transcripts, solo author walkthroughs, generated
 examples, and internal design review are valuable supplementary evidence. They

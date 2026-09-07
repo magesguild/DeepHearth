@@ -23,7 +23,7 @@ organ: Colony Reader
 command: READ-COLONY
 input: Rat population register
 output: visible population count and optional threshold result
-cost: 1 cycle and attention
+cost: 1 cycle (the operation's attention bearer)
 entropy: none
 scope: private by default
 land channel: Black
@@ -67,7 +67,7 @@ Cardless mode counts the visible Rat population tokens.
 
 ```text
 input: Rat tokens in the declared register
-cost: 1 cycle and attention
+cost: 1 cycle (the operation's attention bearer)
 output: population count
 optional input: Demand or threshold
 ```

@@ -20,6 +20,24 @@ initial face, advance trigger, threshold, and reset/recovery rule on the scene
 card. Registers advance only when their trigger occurs or when an explicit
 away-time tick includes the body. Background beasts use coarse habitat state.
 
+The scene card also names the register owner and witness field. Unless a beast
+card declares another range, a die register uses its die faces, a population or
+node register uses visible tokens, and a relation register uses the named local
+state set. A register changes only through its trigger and resets only through
+its named recovery or Rest condition.
+
+The default operational fields are:
+
+```text
+owner: the beast, habitat, or declared host cell
+initial value: written before play
+advance trigger: one named event
+threshold: one named boundary or none
+legal future changed: __________________
+reset or recovery: _____________________
+witness and State Capsule field: _______
+```
+
 ## Giant Rat Colony
 
 ```text
