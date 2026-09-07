@@ -257,3 +257,116 @@ The seed is complete when a new group can create, act, spend, remember, change,
 Rest, return, and extend the world while preserving the same physics. It does
 not need every future class, world, adapter, or digital implementation. It needs
 one trustworthy body from which those things can grow.
+
+## Cultivation protocol
+
+The document itself is a garden. We do not implement it as a stack of chapters
+written in isolation. We cultivate it in vertical slices, and each new section
+must become playable before it becomes elaborate.
+
+For every section, ask the garden what wants to grow next:
+
+```text
+listen
+-> choose one small growth
+-> write the minimum rule
+-> make the physical artifact
+-> play it
+-> record what happened
+-> ask what surprised us
+-> revise without erasing the history
+-> Rest
+```
+
+Every implemented section should eventually contain:
+
+- one definition;
+- one procedure;
+- one worked example;
+- one physical artifact;
+- one failure case;
+- one return condition;
+- one invitation to extend it.
+
+### First growth: the seed
+
+Begin with one character, one capacity, one resource, one Demand, one d20, one
+stateful room, one witness card, and one Rest condition. The Alchemist is the
+first body because its membrane makes computation visible:
+
+```text
+reagent
+-> formula
+-> prepared extract
+-> action
+-> effect
+-> residue
+```
+
+The Threshold Room should have state, cost, uncertainty, and at least two legal
+approaches. It is complete when another person can play it without the designer
+present.
+
+### Second growth: physics
+
+Fix capacities, the Demand scale, resource values, outcome bands, conditions,
+action timing, deterministic resolution, uncertain resolution, refusal, and Rest.
+Test routine, uncertain, opposed, costly, hidden-information, and refusal cases.
+
+The garden's questions are:
+
+> What is the smallest useful capacity system?
+
+> What does a strained result change?
+
+> What does Rest restore, and what does it leave behind?
+
+### Third growth: the character body
+
+Build the printable character sheet around sensing, contribution, consumption,
+protection, refusal, recovery, inventory, learned words, relationships, and
+Rest. Complete the Alchemist before multiplying classes.
+
+### Fourth growth: memory
+
+Create the character state card, scene card, event trace, Rest marker, and State
+Capsule. Stop the first game, put it away, return later, and verify that the
+group can resume without inventing history.
+
+### Fifth growth: companions
+
+Add Bastion, Wayfinder, and Hearthkeeper by asking what each body can do that the
+others cannot, what it needs from them, and what it can refuse. Then grow the
+party sheet from actual pressure: Cohesion, Reserve, Integrity, Memory, shared
+purpose, team words, disagreement, collective action, and pause.
+
+### Sixth growth: weather
+
+Implement The Lantern Orchard as the first ecology. Give it a local resource,
+inhabitants with different needs, hidden state, environmental clocks, an
+uncertainty budget, refusal conditions, multiple Rest states, and persistent
+consequences. It should be playable without requiring combat.
+
+### Seventh growth: pressure and magic
+
+Add one encounter with a threat, vulnerable thing, terrain feature, escape route,
+non-damage solution, and recoverable consequence. Add one spell as a complete
+macro-instruction with input, cost, target, timing, effect, interruption,
+residue, and witness.
+
+### Eighth growth: the first ecology
+
+Add the named creatures by asking different questions: shared memory, sensing,
+waste and habitat, attention, permission to remember, logistics, and world-made
+danger. Define needs, senses, resources, boundaries, goals, refusal, legal
+responses, failure states, traces, and Rest before assigning numbers.
+
+### Ninth growth: the descent
+
+Add The First Descent and let the private Forgotten Realms layer provide place,
+factions, history, roads, ruins, and hidden memory. Keep Basin's roots intact:
+the scenario should still function when the setting names are removed.
+
+The implementation question is always:
+
+> What kind of game wants to grow from the answer?
