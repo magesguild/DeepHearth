@@ -37,7 +37,8 @@ SOURCE_FILES := \
   source/27-the-hearth-repl.md \
   source/28-kindled-rat.md \
   source/29-read-colony.md \
-  source/30-interface-boundaries.md
+  source/30-interface-boundaries.md \
+  source/31-the-first-familiar.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 

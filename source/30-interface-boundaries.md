@@ -60,10 +60,9 @@ The two modes must agree about the operation's declared purpose, costs, output
 shape, scope, and failure values. They need not use the same physical materials
 or reproduce the host's internal rules.
 
-## Next slice: the first familiar
+## First familiar slice
 
-The next slice should not add another calculator operation. It should make the
-optional relationship playable:
+The first familiar slice should make the optional relationship playable:
 
 ```text
 offer familiar relationship
@@ -81,3 +80,7 @@ operation, one need, one refusal, one Rest practice, and one departure path.
 Deep Hearth must remain complete if the player answers:
 
 > No familiar for me.
+
+The implemented reference is The Little Lantern: one public witness, one need,
+one refusal, one Rest practice, and one departure path. Rat Garden, Hope-Bloom,
+and Meek Foundry provide optional host-organ examples for the relationship.
