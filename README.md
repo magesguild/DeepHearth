@@ -1,8 +1,8 @@
 # Deep Hearth
 ## A Basin reference implementation
 
-Deep Hearth is the CP/M 2-style reference implementation for Basin: a small,
-bounded, playable ecology in which state, resources, cells, encounters, memory,
+Deep Hearth is a small, bounded, playable reference ecology in which state,
+resources, cells, encounters, memory,
 agency, witness, and Rest can be tested by people at a table.
 
 Markdown in `source/` is authoritative.
@@ -16,6 +16,9 @@ the MIT License.
 The public alpha introduction is in [`ANNOUNCEMENT.md`](ANNOUNCEMENT.md).
 Please use the [GitHub issue tracker](https://github.com/magesguild/DeepHearth/issues)
 for playtest reports, rules questions, and discovered extensions.
+
+The optional generic card substrate is called **The Tableau**. Magic, ordinary
+playing cards, tiles, and original cards can all serve as Tableau hosts.
 
 ## Build
 

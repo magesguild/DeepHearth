@@ -1,6 +1,6 @@
 # Reference Body
 
-## Deep Hearth as CP/M 2
+## Deep Hearth as reference body
 
 Deep Hearth should be:
 

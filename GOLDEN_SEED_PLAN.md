@@ -16,8 +16,8 @@ It must be:
 - tactile enough that state is visible on paper and at the table;
 - honest about what is fixed, what is uncertain, and what remains optional.
 
-Deep Hearth is the CP/M 2-style reference implementation for Basin. The golden
-seed is therefore not a lore encyclopedia or a miniature version of every
+Deep Hearth is the reference body for Basin. The golden seed is therefore not a
+lore encyclopedia or a miniature version of every
 future adapter. It is a complete reference body from which the bare-metal
 candidate can later be distilled.
 

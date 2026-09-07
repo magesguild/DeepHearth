@@ -65,6 +65,28 @@ tokens, cord ledgers, arithmetic boards, and digital worlds. A host adapter
 preserves the host's own rules and provenance instead of flattening every
 substrate into the same game.
 
+## The Tableau
+
+The Tableau is the optional generic card substrate: a visible arrangement of
+cards, zones, stacks, tokens, counters, and relationships that can carry state
+and computation.
+
+```text
+cards and tokens
+-> zones and arrangements
+-> declared transition
+-> witnessed output
+```
+
+Magic is one Tableau adapter. Ordinary playing cards, tarot or oracle cards,
+tiles, and original Basin cards may use the same boundary without becoming
+Magic. Deep Hearth remains playable without a Tableau.
+
+This seam supports many host families: Magic, ordinary playing cards, tiles,
+tokens, cord ledgers, arithmetic boards, and digital worlds. A host adapter
+preserves the host's own rules and provenance instead of flattening every
+substrate into the same game.
+
 ## First familiar slice
 
 The first familiar slice should make the optional relationship playable:

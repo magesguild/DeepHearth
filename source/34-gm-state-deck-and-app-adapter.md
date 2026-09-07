@@ -233,7 +233,8 @@ resume without the app.
 
 ## Host families
 
-The App Adapter and State Deck are substrate-neutral. Possible hosts include:
+The App Adapter, State Deck, and optional Tableau are substrate-neutral. Possible
+hosts include:
 
 ```text
 Magic cards
@@ -249,6 +250,10 @@ voxel or digital worlds
 Each host keeps its own law. An ordinary playing-card adapter does not become
 Magic, and a tile adapter does not become a deck merely because both can carry
 state.
+
+The Tableau is the generic card arrangement layer. It provides zones, stacks,
+arrangements, tokens, counters, and witnessed transitions; the host adapter
+provides the host's own rules.
 
 Authentic khipu or other culturally specific instruments require special care:
 their historical provenance, living traditions, documented uses, and community

@@ -2,7 +2,7 @@
 
 ## A small world that can return
 
-Deep Hearth is the CP/M 2-style reference implementation for Basin.
+Deep Hearth is a small, bounded reference implementation for Basin.
 
 It is not the final universe. It is the living reference body: a bounded,
 playable ecology in which the rules can be understood completely, run by hand,
