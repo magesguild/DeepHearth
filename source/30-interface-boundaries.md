@@ -60,6 +60,11 @@ The two modes must agree about the operation's declared purpose, costs, output
 shape, scope, and failure values. They need not use the same physical materials
 or reproduce the host's internal rules.
 
+This seam supports many host families: Magic, ordinary playing cards, tiles,
+tokens, cord ledgers, arithmetic boards, and digital worlds. A host adapter
+preserves the host's own rules and provenance instead of flattening every
+substrate into the same game.
+
 ## First familiar slice
 
 The first familiar slice should make the optional relationship playable:

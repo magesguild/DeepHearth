@@ -125,3 +125,15 @@ Check that:
 - cardless mode preserves the operation's shape;
 - alignment changes can open or close access without erasing history;
 - land sources have custody, cost, witness, and a receiving state.
+
+## Pass eleven: state restoration and apps
+
+Check that:
+
+- the paper State Deck can save and restore the current world;
+- a digital adapter preserves the same event and witness model;
+- GM-hidden state never leaks into public views;
+- apps cannot choose intent or invent outputs;
+- deck order, entropy, clocks, Familiar state, and land palettes survive;
+- a paper group can continue after an app-hosted session;
+- a hosted app can import a paper capsule without silently merging conflicts.

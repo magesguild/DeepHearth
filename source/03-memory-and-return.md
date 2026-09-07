@@ -160,3 +160,7 @@ prompt
 
 The REPL transcript is part of the organ's memory. A command cannot mutate world
 state until its cost, scope, receiving state, and witness behavior are visible.
+
+An app adapter may render, calculate, validate, record, export, and import this
+state. The event ledger and Witness Card remain authoritative; the app is not a
+second hidden world.

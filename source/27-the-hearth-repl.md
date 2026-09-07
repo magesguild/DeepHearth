@@ -14,6 +14,9 @@ The Hearth REPL is the optional command interface inside the Familiar System. It
 may be a paper card, a terminal, a Magic play surface, a Yupana, a calculator,
 or a future digital prompt.
 
+The prompt may be app-assisted or app-hosted, but its cost quote, scope, error
+values, and witness must remain visible in the same form as the paper prompt.
+
 Deep Hearth remains fully playable without the Familiar System. It makes a
 declared organ easier to operate, inspect, and witness; it does not make arbitrary computation
 necessary for ordinary play.

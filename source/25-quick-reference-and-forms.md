@@ -71,6 +71,32 @@ Alignment compatibility: _______
 Cardless fallback: ____________
 ```
 
+## GM State Deck card set
+
+```text
+Manifest
+Witness
+Branch
+Current Scene
+World Memory
+Entropy
+GM Deck Register
+Cells / Clocks / Resources / Deltas / Secrets
+```
+
+## App adapter card
+
+```text
+Mode: paper-first / assisted / hosted
+State source: __________________
+Input scope: ___________________
+Output scope: __________________
+Private view: __________________
+GM-hidden view: ________________
+Export format: _________________
+Witness destination: ___________
+```
+
 ## Familiar System organ card
 
 ```text
