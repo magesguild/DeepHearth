@@ -116,6 +116,141 @@ After pressure ends, the table records what violence changed: bodies, terrain,
 trust, routes, supplies, promises, and future action sets. The aftermath is part
 of the economy of the world.
 
+## Common beast ecologies
+
+The first beast set is intentionally small. These creatures are not seven
+versions of an attack roll. Each is a different computational ecology.
+
+Every beast card declares:
+
+```text
+species
+habitat
+needs
+senses
+resources
+boundary
+legal responses
+primary die
+support dice
+persistent registers
+visible and hidden state
+entropy budget
+retreat condition
+Rest condition
+witness
+```
+
+### Giant Rat: population register
+
+```text
+primary: d4 local colony phase
+support: d6 scavenging process
+register: rat tokens
+```
+
+Each token is one visible population unit. The d4 selects forage, scatter, nest,
+or swarm. The d6 measures a local food reserve or scavenging process. A single
+rat may flee while the colony persists.
+
+The players may attack, feed, redirect, follow, or alter what the colony can
+access. The nest is a small economy, not a hit-point container.
+
+### Wolf: pack strategy
+
+```text
+primary: d8 pack response
+support: d6 hunt clock
+register: pack cohesion
+```
+
+The d8 selects circle, test, separate, pursue, protect, retreat, call, or wait.
+The d6 tracks hunt or exhaustion. The pack's legal responses change as cohesion
+and reserve change.
+
+The encounter can end when pursuit is no longer worth its cost.
+
+### Black Bear: territory and season
+
+```text
+primary: d12 seasonal or food clock
+support: d8 response
+register: territory state
+```
+
+The bear has a den, food reserve, tolerated distance, boundary, and retreat
+condition. The d8 selects ignore, observe, warn, protect food, protect young,
+charge, withdraw, or return later.
+
+The best solution may change the party's behavior rather than injure the bear.
+
+### Boar: momentum and charge
+
+```text
+primary: d6 charge cycles
+support: d4 recovery state
+register: momentum
+```
+
+The d6 measures how long a charge can continue before the boar turns, recovers,
+or reassesses. The d4 records calm, alert, cornered, or exhausted.
+
+The boar teaches position, terrain, interrupted momentum, escape, and known
+recovery. A player can win by opening a route.
+
+### Giant Spider: web network
+
+```text
+primary: d8 web response
+support: d12 venom clock
+register: web nodes and threads
+```
+
+The web is the spider's board. Threads represent routes, alarms, anchors,
+restraints, prey locations, and vibration signals. The d8 selects hide, sense,
+close route, bind, withdraw, relocate, protect eggs, or approach.
+
+The spider is a bridge between equipment, terrain, information, and Grapple as a
+Hold Relation.
+
+### Crocodile: patience and hold
+
+```text
+primary: d12 patience clock
+support: d4 hold relation
+support: d6 water current
+register: concealment
+```
+
+The crocodile waits while its conditions are favorable. The d12 advances conceal,
+observe, approach, strike, hold, drag, release, or withdraw. The d4 tracks
+contact, leverage, restraint, or release window. The d6 changes water position,
+visibility, and escape routes.
+
+It does not roll every time it attacks. It rolls when the contested relation
+actually changes.
+
+### Bat: signal and sensing
+
+```text
+primary: d6 echolocation pulse
+support: d8 cave response
+register: discovered traces
+```
+
+An echolocation pulse may reveal open space, obstruction, moving body, water,
+another signal, or unstable structure. The d8 selects roost, scatter, circle,
+follow, avoid, signal, swarm, or return.
+
+The players may observe a trace without seeing its complete cause. The unseen
+remains active, but the table does not invent more than the pulse witnessed.
+
+### Beast dice discipline
+
+A beast does not roll for behavior that is already determined. Dice enter when
+multiple legal responses matter, the state is hidden, and the consequence changes
+the future. A beast's die never decides its values or private consent.
+
 Magic is a macro-instruction with inputs, cost, target, timing, duration, state
 effect, interruption conditions, and residue. Spell families include Signal,
 Query, Transform, Summon, Ward, Repair, Traverse, Bind, Disrupt, and Seed.
