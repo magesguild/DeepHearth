@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+  color: #201d1a;
+}
+
+h1, h2, h3 {
+  font-family: "Avenir Next", Avenir, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 3px solid #8a6b43;
+  margin-left: 0;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+code, pre {
+  font-family: "DejaVu Sans Mono", monospace;
+}
+
+pre {
+  padding: 0.8em;
+  background: #f3efe7;
+  overflow-x: auto;
+}

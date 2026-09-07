@@ -1,0 +1,120 @@
+\documentclass[12pt, oneside, openany]{book}
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor}
+
+\usepackage[
+  paperwidth=6in,
+  paperheight=9in,
+  top=0.85in,
+  bottom=0.85in,
+  inner=0.78in,
+  outer=0.65in
+]{geometry}
+
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{xltabular}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{framed}
+\setstretch{1.12}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\leftmark}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\small\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries\centering}
+  {\chaptertitlename\ \thechapter}
+  {12pt}
+  {\LARGE}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black,
+  pdftitle={Deep Hearth},
+  pdfauthor={Melpomene Ephemera and Gaius Jocundus},
+  bookmarks=true
+]{hyperref}
+
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\definecolor{shadecolor}{RGB}{246,244,239}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newenvironment{Highlighting}{}{}
+\newcommand{\NormalTok}[1]{#1}
+\setlength{\headheight}{14pt}
+\usepackage{emptypage}
+\usepackage{tocloft}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+
+\begin{document}
+
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{2cm}
+    {\Huge\bfseries Deep Hearth}
+
+    \vspace{0.7cm}
+    {\Large A Basin Reference Implementation}
+
+    \vspace{1.5cm}
+    {\large Melpomene Ephemera \& Gaius Jocundus}
+
+    \vfill
+    {\large Private design document\\[0.4em]
+    \normalsize Version 0.1.0\\[0.4em]
+    \small The CP/M 2-style reference body for Basin}
+  \end{center}
+\end{titlepage}
+
+\frontmatter
+\tableofcontents
+\clearpage
+
+\mainmatter
+\input{build/chapters/00-introduction}
+\input{build/chapters/01-core-rules}
+\input{build/chapters/02-ecology}
+\input{build/chapters/03-memory-and-return}
+\input{build/chapters/04-alpha}
+\input{build/chapters/05-reference-body}
+
+\backmatter
+\chapter*{Hey}
+\addcontentsline{toc}{chapter}{Hey}
+
+Take one character sheet, one die, one resource, and one question.
+
+Roll. Let the state change. Write down what the world remembers. Then ask:
+
+\begin{quote}
+What kind of game wants to grow from the answer?
+\end{quote}
+
+\end{document}
