@@ -59,7 +59,7 @@ Deep Hearth spell -> Basin spell contract
 Magic organ       -> Magic rules plus plugin contract
 ```
 
-The Hearth REPL may display the organ's command and output, but it may not
+The Familiar System's Hearth REPL may display the organ's command and output, but it may not
 replace the Magic stack, card text, costs, zones, or priority rules.
 
 ## First spell: Lantern Seed

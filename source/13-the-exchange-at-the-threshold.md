@@ -55,8 +55,8 @@ organ offered
 -> accept, refuse, or delay
 ```
 
-The Hearth REPL transcript may be shared without giving another body permission
-to run the organ.
+The Familiar System transcript may be shared without giving another body
+permission to run the organ or enter the familiar relationship.
 
 ## Exchange packets
 

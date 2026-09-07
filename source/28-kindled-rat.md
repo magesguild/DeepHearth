@@ -81,7 +81,7 @@ the whole Deep Hearth ruleset adopt Magic's mana system.
 The cardless operation is native Basin computation. It is compatible in shape,
 not a claim that paper tokens are Magic cards.
 
-## Hearth REPL use
+## Familiar System prompt
 
 ```text
 > HELP
@@ -216,4 +216,4 @@ host rules, erase the register, or decide private intent.
 - play all other Deep Hearth systems without the organ.
 
 The seed is tiny on purpose. The grown Rat Garden is the body; `KINDLE-RAT` is
-the first word it can execute.
+the first word it can execute. `READ-COLONY` is its first read-only output organ.

@@ -138,8 +138,9 @@ state transformation, a calculator, a card machine, or a future digital
 runtime. If an organ cannot complete its operation, it returns an explicit
 refusal or unknown result.
 
-An organ may expose a bounded Hearth REPL. The prompt is another physical
-surface for the same contract, not an escape from it:
+An organ may belong to the optional Familiar System and expose a bounded Hearth
+REPL. The prompt is another physical surface for the same contract, not an
+escape from it:
 
 ```text
 prompt

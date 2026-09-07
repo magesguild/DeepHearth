@@ -35,7 +35,8 @@ SOURCE_FILES := \
   source/25-quick-reference-and-forms.md \
   source/26-review-passes.md \
   source/27-the-hearth-repl.md \
-  source/28-kindled-rat.md
+  source/28-kindled-rat.md \
+  source/29-read-colony.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 

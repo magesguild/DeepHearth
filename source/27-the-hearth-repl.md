@@ -1,13 +1,21 @@
-# The Hearth REPL
+# The Familiar System
 
-## A bounded prompt inside the game
+## Optional companions and bounded prompts
 
-The Hearth REPL is an optional interface for compute organs. It may be a paper
-card, a terminal, a Magic play surface, a Yupana, a calculator, or a future
-digital prompt.
+The Familiar System is the optional extension for compute organs and their
+interfaces. A player may choose to have a familiar, use a non-familiar organ,
+share a party or world organ, or use no organ at all.
 
-Deep Hearth remains fully playable without it. The REPL makes a declared organ
-easier to operate, inspect, and witness; it does not make arbitrary computation
+A familiar is not equipment with a face. It is a bounded companion process with
+its own identity, scope, needs, boundaries, refusal, and Rest condition. The
+player chooses whether the relationship exists and what may cross it.
+
+The Hearth REPL is the optional command interface inside the Familiar System. It
+may be a paper card, a terminal, a Magic play surface, a Yupana, a calculator,
+or a future digital prompt.
+
+Deep Hearth remains fully playable without the Familiar System. It makes a
+declared organ easier to operate, inspect, and witness; it does not make arbitrary computation
 necessary for ordinary play.
 
 ## The prompt contract
@@ -35,6 +43,21 @@ cardless fallback
 
 The organ is a typed local environment. A command that does not match its input,
 scope, cost, or legal operation is not executed.
+
+If the organ is a familiar, replace ownership with relationship and custody:
+
+```text
+familiar identity
+chosen relationship
+operator or companion
+private boundary
+offered capabilities
+refusal conditions
+Rest and departure
+```
+
+The familiar may decline an operation or leave a relationship when its declared
+boundaries require it. A player may also decline to have a familiar.
 
 ## Command lifecycle
 
@@ -182,7 +205,7 @@ history, not merely a diagnostic log.
 
 ## Completion test
 
-The Hearth REPL slice is complete when a group can:
+The Familiar System slice is complete when a group can:
 
 - define one organ contract;
 - inspect its legal commands;
@@ -193,6 +216,10 @@ The Hearth REPL slice is complete when a group can:
 - witness and Rest the transcript;
 - run a cardless equivalent when the host organ is absent;
 - resume the organ from a State Capsule.
+
+- choose to have no familiar;
+- choose a familiar without treating it as owned equipment;
+- preserve the familiar's refusal, privacy, and departure conditions.
 
 The first organ implemented by this contract is `KINDLE-RAT`, the smallest
 Magic-derived population register that can run in both Magic and cardless modes.

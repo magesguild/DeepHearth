@@ -57,13 +57,15 @@ Lineage: ______________________
 Recovery: _____________________
 ```
 
-## Hearth REPL card
+## Familiar System organ card
 
 ```text
 Organ: ________________________
 Host mode: Magic / cardless / other
-Owner: ________________________
+Custodian: ____________________
 Operator: _____________________
+Familiar: yes / no
+Relationship: _________________
 Input type: ____________________
 Output type: _________________
 Legal commands: _______________
@@ -77,7 +79,7 @@ Rest condition: ________________
 Cardless fallback: _____________
 ```
 
-## REPL command card
+## Hearth REPL command card
 
 ```text
 HELP
