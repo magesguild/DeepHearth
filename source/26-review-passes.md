@@ -65,7 +65,20 @@ Lay out the table kit. Every token, die, card, thread, container, clock, and
 ledger must have one visible role in the current scene. Remove any object that
 adds handling burden without computation, memory, or delight.
 
-## Pass six: publication
+## Pass six: REPL compatibility
+
+For every compute organ, run the same operation in Magic mode and cardless mode
+when both are declared. Check that:
+
+- the input type is explicit;
+- the cost is paid once;
+- cycle and latency are bounded;
+- private and shared scopes remain distinct;
+- errors return refusal or unknown rather than invented output;
+- the transcript can be witnessed and replayed;
+- the organ is optional for a group that does not possess its host materials.
+
+## Pass seven: publication
 
 Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
 MIT licensing, and the separation between open Basin mechanics and private

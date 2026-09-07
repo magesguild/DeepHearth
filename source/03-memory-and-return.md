@@ -137,3 +137,21 @@ Possible organs include a Yupana for arithmetic, a Magic deck for high-level
 state transformation, a calculator, a card machine, or a future digital
 runtime. If an organ cannot complete its operation, it returns an explicit
 refusal or unknown result.
+
+An organ may expose a bounded Hearth REPL. The prompt is another physical
+surface for the same contract, not an escape from it:
+
+```text
+prompt
+-> parse typed input
+-> validate legal operation
+-> quote cost and latency
+-> player commits or refuses
+-> execute bounded operation
+-> return result or error value
+-> append witness event
+-> Rest or continue
+```
+
+The REPL transcript is part of the organ's memory. A command cannot mutate world
+state until its cost, scope, receiving state, and witness behavior are visible.

@@ -44,6 +44,20 @@ witness: two contracts and exchange ledger
 The exchange does not roll to decide whether a body wants to accept. A later
 contested receiving state may introduce a declared die habitat.
 
+An organ may be offered as a packet of capability, but access is not ownership:
+
+```text
+organ offered
+-> operator named
+-> input scope declared
+-> output recipient declared
+-> cost bearer declared
+-> accept, refuse, or delay
+```
+
+The Hearth REPL transcript may be shared without giving another body permission
+to run the organ.
+
 ## Exchange packets
 
 An exchange packet may be material, informational, relational, or temporal:

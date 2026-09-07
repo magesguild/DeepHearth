@@ -72,6 +72,13 @@ organ.
 Signals, bells, mirrors, birds, threads, written messages, and magic declare
 range, audience, latency, privacy, distortion, and return path.
 
+### Compute organs
+
+An organ occupies an optional equipment slot or a declared world location. Its
+operator, owner, input scope, output scope, cycle cost, and Rest condition must
+be visible. A character may carry a Magic deck, calculator, Yupana, or local
+Hearth REPL without making it a requirement for other characters.
+
 ## Crafting and repair
 
 Crafting is a minigame only when the result is uncertain or consequential:

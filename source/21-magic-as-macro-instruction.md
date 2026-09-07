@@ -48,6 +48,20 @@ is interrupted, or is deliberately released.
 Countermagic is an interrupt with a trigger, cost, timing window, and witness.
 Interrupts cannot create infinite loops.
 
+## Magic organ and spellcasting
+
+A Magic deck used as a compute organ is not the same thing as a spell. A spell
+is an instruction inside Deep Hearth's magic grammar. A Magic organ is a host
+adapter that runs a bounded operation under Magic's own card law.
+
+```text
+Deep Hearth spell -> Basin spell contract
+Magic organ       -> Magic rules plus plugin contract
+```
+
+The Hearth REPL may display the organ's command and output, but it may not
+replace the Magic stack, card text, costs, zones, or priority rules.
+
 ## First spell: Lantern Seed
 
 ```text

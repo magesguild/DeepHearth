@@ -57,6 +57,40 @@ Lineage: ______________________
 Recovery: _____________________
 ```
 
+## Hearth REPL card
+
+```text
+Organ: ________________________
+Host mode: Magic / cardless / other
+Owner: ________________________
+Operator: _____________________
+Input type: ____________________
+Output type: _________________
+Legal commands: _______________
+Cost: _________________________
+Cycle cost: ____________________
+Scope: private / party / world
+Visibility: ____________________
+Error values: __________________
+Witness location: ______________
+Rest condition: ________________
+Cardless fallback: _____________
+```
+
+## REPL command card
+
+```text
+HELP
+SHOW
+RUN <operation> <input>
+WITNESS
+REST
+```
+
+`RUN` is accepted only after the organ quotes its input type, output type, cost,
+latency, scope, and error behavior. `REST` commits the current transcript as a
+return point.
+
 ## Beast card
 
 ```text
