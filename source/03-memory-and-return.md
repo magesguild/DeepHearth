@@ -46,16 +46,31 @@ recovery without asking the final state to explain how it came to exist.
 A State Capsule contains the smallest public state required to resume:
 
 ```text
+ruleset and schema identity
 identity
 checkpoint
 location
 integrity
+maximum Integrity
 resources
+maximum Reserve
 conditions
-inventory changes
+capacities and ceilings
+active Load and installed operations
+inventory changes and custody
+active land channels and licenses
 known words
 public relationships
+party registers, if applicable
+clock faces and local clock relations
+Familiar and organ state
+pending offers and host events
 open consequences
+terminal status
+terminal reason
+last legal state
+recovery path
+resume condition
 witness marker
 ```
 
@@ -76,8 +91,30 @@ select capsule
 -> resume at Rest
 ```
 
+Conflict resolution is deterministic:
+
+```text
+verify branch parent and witness
+-> reject stale or incompatible capsule
+-> retain the last shared witness as the common state
+-> preserve branch-private state on its branch
+-> keep unresolved pending events pending
+-> create a new branch for any accepted divergent merge
+-> resume the selected body at Rest
+```
+
+No capsule silently overwrites a newer witnessed state. If a conflict cannot be
+resolved from the shared witness, the load returns `UNKNOWN` or `REFUSED` and
+preserves the previous valid generation.
+
 If a player sheet and world capsule disagree, the table returns to the last
 shared witness point rather than silently inventing a merge.
+
+Terminal state does not erase continuity. A capsule may preserve an
+`INCAPACITATED`, `SURRENDERED`, `RECOVERING`, `DEAD`, `REFUSED`, `UNKNOWN`, or
+`INTERRUPTED` body, provided the status and its next legal route are witnessed.
+Death ends ordinary action for that body; it does not erase its relationships,
+traces, remains, or open consequences.
 
 ## Branches and replay
 

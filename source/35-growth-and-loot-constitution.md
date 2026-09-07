@@ -31,6 +31,11 @@ witnessed change
 The player chooses the growth. The GM witnesses its cause and consequence but
 does not select the player's identity.
 
+Growth Marks persist until converted or deliberately archived. At one Rest, a
+character may convert at most one available Mark into one Growth Ring. A Ring
+changes the character only after its new maximums, active slots, operations,
+channels, or permissions are written to the character witness.
+
 The GM may award one Growth Mark when a character completes a named scenario,
 resolves a major world consequence, accepts or releases a meaningful
 relationship, completes a declared alignment path, or returns from a dangerous
@@ -55,7 +60,8 @@ Each Growth Ring chooses one major growth and one minor trace.
 Major growths include:
 
 - increase one capacity by 1, up to the declared class ceiling;
-- increase Integrity or Reserve by 1;
+- increase maximum Integrity or maximum Reserve by 1; current value rises by 1
+  only if the chosen growth names that care as part of its transition;
 - add one active slot;
 - add one known operation or spell;
 - deepen a Familiar relationship;
@@ -163,6 +169,10 @@ INSUFFICIENT-MATERIAL
 UNSAFE-INSTALLATION
 UNKNOWN-PROVENANCE
 ```
+
+These are installation outcomes, not all-purpose failure. The packet remains in
+the last legal custody state, and the installation T-Stop is recorded as
+`REFUSED`, `UNAVAILABLE`, `INVALID`, `INTERRUPTED`, or `REST` as appropriate.
 
 Failure preserves the packet and records the reason. It does not invent a bonus
 to make the reward feel successful.

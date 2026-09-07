@@ -19,6 +19,7 @@ refusal conditions
 entropy packets
 legal response space
 failure states
+T-Stop set
 Rest condition
 persistent traces
 ```
@@ -45,7 +46,9 @@ respecting established state.
 7. Resolve one transition at a time.
 8. Record traces and externalities.
 9. Change the world only through witnessed transitions.
-10. Reach Rest, continuation, retreat, or a changed local state.
+10. Choose a declared T-Stop, Rest, continuation, or changed local state.
+11. Record the terminal reason, last legal state, recovery path, and resume
+    condition when the encounter stops.
 
 ## Example encounter card
 
@@ -62,6 +65,11 @@ Needs and boundaries: __________
 Legal responses: ______________
 Dice habitat: _________________
 Failure states: _______________
+T-Stop set: ___________________
+Terminal reason: ______________
+Last legal state: ______________
+Recovery path: _________________
+Resume condition: ______________
 Rest condition: _______________
 Persistent traces: ____________
 ```

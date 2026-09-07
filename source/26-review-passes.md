@@ -143,7 +143,49 @@ Check that:
 
 Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
 MIT licensing, and the separation between open Basin mechanics and private
-Forgotten Realms content.
+Forgotten Realms content. Also check that publication surfaces remain distinct:
+
+- the technical alpha may expose implementation contracts;
+- the beta must teach play through procedures and examples;
+- the Player Handbook does not burden players with GM bookkeeping;
+- the GM's Guide exposes hidden state, ecology, T-Stops, and world-building;
+- the Bestiary may preserve secrets while remaining complete for GM use;
+- every surface agrees with the same underlying constitution.
+
+## Pass thirteen: T-Stop and death
+
+For every interaction, verify that the declared T-Stop set is visible before
+irreversible pressure begins. Check that:
+
+- `COMPLETE`, `REST`, `REFUSED`, `UNAVAILABLE`, `UNKNOWN`, and `INTERRUPTED`
+  remain distinct;
+- `INCAPACITATED`, `SURRENDERED`, `RECOVERING`, and `DEAD` are not collapsed;
+- zero Integrity never silently becomes death;
+- a refusal does not become a fault or a loss of belonging;
+- a player can stop a scene without shame;
+- a GM can stop escalation without inventing a winner;
+- every terminal record preserves the last legal state;
+- death preserves traces, relationships, custody, and open consequences;
+- a recovery or return path is named when one exists;
+- State Capsules can restore a terminal body without erasing its history;
+- a terminal outcome never creates a forced storyline;
+- every paper form and digital adapter exposes the same terminal vocabulary.
+
+## Pass fourteen: state closure and calculation budget
+
+For every authoritative register, verify:
+
+- an owner is named;
+- the type, range, and initial value are named;
+- every transition trigger is visible;
+- the value changes at least one legal future;
+- recovery or reset is defined;
+- witness and State Capsule fields exist;
+- derived state is not saved twice;
+- flavor state is not secretly treated as arithmetic;
+- no routine action is forced through a minigame;
+- a grid, figure, card, die, token, ledger, or app earns its handling cost by
+  creating a meaningful choice, relation, or discovery.
 
 The final review question is:
 

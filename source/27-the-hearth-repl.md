@@ -135,6 +135,25 @@ Errors are game results. They may change no state, or they may leave a declared
 partial trace. They never become a guessed answer merely to keep the prompt
 moving.
 
+Errors are not the whole terminal vocabulary. An organ also declares operational
+T-Stops:
+
+```text
+READY
+QUOTED
+COMMITTED
+COMPLETED
+DECLINED
+ABORTED
+PENDING
+REST
+```
+
+`INVALID-INPUT`, `OUT-OF-SCOPE`, and `HOST-RULE-CONFLICT` are not automatically
+failures of the operator. They preserve the last legal state and name whether
+the input, capability, or receiving host was unavailable. An interrupted organ
+must declare whether its partial state can resume, recover, or only be archived.
+
 ## Scope
 
 An organ runs in one declared scope:
@@ -200,6 +219,8 @@ Cycles: _______________________
 Output: _______________________
 State change: _________________
 Error or unknown: _____________
+Terminal status: ______________
+Resume condition: ______________
 Witness: ______________________
 ```
 

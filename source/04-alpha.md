@@ -16,6 +16,10 @@ one changed state
 one witnessed return
 ```
 
+Every alpha interaction also declares a small **T-Stop set**. The seed teaches
+that completion, refusal, interruption, recovery, and death are different
+answers, and that no die forces a player or character to continue.
+
 ## Pure Compute
 
 Begin with one character, one challenge, one resource, and one output:
@@ -27,6 +31,16 @@ Operation: d20 + capability
 Threshold: one Demand
 Output: changed state
 Rest: record the result and stop
+```
+
+The Pure Compute stop record is:
+
+```text
+status: COMPLETE / REFUSED / INTERRUPTED / INVALID / REST
+reason: ______________________
+last legal state: ____________
+resume condition: ____________
+witness: _____________________
 ```
 
 This teaches state, threshold, resource expenditure, consequence, and witness
@@ -49,6 +63,7 @@ It must let a new group:
 - manage inventory;
 - save and load a State Capsule;
 - create one new class or monster from a template;
+- choose a legal T-Stop in every interaction;
 - improvise without breaking the world's physics.
 
 ## First scenarios
@@ -90,6 +105,7 @@ create
 -> spend
 -> remember
 -> change
+-> choose a legal terminal
 -> Rest
 -> return
 ```

@@ -99,9 +99,37 @@ pressure. It is not a measure of worth.
 permission. A class may represent Reserve differently, but spending it must
 change what can happen next.
 
+Unless a class or local card declares otherwise, maximum Reserve is the starting
+Reserve value, current Reserve cannot fall below zero, and a cost must be fully
+available before it is paid. Reserve does not recover automatically; a care,
+resource, relationship, or Rest path must name the amount restored.
+
+The alpha care default is one declared care input at a safe Rest: it restores one
+Integrity and removes one named condition, up to the body's maximums. A care path
+may restore a different amount, but must name its material, time, permission,
+recipient, and witness. Rest alone does not heal a body by implication.
+
 At zero Integrity, the player chooses a legal still point: withdraw,
 incapacitate, surrender, shelter, or another declared recovery state. Death is a
 world transition, not an automatic arithmetic result.
+
+The table records the chosen T-Stop:
+
+```text
+status: WITHDRAWN / INCAPACITATED / SURRENDERED / RECOVERING / DEAD / REST
+reason: ______________________
+last legal state: ____________
+custody or shelter: __________
+recovery path: _______________
+resume condition: ____________
+witness: _____________________
+```
+
+If death is established by the fiction and the declared scene contract, the
+character's body no longer takes ordinary actions. The player is not removed
+from the table: they may create a new body, continue through a declared legacy
+or return path, witness the aftermath, or Rest with the character's memory
+preserved. No resurrection is assumed.
 
 At zero Reserve, the character may still act through ordinary capability,
 refusal, speech, movement, or Rest. They cannot silently pay a cost they no
@@ -113,17 +141,22 @@ A condition must name the action space it changes.
 
 | Condition | Effect |
 | --- | --- |
-| Pressured | One declared action carries an additional pressure |
-| Injured | One body field or capacity is specifically limited |
-| Fatigued | The next Rest or cycle budget is reduced as declared |
+| Pressured | One declared action carries one named `-1` pressure |
+| Injured | One body field or capacity is specifically limited; ordinary injury also costs 1 Integrity unless the injury card says otherwise |
+| Prone | The body is knocked down or otherwise grounded; movement and position actions are limited until it stands, is helped, or reaches another declared state |
+| Fatigued | The next Rest or cycle budget is reduced by a named amount; default combat reduction is 1 cycle |
 | Bound | Named movement, object, or boundary actions are unavailable |
+| Incapacitated | The body cannot conduct ordinary action, but may receive care, speak, refuse, or be moved as the scene permits |
 | Flicker | A route or process remains available but unstable |
 | Alerted | A world cell has changed its response state |
 | Uncertain | A fact is unresolved, not a penalty |
 | Still | The body is safe, paused, and awaiting recovery or return |
 
 Conditions are not generic punishment. Removing one requires a declared repair,
-change of state, fulfilled condition, or Rest path.
+change of state, fulfilled condition, assistance, or Rest path. `PRONE` is not
+death, unconsciousness, or a failed character. It is a physical state with a
+specific cause and a legal way to stand, roll, crawl, be helped, or remain
+grounded.
 
 ## Growth
 
@@ -162,6 +195,9 @@ Load: ____ / 3
 Companion Port: available / occupied
 Condition: ____________________
 Location: _____________________
+Terminal status: active / Rest / recovering / incapacitated / dead
+Terminal reason: ______________
+Resume condition: _____________
 
 What I sense: _________________
 What I contribute: ____________

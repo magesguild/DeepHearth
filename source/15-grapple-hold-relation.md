@@ -202,6 +202,18 @@ death when explicitly established
 Rest
 ```
 
+The relation must choose or establish one T-Stop before the scene closes:
+
+```text
+RELEASED / ESCAPED / RESTRAINED / SURRENDERED / SEPARATED /
+INCAPACITATED / RECOVERING / DEAD / REST
+```
+
+`RESTRAINED` is a relation state, not ownership of the restrained body's will.
+The restrained body retains legal refusal, and the restraining body must name
+custody, duration, care, and release conditions. If either body dies, the
+relation closes and the witness records what remains in custody.
+
 Yielding is a legal state, not a moral defeat. A depleted body may withdraw,
 shelter, surrender, enter stasis, repair, and return. The victor does not acquire
 the defeated body's interior will.
@@ -248,6 +260,7 @@ This slice is complete when a group can:
 - preserve meaningful legal responses for both bodies;
 - use equipment and terrain as relation inputs;
 - end the relation through escape, release, surrender, repair, retreat, or Rest;
+- choose a declared T-Stop without turning restraint into ownership;
 - reach a deadlock without inventing a winner;
 - witness what the relation changed.
 

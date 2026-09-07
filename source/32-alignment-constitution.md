@@ -119,6 +119,10 @@ recognition
 No ritual can erase another body's memory or require forgiveness. Repair changes
 what relationships can legally do next.
 
+Alignment may change the T-Stop set of a relationship or capability, but it may
+not remove a body's right to refuse, withdraw, Rest, or recover. A resurrection
+or return route is a declared alignment consequence, never an assumed reset.
+
 ## Neutrality and unaligned bodies
 
 Neutrality is not moral emptiness and does not mean perfect balance. It indicates

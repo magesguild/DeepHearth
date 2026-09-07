@@ -155,6 +155,29 @@ HOST-RULE-CONFLICT  -> Magic mode did not produce the declared legal result
 OUTPUT-BLOCKED      -> no legal place exists for the new population token
 ```
 
+The organ's operational T-Stop set is:
+
+```text
+COMPLETE / REFUSED / UNAVAILABLE / INVALID / INTERRUPTED / REST
+```
+
+`OUTPUT-BLOCKED` preserves the input and returns control to the operator. It is
+not a hidden retry loop or an invented population token.
+
+In Magic mode, host settlement comes first:
+
+```text
+validate host operation
+-> resolve host token or state result
+-> confirm the witnessed host result
+-> increment the Basin population register
+-> append the organ witness
+```
+
+If the host result is absent, refused, or uncertain, the Basin register does
+not increment. Cardless mode uses the same settlement order with its declared
+native witness.
+
 The input remains with its source unless the contract explicitly declares that
 an attempted operation consumes it. A failed cardless operation records its
 error without inventing a Rat.

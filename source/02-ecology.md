@@ -73,6 +73,19 @@ magic  -> inputs, macro-instruction, interruption, and residue
 Each encounter names its board, moves, resources, uncertainty, externalities,
 and exit state before play begins.
 
+The exit state is a T-Stop subset, not a single generic `end`:
+
+```text
+COMPLETE / REFUSED / WITHDRAWN / RETREATED / SURRENDERED /
+INCAPACITATED / RECOVERING / DEAD / UNKNOWN / REST / CONTINUE
+```
+
+The GM shows the available set before pressure becomes irreversible. A creature
+may have `RETREATED` and `SURRENDERED` but not `DEAD`; a ritual may have
+`INTERRUPTED`, `INVALID`, and `RECOVERED`; a safe crossing may have only
+`COMPLETE`, `REFUSED`, and `REST`. The declared set protects both player and GM
+from inventing a terminal after the fact.
+
 Combat and magic should also name their dice habitat. A combat may use a d20 for
 a major transition, a d6 as a cycle reserve, and a d8 for position or response.
 A ritual may use a d12 as duration, a d8 as resonance, and a d6 as material
@@ -140,6 +153,21 @@ retreat condition
 Rest condition
 witness
 ```
+
+Every die register also declares four operational fields:
+
+```text
+initial face
+advance trigger
+threshold or boundary
+reset or recovery rule
+```
+
+No ecological clock advances merely because the table looks at it. A register
+advances when its trigger occurs, when a declared world clock crosses its
+boundary, or when an away-time tick explicitly includes that body. If a beast is
+not the focus of the scene, use its coarse habitat state rather than tracking
+every register.
 
 ### Giant Rat: population register
 

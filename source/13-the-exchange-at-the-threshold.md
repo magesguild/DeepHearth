@@ -26,6 +26,7 @@ moves: offer, accept, transform, archive, refuse, delay, Rest
 apparatus: two contract cards, sample, route record, witness ledger
 uncertainty: receiving state and externality
 exit: reciprocal, asymmetric, refused, delayed, or Rest
+T-Stop set: COMPLETE / REFUSED / DELAYED / ARCHIVED / REST
 ```
 
 The simultaneous contracts are the minigame board. The packets and boundaries

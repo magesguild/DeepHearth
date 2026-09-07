@@ -17,6 +17,11 @@ The public alpha introduction is in [`ANNOUNCEMENT.md`](ANNOUNCEMENT.md).
 Please use the [GitHub issue tracker](https://github.com/magesguild/DeepHearth/issues)
 for playtest reports, rules questions, and discovered extensions.
 
+The current alpha is the technical reference body. Future beta and mature
+publications will translate the same constitution into a player-facing book, a
+GM's Guide, and an optional Bestiary, so players do not carry implementation or
+GM bookkeeping merely to enter the world.
+
 The optional generic card substrate is called **The Tableau**. Magic, ordinary
 playing cards, tiles, and original cards can all serve as Tableau hosts.
 

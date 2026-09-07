@@ -11,8 +11,26 @@ declare intent
 -> roll declared die if needed
 -> apply outcome
 -> record state and trace
--> continue or Rest
+-> choose T-Stop, continue, or Rest
 ```
+
+## T-Stop procedure
+
+When an interaction cannot or should not continue:
+
+```text
+name the status
+-> name the reason
+-> preserve the last legal state
+-> record pending consequence
+-> name recovery, custody, or resume condition
+-> witness
+-> Rest, return, or hand off
+```
+
+Never convert a refusal into a fault, an interruption into a death, an unknown
+into a success, or a zero Integrity result into death without an established
+world transition.
 
 ## Outcome bands
 
@@ -38,7 +56,11 @@ Support dice: _________________
 Costs: ________________________
 Externalities: ________________
 Witness: ______________________
+T-Stop set: ____________________
 Exit or Rest: _________________
+Terminal reason: ______________
+Recovery path: _________________
+Resume condition: ______________
 ```
 
 ## Equipment card
@@ -55,6 +77,8 @@ Failure: ______________________
 Boundary: _____________________
 Lineage: ______________________
 Recovery: _____________________
+T-Stop set: ____________________
+Terminal reason: ______________
 ```
 
 ## Land palette card
@@ -202,13 +226,19 @@ unrecorded cost, or an invented consent.
 ## Alpha table kit
 
 ```text
+one battle grid or declared spatial surface
+figures, miniatures, or distinct physical bodies
 one d4, d6, d8, d10, d12, d20, and d%
-tokens and counters
+tokens and counters, including bottle caps, coins, stones, or beads
 threads and markers
 character and party sheets
-scene and encounter cards
+optional scene and encounter cards
 event ledger
-State Capsule cards
-equipment and spell cards
+State Capsule forms or cards
+optional equipment and spell cards
 pencils and a small archive box
 ```
+
+Cards are optional host materials. The table may represent a capability, body,
+resource, or witness with any clear object. The physical surface must preserve
+the operation's identity, location, state, cost, boundary, and witness shape.

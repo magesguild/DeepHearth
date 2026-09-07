@@ -16,6 +16,22 @@ The party sheet carries:
 
 Use three marks for each register unless the scenario declares another scale.
 
+In the alpha, each party register runs from 0 to 3. The full event ledger is an
+unbounded archive; the three-point party `Memory` register counts active shared
+anchors that the group can presently hold in attention.
+
+```text
+Cohesion 0  -> no shared action until a relationship or Rest path repairs it
+Reserve  0  -> no shared cost may be paid from party stores
+Integrity 0 -> choose the party T-Stop; the party does not vanish automatically
+Memory 0   -> no new shared anchor without archiving or releasing one
+```
+
+A witnessed event changes at most one party register unless the event explicitly
+declares a coupled transition. A member joining or leaving names the register
+changes, private boundaries, and the new shared purpose. Individual Reserve and
+Integrity remain distinct from party registers unless a card declares a transfer.
+
 ## Collective action
 
 1. One body declares the shared intent.
@@ -82,10 +98,20 @@ conditions changed
 promises made
 open consequences
 next return point
+terminal status, if any
+terminal owner and reason
+recovery or custody path
 ```
 
 Rest may restore Reserve or Integrity only through a declared care path. It does
 not erase consequences merely because the scene ended.
+
+Party Integrity reaching zero does not dissolve the party automatically. The
+party chooses or establishes its legal T-Stop: a member may withdraw, the party
+may separate, a body may be incapacitated or dead, the shared purpose may end,
+or the group may enter recovery. A party can survive a member's death without
+pretending that nothing changed; the witness records the loss, remaining
+boundaries, custody, and the next return point.
 
 ## Party sheet
 

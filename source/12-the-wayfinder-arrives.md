@@ -29,6 +29,7 @@ moves: inspect, follow, mark, preserve, refuse, Rest
 apparatus: route thread, trace, map, State Capsule
 uncertainty: continuation beyond the visible far side
 exit: direction, continuation, Flicker, uncertainty, or Rest
+T-Stop set: CONTINUE / REFUSED / UNKNOWN / REST / RECOVERING
 ```
 
 The Wayfinder's minigame computes attention and route state. It does not force

@@ -4,7 +4,11 @@
 
 The physical State Deck is the canonical paper implementation of world
 continuity. An app may assist or host it, but the game must remain playable with
-cards, tokens, ledgers, and a pencil.
+the table's chosen physical materials: a battle grid, figures or miniatures,
+tokens, cards, ledgers, and a pencil. The grid and figures are the primary live
+surface for spatial play; cards and ledgers preserve, declare, or inspect state.
+Bottle caps, coins, stones, beads, or other available objects may stand in for
+tokens when their identity and state are clear.
 
 ## Fixed State Deck cards
 
@@ -64,6 +68,10 @@ witness marker
 event range
 public state summary
 who witnessed
+terminal status
+terminal reason
+recovery path
+resume condition
 ```
 
 The Branch Card records:
@@ -96,6 +104,10 @@ inventory
 relationships
 visibility
 Rest condition
+terminal status
+terminal reason
+recovery or custody path
+resume condition
 ```
 
 A rat, faction agent, Familiar, machine, Talisman, gate, or land source may be a
@@ -141,6 +153,7 @@ identities and order without copying protected card text.
 stop at Rest
 -> resolve or record pending events
 -> update cells and clocks
+-> choose or preserve T-Stop status
 -> write deltas
 -> preserve entropy
 -> seal secrets
@@ -165,7 +178,8 @@ read Manifest
 ```
 
 If a character sheet and GM capsule disagree, return to the last shared witness
-instead of silently inventing a merge.
+instead of silently inventing a merge. A terminal capsule is resumable only when
+its status names a legal recovery or return condition.
 
 ## App modes
 

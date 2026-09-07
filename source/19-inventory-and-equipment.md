@@ -15,6 +15,19 @@ Inventory is an access hierarchy, not a weight puzzle.
 An item is available when its location, custody, access time, and boundary allow
 it. The sheet should make those facts visible.
 
+Unless a scene declares another access profile, use:
+
+```text
+Ready register  -> available to the current action
+Personal pack   -> 1 cycle or one declared ordinary action
+Shared pack     -> 2 cycles plus party permission
+Archive         -> unavailable until the body reaches the archive or Rest place
+Lost or spent   -> unavailable
+```
+
+Transfer, theft, gift, loan, and surrender each change custody through a
+witnessed event. No object becomes available merely because its name is known.
+
 ## Equipment signature
 
 Every equipment organ declares:
