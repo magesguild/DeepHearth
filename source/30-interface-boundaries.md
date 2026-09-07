@@ -15,7 +15,7 @@ core state
 -> witness
 ```
 
-## Five questions at every seam
+## Six questions at every seam
 
 1. Who owns the rule being executed?
 2. Who pays the cost and latency?
@@ -27,6 +27,26 @@ core state
 If any answer is unknown, the operation remains pending or returns `UNKNOWN`.
 An interface may not turn an unavailable capability, refusal, interruption, or
 death into a successful output merely to complete the packet.
+
+## Social and knowledge packets
+
+Alpha 4 uses the same seam for a resident, job, relationship, or community
+transition:
+
+```text
+source body
+-> signal, offer, question, gift, or exchange
+-> receiving body and scope
+-> cost, obligation, or boundary
+-> accepted, refused, contested, or unknown result
+-> relationship and community witness
+```
+
+The packet does not expose a body's whole interior. It carries only the public or
+private projection declared by the source and accepted by the receiving body.
+An individual change reaches a higher social system only when it crosses a
+public witness, shared resource, role, permission, labor, obligation, or
+threshold.
 
 ## Familiar and non-familiar organs
 
@@ -103,6 +123,11 @@ offer familiar relationship
 -> accept, refuse, delay, or depart
 -> witness the relationship
 ```
+
+The familiar changes the texture of an interface from direct operation to
+relational operation. A player may ask, offer, negotiate, accept, narrow, delay,
+or refuse. The familiar's refusal, withdrawal, Rest, and departure are valid
+outputs, not faults in the interface.
 
 The first familiar should be small, kind, and bounded. It should have one useful
 operation, one need, one refusal, one Rest practice, and one departure path.

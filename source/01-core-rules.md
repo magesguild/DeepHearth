@@ -13,6 +13,12 @@ A cell may carry identity, location, capabilities, resources, conditions,
 relationships, memory, current activity, lineage, and a boundary or refusal
 condition.
 
+Alpha 4 also treats a cell as a body with a perception port. A resident,
+household, community, route, or ecological process may remain aggregate until a
+first touch makes its individual state relevant. The table preserves only the
+projection that changes a legal future: job, need, boundary, knowledge,
+relationship, resource, pressure, witness, or Rest.
+
 ## Energy
 
 The host game supplies resources such as actions, movement, spell slots, hit
@@ -97,6 +103,11 @@ when a visible rule gives it a declared input, cost, transition, and witness.
 The table should compute only when computation creates a meaningful choice,
 visible relation, or delightful discovery. A grid, figure, token, card, die,
 ledger, or app is a physical register only while it changes what can happen next.
+
+For Alpha 4, one local transition may propagate to a higher social or ecological
+body only when it crosses a public witness, shared resource, role, permission,
+labor, obligation, or threshold. The game may be socially alive without
+simulating every resident or market.
 
 The universal loop is:
 
@@ -190,6 +201,20 @@ Use these meanings consistently:
 
 No later subsystem should use one of these words with a contradictory meaning.
 
+Local terminal labels resolve to the canonical vocabulary:
+
+```text
+PAUSED      -> REST or INTERRUPTED, as the scene declares
+DEPARTED    -> WITHDRAWN
+RELEASED    -> COMPLETE or REFUSED, as the relation declares
+SEPARATED   -> WITHDRAWN for the relation, with bodies remaining active
+MIGRATED    -> WITHDRAWN or COMPLETE for the local habitat
+ROUTE_LOST  -> UNAVAILABLE or UNKNOWN, with a recovery path if one exists
+```
+
+The local label may remain visible for fiction, but the State Capsule stores the
+canonical status as well.
+
 ## Responsibility boundaries
 
 Deep Hearth remains playable without the Familiar System. The responsibilities
@@ -273,6 +298,25 @@ active, and what cost they are willing to pay.
 | Failure | The situation changes, a resource is spent, or a new problem appears |
 
 Failure is not a dead end. It is a state transition.
+
+### Outcome precedence
+
+Evaluate outcome bands from highest to lowest. A result at `Demand + 5` or more
+is `STRONG SUCCESS`, not ordinary success. A result from `Demand` through
+`Demand + 4` is `SUCCESS`; `Demand - 4` through `Demand - 1` is `STRAINED`;
+`Demand - 5` or less is `FAILURE`.
+
+### Opposed transitions
+
+When two declared transitions conflict, each body rolls:
+
+```text
+d20 + one canonical capacity + helpful contribution - named pressure
+```
+
+Compare totals. A lead of 5 or more is a strong transition; a lead of 1-4 is an
+ordinary transition; a tie is strained contact. The winning lead determines the
+physical transition, not the other body's private intent or next legal choice.
 
 ## T-Stop Constitution
 

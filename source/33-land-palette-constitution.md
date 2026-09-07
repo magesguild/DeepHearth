@@ -40,6 +40,10 @@ licensed   -> access while the named permission remains valid
 learned    -> access through sustained practice and available capacity
 ```
 
+`restricted` always overrides a currently active native, licensed, or learned
+source until its named repair or release path settles. A license or learned path
+does not bypass a current host or alignment refusal.
+
 `Native`, `licensed`, and `learned` are not cumulative discounts. A source
 chooses one active access state for an operation and names its cost, slot, and
 refusal behavior. A character begins with two active channels and may not
@@ -49,6 +53,10 @@ silently exceed that capacity.
 
 At alpha creation, a character may keep two native channels active. Additional
 channels require a declared path and active capacity.
+
+The two native channels are tracked in separate **land slots**, not in Load.
+Load tracks installed operations and packets; land slots track simultaneous
+channel access. A card or character witness records both values.
 
 An active channel occupies one land slot. Changing an active palette requires a
 declared latency, cycle cost, Rest, or machine operation. The cost is visible
@@ -103,6 +111,11 @@ cards, words, equipment, slots, cycles, Reserve, and receiving states.
 Land access is a growth or loot result, not a free level bonus. A licensed source
 may be active only while its place, faction, relationship, or alignment contract
 remains satisfied.
+
+When a license condition fails, the named source, faction, place, relationship,
+or alignment is the trigger owner. The channel enters `WITHDRAWN` or
+`UNAVAILABLE`, the operation records its last legal use, and the witness names
+the repair or renewal path. Learned access is not erased by a license ending.
 
 ## Loot and land
 

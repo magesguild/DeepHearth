@@ -42,7 +42,9 @@ instruction that changes a declared state.
 ## Registers and interrupts
 
 Spell slots are energy banks. Prepared spells are instruction cache. A focus is
-an active register. Concentration occupies that register until the spell ends,
+an active register. At Alpha 4, a character has one focus register unless a
+declared class, organ, or local card names another capacity. Concentration
+occupies that register until the spell ends,
 is interrupted, or is deliberately released.
 
 Countermagic is an interrupt with a trigger, cost, timing window, and witness.
@@ -120,6 +122,16 @@ If the player lacks the extract, Reserve, cycles, or legal target, the spell
 cannot silently proceed. If the spell is interrupted, the partial state and
 residue remain witnessed. If it completes, the light changes what can be sensed
 without pretending to reveal every hidden fact.
+
+Lantern Seed's T-Stop set is:
+
+```text
+COMPLETE / REFUSED / UNAVAILABLE / INTERRUPTED / RECOVERING / REST
+```
+
+On interruption, the focus is released only after the named interruption result
+is witnessed. A declared recovery path may restore the light; Rest may close the
+focus and preserve heat, trace, and remaining fuel.
 
 ## Rituals
 

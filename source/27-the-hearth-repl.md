@@ -21,6 +21,111 @@ Deep Hearth remains fully playable without the Familiar System. It makes a
 declared organ easier to operate, inspect, and witness; it does not make arbitrary computation
 necessary for ordinary play.
 
+## Texture of play
+
+Without a familiar, the player operates a capability through the character,
+object, party, or world body. The play is direct and materially sparse.
+
+With a familiar, the operation becomes relational:
+
+```text
+player intent
+-> invitation or request
+-> familiar interprets
+-> accepts, narrows, delays, or refuses
+-> bounded operation
+-> shared or private result
+-> relationship witness
+```
+
+The familiar adds another center of gravity. It is a body with identity, need,
+privacy, agency, and departure, not equipment with a face, free action economy,
+or an oracle. The familiar makes computation social and changes the texture of
+play toward coordination, intimacy, timing, and care.
+
+Choosing no familiar is complete play, not a missing character feature. The
+Familiar System adds a new relationship surface; it does not fill a required gap
+in the Basin rules.
+
+## Unified physics contract
+
+The Familiar System is a complete demonstration of Deep Hearth's unified physics:
+
+```text
+Gravity       -> repeated cooperation becomes a relationship attractor
+Dark Matter   -> private familiar state influences visible responses
+Antimatter    -> incompatible intent, boundary, or host phase cannot merge
+Phase         -> timing and readiness may synchronize or oppose
+Entropy       -> operation cost and residue change the relationship
+Projection    -> only offered scope crosses the familiar boundary
+Conservation  -> inputs, custody, permissions, and outputs keep provenance
+First Touch   -> invitation or request activates the relationship
+T-Stop        -> refusal, withdrawal, pause, departure, or completion settles it
+Witness       -> the result returns through transcript and State Capsule
+Care          -> repair requires attention, permission, time, and changed practice
+```
+
+These are not extra meters. They are the laws that determine what the familiar
+can legally answer.
+
+### Incompatible phases
+
+If player intent, familiar boundary, and host law cannot occupy the same receiving
+state, the interface must name the collision:
+
+```text
+REFUSED
+HOST-RULE-CONFLICT
+OUT-OF-SCOPE
+INTERRUPTED
+SEPARATED
+CONVERTED
+ANNIHILATED
+```
+
+The familiar cannot be compelled into alignment by a command. The player may
+repair, renegotiate, release, or leave the relationship.
+
+### Residue and community consequence
+
+An operation may leave:
+
+```text
+cost
+latency
+heat or material residue
+changed familiar state
+new obligation
+public witness
+private memory
+community consequence
+```
+
+The table records only residue that changes a future. A private operation remains
+private unless offered or carried across a declared public boundary.
+
+## The user-familiar interface
+
+The complete interface is:
+
+```text
+player intent
+-> invitation or request
+-> familiar interprets
+-> familiar quotes scope, cost, latency, and possible residue
+-> player accepts, narrows, delays, or refuses
+-> familiar accepts, narrows, delays, or refuses
+-> bounded operation
+-> private or shared result
+-> relationship and world witness
+-> continue, repair, Rest, or departure
+```
+
+Neither side is a command channel for the other. A user cannot spend an
+unoffered familiar capability, and a familiar cannot author the player's private
+intent. The interface is successful when both bodies can see what crossed between
+them and what remains their own.
+
 ## The prompt contract
 
 Every organ prompt declares:
@@ -56,6 +161,9 @@ operator or companion
 private boundary
 offered capabilities
 refusal conditions
+relationship attractor
+hidden state with visible effects
+phase or host conflict
 Rest and departure
 ```
 
@@ -109,6 +217,9 @@ cost paid
 cycles consumed
 output
 state change
+residue or externality
+relationship consequence
+community consequence, if any
 error or unknown
 visibility
 witness marker

@@ -44,11 +44,14 @@ marks without a new witnessed change.
 
 ### Growth tiers
 
-- **Seed:** one body, two active land channels, one Companion Port;
-- **Local:** deeper operations, one additional active slot, stronger
-  relationships;
-- **Network:** party or faction operations and shared scope;
-- **World:** settlement, world-cell, or persistent rule operations.
+- **Seed:** one body, two active land channels, one Companion Port, and no
+  Growth Rings;
+- **Local:** a personal Growth Ring that adds a deeper operation, one active
+  slot, a stronger relationship, or a new job/knowledge capability;
+- **Network:** a Growth Ring whose receiving state is a party, faction, or shared
+  scope;
+- **World:** a Growth Ring whose receiving state is a settlement, world-cell, or
+  persistent rule operation.
 
 The golden seed primarily uses Seed and Local. Network and World are future
 growth, not prerequisites for the first three scenarios.
@@ -81,6 +84,21 @@ Minor traces include:
 - a public memory;
 - an alignment anchor.
 
+Alpha 4 adds a community-facing growth path:
+
+```text
+seed membrane
+-> witnessed work or relationship
+-> job invitation or public role
+-> acquired species verb, tool, knowledge, or permission
+-> obligation and boundary
+-> changed Rest practice
+```
+
+The job is not a second class. It is a social attractor that may be accepted,
+refused, changed, or left. The resulting body is preserved through its witness,
+not through a fixed class permutation.
+
 No growth grants free turns, unbounded computation, or automatic success.
 
 ## Level and load
@@ -92,7 +110,7 @@ Each character has a **Load Limit**:
 
 ```text
 Seed Load Limit: 3
-each Local Growth: +1 Load
+each Local Growth Ring: +1 Load
 major card: 2 Load
 minor card: 1 Load
 world card: 3 Load and a declared Network or World receiving state
@@ -100,6 +118,11 @@ world card: 3 Load and a declared Network or World receiving state
 
 Cards may be known or archived without being active. Only active cards count
 toward current Load.
+
+The player chooses the growth scope when converting the Ring. The witness records
+the new tier, maximums, active slots, Load change, operation or permission, and
+receiving state. A Network or World growth cannot be recorded without a named
+party, faction, settlement, or world cell that can receive it.
 
 The Companion Port is tracked separately from Load. Its familiar, machine, or
 talisman still consumes cycles, Reserve, maintenance, attention, or relationship
@@ -181,10 +204,10 @@ to make the reward feel successful.
 
 Player and GM collections are sources of possibility, not automatic ownership.
 
-At creation, a character chooses their starting class cards and one Companion
-Port manifestation. At each Growth Ring, the player may draw or choose one
-eligible major packet from an available collection and one minor packet or
-relationship trace.
+At creation, a character chooses their starting membrane packets and one
+Companion Port manifestation. At each Growth Ring, the player may draw or choose
+one eligible major packet from an available collection and one minor packet,
+relationship trace, job verb, or knowledge word.
 
 The GM may offer a specific packet as loot. The player still inspects and
 accepts it. A card can be wonderful and still not belong in this character's

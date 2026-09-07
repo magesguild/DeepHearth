@@ -9,7 +9,8 @@ book remains playable with ordinary paper if no cards or app are available.
 DEEP HEARTH CHARACTER
 
 Name: _________________________
-Species: ______________________
+Seed membrane: ________________
+Job or invitation: _____________
 Question: _____________________
 Alignment: ____________________
 Body: ____   Sense: ____
@@ -25,6 +26,7 @@ Native channels: ______________
 Licensed channels: ____________
 Learned channels: _____________
 Restricted channels: __________
+Active land slots: ____________
 Condition: ____________________
 Location: _____________________
 Companion kind: Familiar / Machine / Talisman
@@ -34,6 +36,8 @@ What I contribute: ____________
 What I protect: _______________
 What I refuse: ________________
 Rest practice: ________________
+Known words and signals: _______
+Acquired verbs: ________________
 Witness marker: _______________
 Inventory: ____________________
 Words and operations: _________
@@ -89,6 +93,8 @@ Witness: ______________________
 ENCOUNTER
 
 Initial state: _________________
+Owner and register range: ______
+Transition trigger: ____________
 Hard laws: ____________________
 Bodies and needs: ______________
 Boundaries: ___________________
@@ -104,6 +110,45 @@ Resume condition: ______________
 Rest: _________________________
 Externalities: ________________
 Persistent traces: ____________
+Reset / recovery: ______________
+```
+
+## Resident and job card
+
+```text
+RESIDENT / JOB
+
+Name or identifier: ______________
+Job: ____________________________
+Location: _______________________
+Ordinary response: ______________
+Need: ___________________________
+Boundary: _______________________
+Public knowledge: _______________
+Private knowledge scope: ________
+Relationship trace: _____________
+Community or institution: _______
+Current pressure: _______________
+Legal responses: ________________
+Rest or recovery: _______________
+Witness marker: ________________
+Depth: population / functional / named / persistent
+```
+
+## Community consequence card
+
+```text
+COMMUNITY CONSEQUENCE
+
+Source body: ____________________
+Changed individual or relation: _
+Receiving household/community: __
+Shared resource or role: ________
+Public or private: ______________
+Knowledge or witness: ___________
+New legal future: _______________
+T-Stop or Rest: _________________
+Return condition: _______________
 ```
 
 ## State Capsule
@@ -121,6 +166,8 @@ Characters and cells: __________
 Integrity and Reserve: __________
 Conditions: ____________________
 Inventory deltas: ______________
+Jobs, relationships, and knowledge: _
+Community consequences: ____________
 Alignment and land palette: ____
 Familiar / organ state: ________
 Pending events: ________________
@@ -132,6 +179,26 @@ Resume condition: _____________
 Secrets sealed: ________________
 Entropy record: ________________
 Rest point: ____________________
+```
+
+## Familiar relationship card
+
+```text
+FAMILIAR RELATIONSHIP
+
+Identity: ______________________
+Player relationship: ___________
+Relationship attractor: ________
+Private boundary: ______________
+Offered capability: ____________
+Hidden state / visible effect: __
+Phase or host conflict: ________
+Operation residue: _____________
+Community consequence: _________
+Rest place: ____________________
+Departure condition: ___________
+Repair path: ___________________
+Witness marker: ________________
 ```
 
 ## Growth and loot card

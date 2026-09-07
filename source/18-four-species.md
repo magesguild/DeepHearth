@@ -4,7 +4,7 @@
 
 ```text
 Body: +1   Sense: +2   Craft: +3   Will: +0
-Integrity: 3   Reserve: 3
+Integrity: 3 / 3   Reserve: 3 / 3
 ```
 
 The Alchemist senses material state and transforms inputs into temporary
@@ -37,7 +37,7 @@ Rest practice: observe, prepare, test, spend, record, revise.
 
 ```text
 Body: +1   Sense: +3   Craft: +0   Will: +2
-Integrity: 3   Reserve: 3
+Integrity: 3 / 3   Reserve: 3 / 3
 ```
 
 The Wayfinder senses routes, timing, traces, boundaries, and return conditions.
@@ -68,7 +68,7 @@ Rest practice: mark, compare, preserve, and return.
 
 ```text
 Body: +3   Sense: +0   Craft: +1   Will: +2
-Integrity: 4   Reserve: 2
+Integrity: 4 / 4   Reserve: 2 / 2
 ```
 
 The Bastion senses force, structural pressure, boundaries, and what can be held
@@ -101,7 +101,7 @@ Rest practice: inspect load, repair anchor, release pressure, shelter.
 
 ```text
 Body: +0   Sense: +1   Craft: +2   Will: +3
-Integrity: 3   Reserve: 4
+Integrity: 3 / 3   Reserve: 4 / 4
 ```
 
 The Hearthkeeper senses conditions, relationships, recovery paths, permission,
@@ -129,14 +129,20 @@ Boundary: the Hearthkeeper cannot consent for another body.
 
 Rest practice: receive, tend, remember, forgive or release, Rest.
 
-## Hybrid growth
+## Organismic growth
 
 These species are starting membranes, not prisons. A character may graft a word,
 organ, relationship, or practice from another species when play provides a
 witnessed reason and a cost.
 
-The new membrane must declare what it senses, consumes, produces, protects,
-refuses, and how it rests.
+The new capability must declare what it senses, consumes, produces, protects,
+refuses, and how it rests. It is not a second class or a prewritten permutation;
+it is a witnessed change in this particular body.
+
+In Alpha 4, a community job may offer a species verb, tool, permission, or
+knowledge boundary. A character may accept, refuse, borrow, learn, or integrate
+the offer. The job remains a public role; the character's resulting body remains
+unique.
 
 ## Alpha land affinities
 

@@ -56,8 +56,12 @@ discard unspent cycle state and reset each active body's cycle die to 6, unless
 a named condition, injury, or care path declares a different starting value.
 Cycles never carry across rounds silently.
 
-The d4 boar state shows calm, alert, cornered, or exhausted. The d6 charge die
-shows how much charge remains before the boar must turn, recover, or reassess.
+The d4 boar state maps `1 calm`, `2 alert`, `3 cornered`, and `4 exhausted`. The
+combat example begins at `3 cornered`; the d6 charge register begins at 6. A
+charge or break-through spends 3 body cycles and reduces charge by 1. At charge
+0, the boar must turn, recover, or reassess. A retreat route and a Rest condition
+reset charge to 6 and state to `calm`; a named injury or pressure may declare a
+different reset.
 
 ## Action costs
 
@@ -95,6 +99,7 @@ The boar begins:
 ```text
 state: cornered
 charge cycles: 6
+recovery state: cornered (d4 face 3)
 resource: one retreat route
 boundary: do not approach the young or block the route
 ```
