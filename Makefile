@@ -57,7 +57,7 @@ $(OUT):
 	mkdir -p $(OUT)
 
 $(CHAPTER_BUILD)/%.tex: source/%.md | $(CHAPTER_BUILD)
-	pandoc "$<" --from=gfm --to=latex --top-level-division=chapter --wrap=none -o "$@"
+	pandoc "$<" --from=gfm --to=latex --top-level-division=chapter --lua-filter=filters/prefix-ids.lua --wrap=none -o "$@"
 
 main.generated.tex: main.tex $(CHAPTER_FILES)
 	@touch "$@"

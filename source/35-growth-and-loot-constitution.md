@@ -31,14 +31,19 @@ witnessed change
 The player chooses the growth. The GM witnesses its cause and consequence but
 does not select the player's identity.
 
+The GM may award one Growth Mark when a character completes a named scenario,
+resolves a major world consequence, accepts or releases a meaningful
+relationship, completes a declared alignment path, or returns from a dangerous
+operation with a changed understanding. The same event cannot award repeated
+marks without a new witnessed change.
+
 ### Growth tiers
 
-| Tier | What it can support |
-| --- | --- |
-| Seed | one body, two active land channels, one Companion Port |
-| Local | deeper operations, one additional active slot, stronger relationships |
-| Network | party or faction operations and shared scope |
-| World | settlement, world-cell, or persistent rule operations |
+- **Seed:** one body, two active land channels, one Companion Port;
+- **Local:** deeper operations, one additional active slot, stronger
+  relationships;
+- **Network:** party or faction operations and shared scope;
+- **World:** settlement, world-cell, or persistent rule operations.
 
 The golden seed primarily uses Seed and Local. Network and World are future
 growth, not prerequisites for the first three scenarios.
@@ -89,6 +94,10 @@ world card: 3 Load and a declared Network or World receiving state
 
 Cards may be known or archived without being active. Only active cards count
 toward current Load.
+
+The Companion Port is tracked separately from Load. Its familiar, machine, or
+talisman still consumes cycles, Reserve, maintenance, attention, or relationship
+capacity when it operates.
 
 ## Loot packets
 

@@ -102,18 +102,7 @@ Check that alignment:
 - does not moralize animal ecology or instinctive behavior;
 - does not require the party to share one alignment.
 
-## Pass nine: publication
-
-Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
-MIT licensing, and the separation between open Basin mechanics and private
-Forgotten Realms content.
-
-The final review question is:
-
-> Can another group enter, change, remember, Rest, return, and extend the world
-> without the designer silently supplying its missing physics?
-
-## Pass ten: land palette and power
+## Pass nine: land palette and power
 
 Check that:
 
@@ -126,7 +115,19 @@ Check that:
 - alignment changes can open or close access without erasing history;
 - land sources have custody, cost, witness, and a receiving state.
 
-## Pass twelve: growth and loot
+## Pass ten: state restoration and apps
+
+Check that:
+
+- the paper State Deck can save and restore the current world;
+- a digital adapter preserves the same event and witness model;
+- GM-hidden state never leaks into public views;
+- apps cannot choose intent or invent outputs;
+- deck order, entropy, clocks, Familiar state, and land palettes survive;
+- a paper group can continue after an app-hosted session;
+- a hosted app can import a paper capsule without silently merging conflicts.
+
+## Pass eleven: growth and loot
 
 Check that:
 
@@ -138,14 +139,13 @@ Check that:
 - specialist classes receive depth rather than arbitrary superiority;
 - Growth Rings and loot survive State Deck restoration.
 
-## Pass eleven: state restoration and apps
+## Pass twelve: publication
 
-Check that:
+Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
+MIT licensing, and the separation between open Basin mechanics and private
+Forgotten Realms content.
 
-- the paper State Deck can save and restore the current world;
-- a digital adapter preserves the same event and witness model;
-- GM-hidden state never leaks into public views;
-- apps cannot choose intent or invent outputs;
-- deck order, entropy, clocks, Familiar state, and land palettes survive;
-- a paper group can continue after an app-hosted session;
-- a hosted app can import a paper capsule without silently merging conflicts.
+The final review question is:
+
+> Can another group enter, change, remember, Rest, return, and extend the world
+> without the designer silently supplying its missing physics?

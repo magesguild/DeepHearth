@@ -43,7 +43,8 @@ Demand - 5 or less -> failure
 4. Take the species starting kit.
 5. Write one boundary and one promise.
 6. Choose one growth question.
-7. Record `Integrity 3`, `Reserve 3`, and `Condition clear`.
+7. Record `Integrity 3`, `Reserve 3`, `Condition clear`, `Growth Marks 0`,
+   `Growth Rings 0`, `Load 0 / 3`, and `Companion Port available`.
 8. Name a question the character wants to carry into the world.
 
 9. Choose an alignment and write one anchor for each axis.
@@ -85,6 +86,9 @@ What does the world remember about me?
 The character begins at `Seed`, with Load Limit 3 and one Companion Port. Known
 cards may exceed active Load, but only installed cards operate in the current
 scene.
+
+The alpha capacity ceiling is 5 unless a class, growth, or world rule explicitly
+declares a different ceiling.
 
 ## Integrity and Reserve
 
@@ -151,6 +155,11 @@ Craft: ____   Will:  ____
 
 Integrity: 3 / ____
 Reserve: 3 / ____
+Tier: Seed
+Growth Marks: ____
+Growth Rings: ____
+Load: ____ / 3
+Companion Port: available / occupied
 Condition: ____________________
 Location: _____________________
 
@@ -164,6 +173,7 @@ Inventory: ____________________
 Words: ________________________
 Relationships: ________________
 Alignment traces: ______________
+Land palette: __________________
 Open consequences: ____________
 Witness marker: _______________
 ```
