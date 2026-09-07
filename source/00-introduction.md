@@ -1,5 +1,7 @@
 # Deep Hearth
 
+**Basin Game Studios**
+
 ## A small world that can return
 
 Deep Hearth is a small, bounded reference implementation for Basin.
