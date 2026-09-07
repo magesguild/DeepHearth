@@ -56,6 +56,10 @@ transferring custody.
 The party cannot spend a member's body, consent, or private memory as a shared
 resource.
 
+The party may declare shared land channels, but a shared source remains a shared
+resource only when custody and receiving state are explicit. One character's
+alignment or land access does not silently become another character's access.
+
 Alignment differences do not automatically dissolve a party. They may change
 trust, faction access, divine access, familiar relationships, or the receiving
 state of a shared action. The party records those consequences rather than

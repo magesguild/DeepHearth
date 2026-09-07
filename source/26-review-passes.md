@@ -112,3 +112,16 @@ The final review question is:
 
 > Can another group enter, change, remember, Rest, return, and extend the world
 > without the designer silently supplying its missing physics?
+
+## Pass ten: land palette and power
+
+Check that:
+
+- color channels are not being treated as moral labels;
+- native, licensed, learned, and restricted access remain distinct;
+- universal access pays in setup, slots, latency, or maintenance;
+- no card grants free extra turns or unbounded computation;
+- Magic mode respects host color rules;
+- cardless mode preserves the operation's shape;
+- alignment changes can open or close access without erasing history;
+- land sources have custody, cost, witness, and a receiving state.

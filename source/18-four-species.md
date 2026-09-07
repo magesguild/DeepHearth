@@ -138,6 +138,22 @@ witnessed reason and a cost.
 The new membrane must declare what it senses, consumes, produces, protects,
 refuses, and how it rests.
 
+## Alpha land affinities
+
+Land channels are class affinities, not automatic ownership:
+
+| Species | Native channels |
+| --- | --- |
+| Alchemist | Blue, Black, Red |
+| Wayfinder | Blue, Green, White |
+| Bastion | White, Red, Green |
+| Hearthkeeper | White, Green, Blue |
+
+At creation, a character may keep two native channels active. A third channel
+requires a licensed source, a learned path, or a declared class feature. A
+future Artificer may access any channel through machines, but pays retuning,
+maintenance, and active-slot costs instead of receiving native efficiency.
+
 ## Alignment affinity
 
 Species have affinities, not absolute alignment locks. A class may declare that

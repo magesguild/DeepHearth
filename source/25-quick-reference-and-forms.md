@@ -57,6 +57,20 @@ Lineage: ______________________
 Recovery: _____________________
 ```
 
+## Land palette card
+
+```text
+Native channels: ______________
+Licensed channels: ____________
+Learned channels: _____________
+Restricted channels: __________
+Active slots: _________________
+Current sources: ______________
+Retuning cost: ________________
+Alignment compatibility: _______
+Cardless fallback: ____________
+```
+
 ## Familiar System organ card
 
 ```text

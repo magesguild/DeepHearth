@@ -62,6 +62,11 @@ Magic organ       -> Magic rules plus plugin contract
 The Familiar System's Hearth REPL may display the organ's command and output, but it may not
 replace the Magic stack, card text, costs, zones, or priority rules.
 
+In Magic mode, the host format's land and color rules remain authoritative. In
+cardless mode, a land channel is represented by a declared source token, place,
+or energy tag. Deep Hearth never grants a player access to a Magic color that
+the chosen host format forbids.
+
 Magic may declare alignment compatibility for a spell, deity, ward, artifact, or
 host organ. A mismatch can produce refusal, altered cost, changed effect, or a
 new alignment trace. It never selects the caster's private intent.

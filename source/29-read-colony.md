@@ -26,6 +26,8 @@ output: visible population count and optional threshold result
 cost: 1 cycle and attention
 entropy: none
 scope: private by default
+land channel: Black
+channel mode: inherited from Rat Garden
 Rest: readout witnessed or declined
 ```
 

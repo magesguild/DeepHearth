@@ -83,3 +83,8 @@ The GM may offer an organ or familiar relationship as an encounter possibility,
 but may not require it for the scenario's basic physics. A non-familiar host
 organ, a cardless organ, and no organ at all must remain legal alternatives when
 the encounter depends on computation.
+
+The GM may also place land sources in the scene. A source declares its channel,
+cost, alignment compatibility, access boundary, and cardless equivalent. A land
+source may be a reward, commons, faction license, dangerous terrain, or contested
+resource.

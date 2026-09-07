@@ -23,6 +23,11 @@ Every step can be played with the ordinary Deep Hearth kit. A Familiar System
 organ may add a personal computation or alternate witness, but it is never a
 required solution to the scenario.
 
+The Threshold Room begins with a neutral light source. The Lantern Orchard
+introduces Green and White land pressures through growth, care, and shared water.
+The First Descent may introduce a contested channel source tied to a faction,
+alignment, or host Magic organ.
+
 ## The Lantern Orchard
 
 ### Situation

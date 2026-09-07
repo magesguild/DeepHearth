@@ -223,3 +223,7 @@ The Familiar System slice is complete when a group can:
 
 The first organ implemented by this contract is `KINDLE-RAT`, the smallest
 Magic-derived population register that can run in both Magic and cardless modes.
+
+An organ prompt also declares its land channels and whether it requires a native,
+licensed, or learned source. The REPL must return `OUT-OF-SCOPE` before execution
+when the operator lacks the required channel.

@@ -26,6 +26,8 @@ output: one Rat population token
 state: input count and population
 entropy: none in the seed operation
 scope: private by default
+land channel: Black
+channel mode: native / licensed / learned
 latency: one declared operation
 Rest: output witnessed and no pending host event
 ```
@@ -77,6 +79,10 @@ witness: organ transcript and State Capsule
 
 The black energy tag is a habitat label for this organ, not a requirement that
 the whole Deep Hearth ruleset adopt Magic's mana system.
+
+In cardless mode, a character without Black access may not run the organ until a
+licensed or learned channel path is established. The player may still use the
+sample packet for another operation.
 
 The cardless operation is native Basin computation. It is compatible in shape,
 not a claim that paper tokens are Magic cards.

@@ -48,6 +48,8 @@ Demand - 5 or less -> failure
 
 9. Choose an alignment and write one anchor for each axis.
 
+10. Record native, licensed, learned, and restricted land channels.
+
 The player may also declare:
 
 ```text
@@ -57,6 +59,11 @@ Familiar boundary: ______________
 Alignment: ______________________
 Law/Chaos anchor: _______________
 Good/Evil anchor: ________________
+Native land channels: ____________
+Licensed channels: _______________
+Learned channels: ________________
+Restricted channels: _____________
+Active land slots: _______________
 ```
 
 No character is incomplete without a familiar. Choosing none is a complete

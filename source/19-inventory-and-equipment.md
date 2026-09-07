@@ -111,6 +111,24 @@ source
 
 Gift, loan, sale, archive, theft, and surrender are different events.
 
+## Land sources
+
+A land source is an input object, place, card, relationship, or world cell that
+provides one or more channels.
+
+```text
+channel: ______________________
+source: _______________________
+active slots: _________________
+latency: ______________________
+alignment compatibility: ______
+cost to access: ________________
+cardless equivalent: ___________
+```
+
+Land sources are not automatically owned by the player. A source may be borrowed,
+licensed, offered, protected, contested, or refused.
+
 ## Alignment compatibility
 
 An item or organ may declare an alignment membrane:

@@ -185,6 +185,23 @@ will receive or provide; they do not decide what a player wants to attempt.
 Animals and instinctive bodies may be unaligned. Need, territory, hunger, and
 defense are not moral verdicts.
 
+## Land channels
+
+Some worlds expose their resources through land channels. A channel is a
+material and philosophical ecology, not a moral label:
+
+```text
+White -> order, community, protection, obligation
+Blue  -> inquiry, transformation, signal, adaptation
+Black -> cost, memory, death, extraction, autonomy
+Red   -> freedom, force, passion, disruption
+Green -> life, growth, body, interdependence, place
+```
+
+The channel a character can access is determined by class membrane, alignment
+compatibility, land source, equipment, relationships, and growth. The channel
+never chooses private intent.
+
 Players decide what capacity matters, which help is real, what pressure is
 active, and what cost they are willing to pay.
 
