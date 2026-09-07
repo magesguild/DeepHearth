@@ -14,7 +14,8 @@ SOURCE_FILES := \
   source/04-alpha.md \
   source/05-reference-body.md \
   source/06-threshold-room.md \
-  source/07-crossing-contract.md
+  source/07-crossing-contract.md \
+  source/08-the-return-mark.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
