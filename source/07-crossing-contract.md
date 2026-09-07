@@ -92,6 +92,19 @@ exit: far side, outside, refusal, or Rest
 The crossing minigame computes the boundary transition, not the character's
 private consent.
 
+## Dice habitat
+
+```text
+primary die: none for a safe route
+support dice: none
+persistent registers: route state and Flicker marker
+entropy budget: none unless a new hidden question is declared
+witness: crossing declaration and route state
+```
+
+An unstable route carries a known consequence. The table does not roll merely to
+make consent or danger feel dramatic.
+
 ## Safe crossing
 
 If the route is safe, crossing is deterministic.

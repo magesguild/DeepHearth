@@ -34,6 +34,19 @@ exit: direction, continuation, Flicker, uncertainty, or Rest
 The Wayfinder's minigame computes attention and route state. It does not force
 the Wayfinder to follow what it can perceive.
 
+## Dice habitat
+
+```text
+primary die: d20 hidden route question
+support dice: none
+persistent registers: Route Thread and route state
+entropy budget: one route question
+witness: die result, route answer, and State Capsule
+```
+
+The d20 may reveal direction or continuation, but it cannot manufacture a
+destination, a motive, or a desire to follow.
+
 ## The question
 
 The Wayfinder asks:

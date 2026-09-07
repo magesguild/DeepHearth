@@ -64,6 +64,19 @@ exit: lit, Flicker, alert, or Rest
 The room's minigame begins at the stabilization question. Walking, looking, and
 recording known state remain ordinary actions.
 
+## Dice habitat
+
+```text
+primary die: d20 entropy source
+support dice: none
+persistent registers: none
+entropy budget: one stabilization roll
+witness: die result and total on the room card
+```
+
+The d20 answers whether the extract stabilizes the cracked lantern. It does not
+choose whether the Alchemist prepares, attempts, crosses, or refuses.
+
 ## The room
 
 ```text

@@ -31,6 +31,19 @@ exit: reciprocal, asymmetric, refused, delayed, or Rest
 The simultaneous contracts are the minigame board. The packets and boundaries
 are its pieces. The witness ledger is its output memory.
 
+## Dice habitat
+
+```text
+primary die: none for declared offers
+support dice: none
+persistent registers: pending offers and custody
+entropy budget: none unless receiving state is hidden or contested
+witness: two contracts and exchange ledger
+```
+
+The exchange does not roll to decide whether a body wants to accept. A later
+contested receiving state may introduce a declared die habitat.
+
 ## Exchange packets
 
 An exchange packet may be material, informational, relational, or temporal:

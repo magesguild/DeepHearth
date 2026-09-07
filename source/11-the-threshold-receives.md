@@ -23,6 +23,19 @@ exit: received, carried, or Rest
 The computation is the change in public relation. The threshold does not become
 an oracle or a player with hidden motives.
 
+## Dice habitat
+
+```text
+primary die: none
+support dice: none
+persistent registers: reception and reciprocal trace
+entropy budget: none for offering known material
+witness: visible groove and room card
+```
+
+The threshold's answer is physical state, not a random message. A later body may
+declare a hidden route question and select a different die habitat.
+
 The player asks:
 
 > What does the threshold do when it receives evidence from its own far side?

@@ -73,6 +73,11 @@ magic  -> inputs, macro-instruction, interruption, and residue
 Each encounter names its board, moves, resources, uncertainty, externalities,
 and exit state before play begins.
 
+Combat and magic should also name their dice habitat. A combat may use a d20 for
+a major transition, a d6 as a cycle reserve, and a d8 for position or response.
+A ritual may use a d12 as duration, a d8 as resonance, and a d6 as material
+consumption. These are scenario contracts, not universal meanings.
+
 Combat is a live program, not only a damage exchange:
 
 ```text

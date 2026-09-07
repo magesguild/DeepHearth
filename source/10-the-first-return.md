@@ -67,6 +67,20 @@ uncertainty: route stability and possible alteration
 exit: arrived, altered, remained, unknown, or Rest
 ```
 
+## Dice habitat
+
+```text
+primary die: none for a safe route
+support dice: none
+persistent registers: vial contents and sample condition
+entropy budget: one declared route uncertainty, if present
+witness: sample record and return result
+```
+
+If Flicker alters the sample, the alteration is a known transition of that route
+state. The table does not roll again to decide whether the material is allowed
+to have changed.
+
 ## The first return procedure
 
 ### 1. Choose

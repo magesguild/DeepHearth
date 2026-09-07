@@ -184,6 +184,74 @@ The d20 is one instrument, not the universal processor.
 The die is chosen by the scale and character of the process, not by a
 larger-is-better hierarchy.
 
+## Dice modes and habitats
+
+A die has a species and a role. Its number of sides suggests a physical
+character, but the scenario declares what the die computes.
+
+```text
+entropy source
+register
+selector
+clock
+reserve
+population counter
+witness
+interrupt selector
+```
+
+The same die may serve different roles in different habitats. It may not change
+roles silently during an interaction.
+
+### Scenario dice contract
+
+Every computational scene declares:
+
+```text
+primary die
+support dice
+persistent registers
+entropy budget
+witness method
+```
+
+The table does not need every die in every scene. A small loadout keeps the
+physical computer legible.
+
+### Dice as registers
+
+A die may become state after it is rolled:
+
+```text
+roll d6 -> 4
+leave d6 showing 4
+spend two cycles
+turn die to 2
+Rest or continue
+```
+
+The face is now a visible register, not a new random result. A die can preserve
+its starting face, roll, spent value, final face, and witness record when exact
+replay matters.
+
+### Dice ecology
+
+Dice may interact through declared state:
+
+```text
+d12 clock
+-> active phase
+d8 response
+-> creature behavior
+d20 action
+-> player transition
+d6 reserve
+-> remaining cycles
+```
+
+A die may select an uncertain branch, but it never decides what a player wants,
+whether a character consents, or whether refusal is valid.
+
 ## Rest
 
 Rest is the moment when the table notices what state it is in. It may be a turn

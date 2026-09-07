@@ -36,6 +36,19 @@ exit: echoed, altered, refused, or unknown return
 The return minigame computes a public relation while leaving interpretation
 open.
 
+## Dice habitat
+
+```text
+primary die: none for declaring the return
+support dice: none
+persistent registers: sample condition and route state
+entropy budget: route instability only if separately declared
+witness: return card and State Capsule
+```
+
+Meaning is not rolled into existence. A later interaction may use a die when a
+real hidden property of the sample or route becomes consequential.
+
 ## Three parts of the shape
 
 ### Reciprocal

@@ -34,6 +34,19 @@ exit: inherited, declined, carried, or Rest
 The inheritance minigame computes provenance and custody. It does not compute
 the absent visitor's private motive.
 
+## Dice habitat
+
+```text
+primary die: none
+support dice: none
+persistent registers: object location and lineage
+entropy budget: none for inspection or refusal
+witness: Mark, vial, inventory, and State Capsule
+```
+
+The absence of a die is part of the design. The room already knows that the
+objects are present; uncertainty concerns meaning and identity, not visibility.
+
 ## The mark
 
 On the far side, a small Return Mark has been made in the stone from whatever
