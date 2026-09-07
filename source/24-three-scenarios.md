@@ -19,6 +19,10 @@ make light
 The scenario is complete when the group has one witnessed return, one public
 uncertainty, and one relation that remains possible.
 
+Every step can be played with the ordinary Deep Hearth kit. A Familiar System
+organ may add a personal computation or alternate witness, but it is never a
+required solution to the scenario.
+
 ## The Lantern Orchard
 
 ### Situation

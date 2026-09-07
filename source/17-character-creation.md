@@ -46,6 +46,18 @@ Demand - 5 or less -> failure
 7. Record `Integrity 3`, `Reserve 3`, and `Condition clear`.
 8. Name a question the character wants to carry into the world.
 
+The player may also declare:
+
+```text
+Familiar: none / desired / present
+Relationship: __________________
+Familiar boundary: ______________
+```
+
+No character is incomplete without a familiar. Choosing none is a complete
+character state. A desired familiar is an open relationship, not an owned item
+or guaranteed summon.
+
 The character is complete when the player can answer:
 
 ```text

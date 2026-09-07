@@ -130,6 +130,23 @@ Use these meanings consistently:
 
 No later subsystem should use one of these words with a contradictory meaning.
 
+## Responsibility boundaries
+
+Deep Hearth remains playable without the Familiar System. The responsibilities
+are separate:
+
+| Layer | Owns | Does not own |
+| --- | --- | --- |
+| Basin core | state, transitions, resources, agency, memory, witness, Rest | card text, familiar consent, host-specific results |
+| Host adapter | Magic, Yupana, calculator, or other host law | Deep Hearth player intent or private values |
+| Organ | one bounded input/output operation | unrelated world mutation or unbounded computation |
+| Hearth REPL | typed command, cost quote, transcript, error value | permission to run an organ or ownership of its output |
+| Familiar relationship | identity, offered capability, privacy, refusal, Rest, departure | automatic obedience or player ownership of a being |
+| Party/world state | accepted public outputs and consequences | private input, unoffered memory, or hidden host law |
+
+An interface may translate between layers only through an explicit packet,
+contract, cost, receiving state, and witness.
+
 Players decide what capacity matters, which help is real, what pressure is
 active, and what cost they are willing to pay.
 

@@ -25,7 +25,7 @@ Every organ prompt declares:
 ```text
 organ identity
 host mode
-owner
+custodian
 operator
 input type
 output type

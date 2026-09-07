@@ -78,7 +78,18 @@ when both are declared. Check that:
 - the transcript can be witnessed and replayed;
 - the organ is optional for a group that does not possess its host materials.
 
-## Pass seven: publication
+## Pass seven: responsibility boundaries
+
+For each interface, identify who owns the rule and who merely translates it:
+
+- Basin core state remains Basin-owned;
+- Magic results remain host-owned;
+- organ costs and outputs remain organ-owned;
+- familiar consent and departure remain relationship-owned;
+- party and world state receive only accepted public outputs;
+- cardless play remains complete without the extension.
+
+## Pass eight: publication
 
 Check page breaks, table widths, code blocks, printable forms, EPUB navigation,
 MIT licensing, and the separation between open Basin mechanics and private

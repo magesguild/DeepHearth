@@ -119,6 +119,10 @@ render_state()
 The same witnessed state may appear as a paper card, structured JSON, compact
 CBOR, a card-and-token arrangement, a voxel world, or an online event log.
 
+The representation is not the host. A Magic adapter may provide a card result, a
+cardless organ may provide a token result, and the Basin witness stores the
+declared translation without pretending that the substrates are identical.
+
 ## Compute organs
 
 A tabletop world may contain another computer. The external computer is not an

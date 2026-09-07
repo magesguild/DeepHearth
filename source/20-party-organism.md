@@ -56,6 +56,10 @@ transferring custody.
 The party cannot spend a member's body, consent, or private memory as a shared
 resource.
 
+The same boundary applies to organs and familiars. A party may receive a
+declared organ output, but it does not automatically receive the organ, its
+private transcript, its input packets, or a familiar's consent.
+
 ## Party Rest
 
 The party may Rest when it reaches a declared safe or still point. Rest records:

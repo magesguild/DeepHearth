@@ -73,3 +73,8 @@ must have a source, a possible observation, a consequence, and a witness path.
 
 The GM may preserve uncertainty. The GM may not use hidden state to replace a
 player's choice or invent a result after the fact.
+
+The GM may offer an organ or familiar relationship as an encounter possibility,
+but may not require it for the scenario's basic physics. A non-familiar host
+organ, a cardless organ, and no organ at all must remain legal alternatives when
+the encounter depends on computation.

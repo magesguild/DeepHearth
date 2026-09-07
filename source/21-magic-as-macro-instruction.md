@@ -62,6 +62,10 @@ Magic organ       -> Magic rules plus plugin contract
 The Familiar System's Hearth REPL may display the organ's command and output, but it may not
 replace the Magic stack, card text, costs, zones, or priority rules.
 
+If a Magic card or deck is operated by a familiar, the familiar relationship is
+separate from the Magic host law. The player may use the cards without having a
+familiar, or have a familiar that operates no Magic organ.
+
 ## First spell: Lantern Seed
 
 ```text
