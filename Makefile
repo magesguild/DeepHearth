@@ -12,7 +12,8 @@ SOURCE_FILES := \
   source/02-ecology.md \
   source/03-memory-and-return.md \
   source/04-alpha.md \
-  source/05-reference-body.md
+  source/05-reference-body.md \
+  source/06-threshold-room.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
