@@ -23,7 +23,16 @@ SOURCE_FILES := \
   source/13-the-exchange-at-the-threshold.md \
   source/14-the-combat-clock.md \
   source/15-grapple-hold-relation.md \
-  source/16-the-first-armed-exchange.md
+  source/16-the-first-armed-exchange.md \
+  source/17-character-creation.md \
+  source/18-four-species.md \
+  source/19-inventory-and-equipment.md \
+  source/20-party-organism.md \
+  source/21-magic-as-macro-instruction.md \
+  source/22-encounter-programs.md \
+  source/23-seven-beast-cards.md \
+  source/24-three-scenarios.md \
+  source/25-quick-reference-and-forms.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
