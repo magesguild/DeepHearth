@@ -13,6 +13,10 @@ The design target and section plan are in
 [`GOLDEN_SEED_PLAN.md`](GOLDEN_SEED_PLAN.md). The repository is licensed under
 the MIT License.
 
+The public alpha introduction is in [`ANNOUNCEMENT.md`](ANNOUNCEMENT.md).
+Please use the [GitHub issue tracker](https://github.com/magesguild/DeepHearth/issues)
+for playtest reports, rules questions, and discovered extensions.
+
 ## Build
 
 ```text
