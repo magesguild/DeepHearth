@@ -42,7 +42,9 @@ SOURCE_FILES := \
   source/32-alignment-constitution.md \
   source/33-land-palette-constitution.md \
   source/34-gm-state-deck-and-app-adapter.md \
-  source/35-growth-and-loot-constitution.md
+  source/35-growth-and-loot-constitution.md \
+  source/36-glossary-and-index.md \
+  source/37-printable-toolkit.md
 
 CHAPTER_FILES := $(patsubst source/%.md,$(CHAPTER_BUILD)/%.tex,$(SOURCE_FILES))
 
