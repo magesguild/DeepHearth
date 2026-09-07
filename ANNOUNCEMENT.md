@@ -39,4 +39,5 @@ Please play it, break it gently, and [open an issue on GitHub](https://github.co
 when a rule is unclear, a sheet is awkward, a scenario surprises you, or the
 garden grows somewhere we did not expect.
 
-[Deep Hearth on GitHub](https://github.com/magesguild/DeepHearth)
+[Deep Hearth on GitHub](https://github.com/magesguild/DeepHearth) ·
+[Download the alpha release](https://github.com/magesguild/DeepHearth/releases/tag/v0.1.0-alpha.1)
