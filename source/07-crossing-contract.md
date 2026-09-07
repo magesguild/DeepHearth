@@ -60,6 +60,23 @@ Before crossing, the player declares:
 
 The facilitator repeats the declaration so the table shares one witness.
 
+## Boundary exchange
+
+Crossing is an exchange between a body and a place. The crossing declaration
+must make the membrane legible:
+
+```text
+body offered: __________________
+resource carried: ______________
+information exposed: ___________
+what remains behind: ____________
+externality accepted: ___________
+return state: __________________
+```
+
+The threshold receives only the crossing that was declared. It does not acquire
+the character's private motive, unspoken consent, or unoffered possessions.
+
 ## Safe crossing
 
 If the route is safe, crossing is deterministic.

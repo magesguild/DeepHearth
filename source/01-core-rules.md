@@ -105,6 +105,26 @@ REFUSE
 -> create a new world state
 ```
 
+## Conflict and violence
+
+Violence is a contested ecology. Each combatant retains a legal action space,
+information boundary, preference, resource reserve, and refusal condition.
+
+```text
+intent
+-> position and pressure
+-> force, protection, restraint, escape, or negotiation
+-> response
+-> injury, resource, terrain, relationship, and memory changes
+-> retreat, surrender, repair, Rest, or continuation
+```
+
+Defeat does not automatically annex another body's will. Surrender, withdrawal,
+incapacitation, death, and reconciliation are distinct states. A depleted body
+may reach a peaceful still point, preserve its state, and return through repair
+or negotiation. The rules do not manufacture panic or cruelty merely to create
+pressure.
+
 ## The dice ecology
 
 The d20 is one instrument, not the universal processor.

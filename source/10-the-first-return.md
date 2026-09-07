@@ -36,6 +36,24 @@ far side
 The return is not a delivery quest. It is a completed relation between two
 locations.
 
+## Exchange record
+
+The first return is an economic transition even though no money changes hands.
+The dust, vial, route, attention, and memory all move between bounded bodies and
+places:
+
+```text
+offer: far-side evidence
+receiver: Threshold Room
+cost: vial capacity and crossing
+externality: possible Flicker or altered sample
+acceptance: offered / kept / refused
+witness: return record
+```
+
+The threshold is allowed to receive only what is offered. The player is allowed
+to keep, transform, archive, or refuse the packet.
+
 ## The first return procedure
 
 ### 1. Choose

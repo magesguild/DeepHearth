@@ -67,6 +67,25 @@ only when the lantern produces a stable light.
 The room does not attack the Alchemist. It has a condition, a resource, a hidden
 risk, and a changed state waiting to be witnessed.
 
+## Room economy
+
+The room is not an opponent with a private utility score. Its economy is its
+declared physics:
+
+```text
+resource: one prepared extract
+offer: a possible stable light
+receiving state: cracked lantern housing
+hidden risk: instability
+externality: alarm, smoke, or Flicker
+boundary: dark lantern means closed threshold
+recovery: another question, another resource, or Rest outside
+```
+
+The Alchemist may offer the extract to the lantern, and the room may receive,
+transform, or reject that offer through its physical state. The room never
+decides whether the Alchemist wants to proceed.
+
 ## The action loop
 
 ### 1. Declare intent

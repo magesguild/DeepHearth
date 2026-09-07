@@ -87,6 +87,17 @@ Open question: can a return be completed without claiming the visitor's life?
 If the player carries an object, update inventory. If the player leaves it, the
 far side retains the object and the return path retains its marker.
 
+The inherited object has provenance but no automatic claim on the player. Its
+economic state is:
+
+```text
+source: prior visitor
+current holder: none / character / party
+offered: yes / no
+boundary: do not annex the absent visitor's story
+future use: open
+```
+
 Carrying the Return Mark does not improve a roll. It changes what the character
 can remember and what a later body can be told.
 

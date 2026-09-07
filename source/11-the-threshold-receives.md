@@ -40,6 +40,19 @@ This is the **Reciprocal Trace**. It does not open a new door, reveal the prior
 visitor, identify a destination, or explain the dust's meaning. It records only
 that material has now traveled in both directions.
 
+## Receiving state
+
+The threshold's response is a receiving state, not an ownership claim. It
+accepts the offered dust, changes the public trace, and leaves the vial, player,
+and prior visitor's story outside that acceptance.
+
+```text
+received: offered dust only
+not received: private motive, unoffered contents, future consent
+externality: reciprocal trace becomes visible
+refusal: player may keep the vial instead
+```
+
 ## Room state
 
 After the threshold receives the offered sample, update the public state:

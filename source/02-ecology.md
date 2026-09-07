@@ -78,6 +78,28 @@ A player may injure, protect, restrain, escape, interrupt a ritual, rescue a
 cell, change terrain, break morale, or force a retreat. Damage is one possible
 output.
 
+Combat is an exchange under pressure. Every combatant declares or reveals some
+combination of:
+
+```text
+resources
+information
+legal actions
+offers of force or protection
+boundaries
+externalities
+recovery path
+```
+
+An opponent is not a resource because it has been defeated. The encounter may
+end in injury, restraint, retreat, surrender, separation, negotiation, repair,
+or death when that transition is established and witnessed. No combat rule
+silently converts another body's refusal into consent.
+
+After pressure ends, the table records what violence changed: bodies, terrain,
+trust, routes, supplies, promises, and future action sets. The aftermath is part
+of the economy of the world.
+
 Magic is a macro-instruction with inputs, cost, target, timing, duration, state
 effect, interruption conditions, and residue. Spell families include Signal,
 Query, Transform, Summon, Ward, Repair, Traverse, Bind, Disrupt, and Seed.

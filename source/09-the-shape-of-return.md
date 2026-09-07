@@ -89,6 +89,18 @@ witness: _____________________
 The recipient may be a person, a party, the room, a future investigator, or no
 one yet. A blank recipient is allowed when the honest answer is unknown.
 
+This declaration is a public exchange contract, not a promise that another body
+must accept. It names the offer, the receiving state being requested, the cost
+of carrying it, and the consequence if the route changes.
+
+```text
+offer: ________________________
+receiving state requested: _____
+cost: _________________________
+externality: __________________
+refusal remains legal: yes
+```
+
 ### 4. Cross back
 
 Use the Crossing Contract. A safe route is deterministic. A Flickering route

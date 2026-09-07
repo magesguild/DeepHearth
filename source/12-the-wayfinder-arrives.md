@@ -56,6 +56,23 @@ Return marker: present
 The Wayfinder does not discover a destination merely by being the Wayfinder.
 The class membrane creates a way to attend, not a license to invent.
 
+## Knowledge as a shared resource
+
+The Wayfinder's first economic contribution is not a commodity. It is a more
+accurate shared map.
+
+```text
+private observation
+-> declared report
+-> party receiving state
+-> shared route memory
+-> new legal actions
+```
+
+The Alchemist may receive, question, archive, or refuse the report. The
+Wayfinder may keep an observation private when its boundary requires that. No
+body owes the party every thought merely because it joined the party.
+
 ## The route choices
 
 The Wayfinder chooses one legal response:
