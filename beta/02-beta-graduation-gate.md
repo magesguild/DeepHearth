@@ -20,6 +20,9 @@ feature list, has earned the transition.
 - Persistent NPCs, communities, and systems preserve forward transitions and
   reverse-readable witnesses.
 - At least one complete campaign module is runnable without the designer present.
+- The opposed-tie, interrupt, attention, Rest/care, land-retuning, away-time,
+  first-touch, knowledge-disclosure, and neighborhood-register procedures have
+  each been run without private designer repair.
 
 ## Required evidence of play
 

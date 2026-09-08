@@ -86,6 +86,12 @@ ANNIHILATED
 The familiar cannot be compelled into alignment by a command. The player may
 repair, renegotiate, release, or leave the relationship.
 
+`SEPARATED`, `CONVERTED`, and `ANNIHILATED` are local collision descriptions.
+The State Capsule stores the canonical status selected by the host boundary:
+`SEPARATED` becomes relation-level `WITHDRAWN`, `CONVERTED` becomes `COMPLETE` or
+`INTERRUPTED`, and `ANNIHILATED` becomes `DEAD` only when the host and scene
+explicitly establish that body transition.
+
 ### Residue and community consequence
 
 An operation may leave:

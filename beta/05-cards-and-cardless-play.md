@@ -205,6 +205,17 @@ An active channel occupies capacity. Breadth brings more channels and more
 retuning, switching, maintenance, and setup; depth brings fewer channels and
 cheaper, more efficient operations.
 
+### Retuning procedure
+
+At a safe Rest, a character may retune active land channels without an extra
+field cost; the new channels and receiving source are witnessed with the Rest.
+During active exploration, changing one active slot requires ten uninterrupted
+minutes, one Reserve, and a declared receiving source. The change leaves a trace
+and can be refused or unavailable if the source cannot receive the request.
+
+This is a Beta candidate. Play should test whether the field cost makes breadth a
+meaningful choice without making a character unusable away from Rest.
+
 ## Different Textures of Play
 
 Card play can make Deep Hearth feel like an archive, market, spellbook, machine,

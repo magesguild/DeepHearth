@@ -248,6 +248,61 @@ Rest and return condition
 
 The State Capsule must preserve every field that changes the next legal future.
 
+## Neighborhood Procedure Pass
+
+The spirit-first transitions above become runnable when the facilitator prepares
+one action record for each committed intervention:
+
+```text
+actor
+receiving cell
+question or intent
+capacity
+named help and pressure
+cost and latency
+knowledge scope
+uncertainty source
+legal T-Stops
+witness
+```
+
+The receiving cell owns the register. The actor pays the declared cost. A party
+resource is not silently substituted for a household, guild, or neighborhood
+resource. If the action crosses a public witness, shared resource, role,
+permission, labor, obligation, or threshold, the facilitator may record one
+bounded higher-level consequence.
+
+For the first Beta pass, use this sequence:
+
+1. State the current register and its owner.
+2. Ask what the actor can perceive and what remains private or contested.
+3. Quote the legal action, cost, latency, and possible T-Stops.
+4. Let the player commit, revise, or refuse.
+5. Resolve routine actions through known state and uncertain actions through the
+   Alpha resolution contract.
+6. Apply the result to the receiving cell before applying any propagation.
+7. Record one changed field, its new legal future, and its witness.
+8. Stop, continue, or Rest without updating unrelated neighborhood systems.
+
+This is the calculation pass Alpha 4 names but does not yet fully close. Beta
+play should determine the smallest useful Demand, capacity, help, pressure, and
+strained-result procedure for each intervention rather than assigning a universal
+neighborhood difficulty.
+
+### Initial ownership map
+
+```text
+household care and trust       -> household
+neighborhood water access      -> neighborhood commons
+guild repair authority         -> guild
+rat displacement               -> rat population
+cistern stability              -> cistern wall
+public contamination knowledge -> neighborhood witness
+private contamination witness  -> household or baker, as declared
+```
+
+The map is local to this scene. It is not a universal Waterdeep statistic.
+
 ## Non-Goals
 
 Alpha 4 does not require:

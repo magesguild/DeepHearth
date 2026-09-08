@@ -67,6 +67,36 @@ Recovery path: _________________
 Resume condition: ______________
 ```
 
+## Alpha 5 action record
+
+Use this record whenever a neighborhood or other cross-scale transition needs
+more than ordinary fiction:
+
+```text
+Actor: _______________________
+Receiving cell: ______________
+Intent: ______________________
+Initial state / trigger: ______
+Owner / range / initial: _______
+Capacity: ____________________
+Help / pressure: ______________
+Cost / latency: _______________
+Knowledge scope: ______________
+Knowledge source: ______________
+Custody / visibility: __________
+Uncertainty detail: ____________
+Uncertainty / Demand: _________
+Outcome band / result: ________
+Owned register: _______________
+Changed field / future: _______
+Propagation boundary: _________
+T-Stop / continuation: ________
+Terminal reason: ______________
+Recovery / resume: ____________
+Witness: ______________________
+Rest / return: _________________
+```
+
 ## Equipment card
 
 ```text
@@ -83,6 +113,26 @@ Lineage: ______________________
 Recovery: _____________________
 T-Stop set: ____________________
 Terminal reason: ______________
+```
+
+## Care and retuning record
+
+```text
+CARE / LAND RETUNING
+
+Body: _________________________
+Receiving state / owner: ______
+Trigger: ______________________
+Input material or source: _____
+Labor / permission: ___________
+Period / latency: _____________
+Old condition or channels: ____
+New condition or channels: ____
+Reserve paid: _________________
+Source accepted / refused: ____
+T-Stop / terminal reason: _____
+Recovery / resume: ____________
+Witness / Capsule field: ______
 ```
 
 ## Resident and job card
@@ -217,8 +267,14 @@ Legal responses: ______________
 Primary die: __________________
 Support dice: _________________
 Registers: ____________________
+Away register: 0 / 3 __________
+Away owner / trigger: __________
+Away threshold / T-Stop: _______
+T-Stop set: ____________________
+Terminal reason: _______________
 Retreat: ______________________
 Rest: _________________________
+Recovery / resume: ____________
 Witness: ______________________
 ```
 

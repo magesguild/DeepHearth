@@ -186,6 +186,10 @@ economy
 knowledge and language
 ```
 
+The first population slice must also close the operational seams identified in
+the Alpha 4 audit: first-touch depth, knowledge disclosure, register ownership,
+and the distinction between party resources and receiving-body resources.
+
 ### Slice 4: Place and Pressure
 
 Implement and play:
@@ -198,6 +202,11 @@ factions
 institutions
 conflict and politics
 ```
+
+The first place-and-pressure slice must include opposed ties, interrupt timing,
+Rest versus somatic care, land retuning, and one coarse away-time procedure for
+an ecological body. Each is a candidate procedure until human play shows that it
+is clear and affordable.
 
 ### Slice 5: Optional Depth
 

@@ -62,6 +62,29 @@ An active channel occupies one land slot. Changing an active palette requires a
 declared latency, cycle cost, Rest, or machine operation. The cost is visible
 before the change.
 
+Unless a local source declares another procedure, use this Alpha 5 retuning
+default:
+
+```text
+safe Rest       -> retune active channels without an extra field cost; witness it
+active field    -> 10 uninterrupted minutes, 1 Reserve, and a receiving source
+```
+
+The character owns the active palette. The source owns the permission to receive
+the channel. At safe Rest, the player declares the replacement channels and
+source, spends one Rest phase, and records the new active slots with `REST` as
+the local T-Stop. In the field, pay 1 Reserve before the 10-minute latency and
+record the source and intended replacement before the change begins.
+
+If the source accepts, replace the active palette and witness the old and new
+channels. If it refuses or is unavailable, the previous active palette remains
+legal; the attempt records `REFUSED` or `UNAVAILABLE`, the source, reason, and
+renewal path. If the operation is interrupted, the previous palette remains
+active and the partial attempt records `INTERRUPTED`. A field attempt spends its
+Reserve once committed. The State Capsule stores active slots, sources, status,
+and witness. Retuning never grants a free action, extra slot, or automatic
+channel efficiency.
+
 The Artificer exception is breadth, not free power:
 
 ```text
