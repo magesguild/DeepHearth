@@ -204,11 +204,37 @@ verify that:
 - the State Capsule preserves the changed future;
 - the table feels the neighborhood answer and remember it.
 
-This pass protects the spirit of the Responsive Neighborhood Alpha. The next
-pass may tighten math, Demand choices, register ranges, and calculation
-procedures without losing that experience.
+This pass protected the spirit of the Responsive Neighborhood Alpha. The
+Witnessed Return closure pass tightens its math, Demand choices, register ranges,
+and calculation procedures without losing that experience. Future play may still
+revise those procedures without silently changing the source of truth.
 
 The final review question is:
 
 > Can another group enter, change, remember, Rest, return, and extend the world
 > without the designer silently supplying its missing physics?
+
+## Pass sixteen: Witnessed Return closure
+
+Alpha 5 adds a closure pass for the procedures that most often leave a player or
+facilitator asking what happens next. Run each procedure with paper forms before
+the release is promoted:
+
+- opposed ties record `STRAINED CONTACT`, pay declared costs, and preserve legal
+  next choices;
+- interrupts identify the declaration window, payment, resolution order, and
+  chain limit;
+- Natural Rest and Somatic Care have distinct inputs and receiving states;
+- attention has a habitat-specific cost rather than a hidden universal meter;
+- land retuning records safe-Rest and field procedures, source, cost, and trace;
+- beast away-time changes only an owned register with a declared witness;
+- first touch promotes and compresses resident depth without losing history;
+- knowledge actions preserve source, scope, custody, visibility, and uncertainty;
+- every Responsive Neighborhood action names its receiving cell, owner, capacity,
+  cost, Demand or routine basis, changed field, propagation boundary, T-Stop,
+  witness, and return condition.
+
+The pass is complete when a second facilitator can run these procedures from the
+source and toolkit without private designer repair. Human play still determines
+whether the procedures are clear, enjoyable, and affordable; it does not replace
+the computation and source-consistency review.

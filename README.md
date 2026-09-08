@@ -17,8 +17,9 @@ The public alpha introduction is in [`ANNOUNCEMENT.md`](ANNOUNCEMENT.md).
 Please use the [GitHub issue tracker](https://github.com/magesguild/DeepHearth/issues)
 for playtest reports, rules questions, and discovered extensions.
 
-The current release is the **Responsive Neighborhood Alpha 4** technical
-reference body. Alpha 3 remains available as a separate historical seed. Future beta and mature
+The current release is the **Witnessed Return Alpha 5** technical reference body.
+Alpha 4 remains available as the historical Responsive Neighborhood release, and
+Alpha 3 remains available as a separate historical seed. Future beta and mature
 publications will translate the same constitution into a player-facing book, a
 GM's Guide, and an optional Bestiary, so players do not carry implementation or
 GM bookkeeping merely to enter the world.

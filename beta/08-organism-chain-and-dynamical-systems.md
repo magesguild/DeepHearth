@@ -209,6 +209,23 @@ This is the difference between a dynamical system and a chore list. The table
 does not update every household, market, rat, river, or weather register every
 round.
 
+### Coarse away-time for beasts
+
+When the party leaves an active beast habitat and meaningful world time passes,
+the GM may use one coarse away-tick rather than simulating the habitat:
+
+1. Roll one d6 for each declared elapsed world hour, or use one roll for a
+   shorter bounded absence.
+2. On 1-3, the beast returns toward its declared Rest state.
+3. On 4-5, advance its named habitat register by one step.
+4. On 6, record one ecological event such as forage, migration, or territory
+   contest and name its observable trace.
+5. Stop when the return state is sufficient to change the next legal future.
+
+The GM may replace the roll with a declared local law. No away-tick advances a
+register without an owner, trigger, witness, and receiving state. This procedure
+is a Beta candidate, not a universal background update.
+
 ## Calculation Budget
 
 Each scene declares an attention budget:
@@ -362,6 +379,37 @@ Rest or recovery condition
 
 The community is not a single consenting person. Public decisions, institutional
 decisions, and individual consent remain distinct.
+
+### First-touch depth
+
+Use the lightest resident body that answers the current question:
+
+```text
+population  -> job, location, ordinary response, need, boundary
+functional  -> one touched capability, knowledge scope, or local pressure
+named       -> identity, relationship, memory, and a witnessed history
+persistent  -> State Capsule fields and consequences that change future play
+```
+
+Promote a resident only when a question, offer, gift, exchange, threat, or
+request changes what that resident or a receiving body can legally do. A routine
+greeting may remain ordinary play. When the resident no longer changes a legal
+future, compress it back to an aggregate while preserving its witness and open
+consequences.
+
+### Rest and somatic care
+
+For health and care scenes, distinguish the receiving state before paying:
+
+```text
+Natural Rest  -> safe shelter and sleep; restore 1 Reserve
+Somatic Care  -> declared material, labor, permission, and tending; restore 1
+                 Integrity or remove 1 named bodily condition
+```
+
+Neither path erases unresolved consequences. A severe condition or unavailable
+receiving body may require a longer declared recovery path. This is a Beta
+candidate and should be tested for clarity and material burden.
 
 Possible community responses include:
 

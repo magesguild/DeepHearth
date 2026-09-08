@@ -40,6 +40,7 @@ Body B: ______________________
 Contact: _____________________
 Anchor: ______________________
 State: contact / leverage / restraint
+Canonical status: __________________
 
 A wants: _____________________
 B wants: _____________________
@@ -139,6 +140,15 @@ transition. A difference of one to four is an ordinary transition. A tie is a
 strained contact: neither body gains decisive control, both consequences remain
 visible, and the relation continues at the current state.
 
+On a tie, both bodies pay their declared cycle costs, neither transition
+completes, and the relation records `STRAINED CONTACT`. The scene must offer the
+next legal choices: yield, alter route, spend another declared cost, withdraw, or
+continue the contest. A pressure or limitation applies only when the scene names
+it; the tie does not invent a universal penalty. The State Capsule stores the
+canonical status selected by the scene, usually `CONTINUE`, `DELAYED`, or
+`INTERRUPTED`, plus the relation card as witness and the next legal action as the
+resume condition.
+
 The die resolves the contested physical future. It does not decide whether a
 body wants to keep struggling, yield, bargain, or stop at the next legal window.
 
@@ -213,6 +223,12 @@ INCAPACITATED / RECOVERING / DEAD / REST
 The restrained body retains legal refusal, and the restraining body must name
 custody, duration, care, and release conditions. If either body dies, the
 relation closes and the witness records what remains in custody.
+
+These relation labels are local descriptions. Store the canonical status beside
+them: `RELEASED` maps to `COMPLETE` or `REFUSED`, `ESCAPED` and `SEPARATED` map
+to relation-level `WITHDRAWN`, `RESTRAINED` maps to `SURRENDERED` only when the
+body yields custody, and otherwise remains `CONTINUE`. `RECOVERING`,
+`INCAPACITATED`, `DEAD`, and `REST` retain their canonical meanings.
 
 Yielding is a legal state, not a moral defeat. A depleted body may withdraw,
 shelter, surrender, enter stasis, repair, and return. The victor does not acquire

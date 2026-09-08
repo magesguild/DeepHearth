@@ -151,6 +151,55 @@ T-Stop or Rest: _________________
 Return condition: _______________
 ```
 
+## Alpha 5 action record
+
+```text
+ALPHA 5 ACTION
+
+Actor: _______________________
+Receiving cell: ______________
+Intent: ______________________
+Initial state / trigger: ______
+Owner / range / initial: _______
+Capacity: ____________________
+Help / pressure: ______________
+Cost / latency: _______________
+Knowledge scope: ______________
+Knowledge source: ______________
+Custody / visibility: __________
+Uncertainty detail: ____________
+Uncertainty / Demand: _________
+Outcome band / result: ________
+Owned register: _______________
+Changed field / future: _______
+Propagation boundary: _________
+T-Stop / continuation: ________
+Terminal reason: ______________
+Recovery / resume: ____________
+Witness: ______________________
+Rest / return: _________________
+```
+
+## Care and retuning record
+
+```text
+CARE / LAND RETUNING
+
+Body: _________________________
+Receiving state / owner: ______
+Trigger: ______________________
+Input material or source: _____
+Labor / permission: ___________
+Period / latency: _____________
+Old condition or channels: ____
+New condition or channels: ____
+Reserve paid: _________________
+Source accepted / refused: ____
+T-Stop / terminal reason: _____
+Recovery / resume: ____________
+Witness / Capsule field: ______
+```
+
 ## State Capsule
 
 ```text

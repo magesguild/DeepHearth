@@ -28,7 +28,8 @@ is a state of the whole body.
 ## Current rules
 
 - Published Alpha 2 remains historical and unchanged.
-- Alpha 4 is the current Responsive Neighborhood technical reference direction.
+- Alpha 5 is the current Witnessed Return technical reference direction. Alpha 4
+  remains the historical Responsive Neighborhood release.
 - `source/` is authoritative for currently released rules.
 - `beta/` is design and acceptance material until explicitly promoted.
 - `release-candidate/` will be created only after beta graduation.
@@ -61,7 +62,9 @@ is a state of the whole body.
   responsive Waterdeep vertical slice before human beta playtesting.
 - `13-beta-world-support-and-parity.md` — full-world beta gate, gods and worship,
   planes, robust Bestiary, publication separation, d20/OGL-compatible
-  Forgotten Realms support, and the complete campaign-module requirement.
+   Forgotten Realms support, and the complete campaign-module requirement.
+- `14-alpha-4-audit-and-infusion.md` — provenance boundary, Gemini's Alpha 4
+   audit, procedure candidates, and the evidence needed to promote them.
 - `13-beta-world-support-and-parity.md` — full-world beta gate, gods and worship,
   planes, robust Bestiary, publication separation, and d20/OGL-compatible
   Forgotten Realms support.

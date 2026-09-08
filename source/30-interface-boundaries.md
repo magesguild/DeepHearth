@@ -48,6 +48,35 @@ An individual change reaches a higher social system only when it crosses a
 public witness, shared resource, role, permission, labor, obligation, or
 threshold.
 
+### Knowledge disclosure procedure
+
+Before a knowledge action, name its scope and receiving body. Use one declared
+exchange for `ask` or `negotiate`, and one declared action window for
+`investigate` or `expose`:
+
+```text
+ask          -> private shared witness or refusal
+investigate  -> source-bound fact or route trace
+expose       -> public fact and public witness
+negotiate    -> knowledge exchanged for access, obligation, or permission
+```
+
+Unless the receiving body offers the knowledge as routine, use `Will 12` to
+establish trust for an `ask`, `Sense 12` to interpret an offered clue or route for
+an `ask` or `investigate`, and `Will 16` for a contested `negotiate`. An `expose`
+requires a source-bound fact already witnessed; making that fact public is then a
+declared public exchange, not a roll to override a boundary. A body may refuse
+any of these actions.
+
+Strong success makes the declared knowledge available at its named scope.
+Success makes it available without extra scope. A strained result makes it
+partial, delayed, or costly and records the named relationship or obligation.
+Failure records the changed pressure, refusal, or route without inventing the
+requested fact. The legal T-Stops are `COMPLETE`, `REFUSED`, `DELAYED`,
+`UNKNOWN`, or `REST` as declared by the receiving body. The event records source,
+scope, custody, visibility, uncertainty, and witness whenever those fields change
+a legal future; the same event is the return path for later interpretation.
+
 ## Familiar and non-familiar organs
 
 An organ may be:

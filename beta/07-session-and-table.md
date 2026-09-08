@@ -197,6 +197,83 @@ No resolution may invent an unnamed cost, hidden pressure, automatic success, or
 terminal result. A failure is a state transition only when the scene declares
 what changed.
 
+## Procedure Cards
+
+The following compact procedures close common table seams. They are Beta
+candidates derived from the Alpha 4 audit; the Alpha source remains authoritative
+where it already defines a value or status.
+
+### Opposed tie: strained contact
+
+When opposed totals tie:
+
+1. Both bodies pay their declared cycle or action cost.
+2. Neither transition completes.
+3. The relation remains contested and records `STRAINED CONTACT`.
+4. Each body receives the scene's named pressure or limitation, if one is
+   declared; the table does not invent a penalty.
+5. The scene offers the legal next choices: yield, alter route, spend another
+   declared cost, withdraw, or continue the contest.
+6. Record the tie and the receiving relation as the witness.
+
+`STRAINED CONTACT` is a local description. The State Capsule stores the
+canonical status selected by the scene, usually `CONTINUE`, `DELAYED`, or
+`INTERRUPTED`.
+
+### Interrupt timing
+
+For a multi-cycle action, declare the action's start face, cost, and resolution
+face. A one-cycle interrupt may be declared before the action resolves, at the
+current face, if the reacting body has a legal reaction and can pay its cycle.
+The interrupt resolves first, then the original action resolves against the
+changed state. An interrupt cannot silently create another interrupt chain.
+
+Example: a strike spending three cycles from 6 resolves at 3. A defender may
+spend one cycle at face 5 or 4 to Guard or Dodge before the strike resolves.
+
+### Attention by habitat
+
+Before commitment, quote attention in the habitat's native unit:
+
+```text
+combat       -> 1 cycle
+exploration  -> 1 declared action window
+social scene -> the declared exchange or action window
+Rest         -> free as part of the Rest protocol
+```
+
+Attention is not a universal meter. If no receiving state or meaningful cost is
+present, the action remains ordinary play.
+
+### Neighborhood action record
+
+For a Responsive Neighborhood action, write one line before resolution:
+
+```text
+actor | receiving cell | capacity | help/pressure | cost | scope | witness
+```
+
+Then resolve the action using Alpha resolution or the local card. Update only the
+owned register and the explicitly crossed boundary. A public witness, shared
+resource, role, permission, labor, obligation, or threshold may propagate one
+bounded consequence to a higher body. The table records the new legal future and
+stops; it does not simulate the whole neighborhood.
+
+### Knowledge disclosure
+
+Before a knowledge action, name its scope and receiving body:
+
+```text
+ask          -> may create a private shared witness or refusal
+investigate  -> may reveal a source-bound fact or route trace
+expose       -> makes the declared fact public and creates a public witness
+negotiate    -> may exchange knowledge for access, obligation, or permission
+```
+
+The action cannot reveal more than its declared perception, permission, or
+uncertainty permits. A partial or contested result remains partial or contested;
+it does not become false certainty merely because the players want an answer.
+
 ## Consequence Propagation
 
 An action may activate more than one system. The table follows only declared

@@ -45,6 +45,21 @@ The job is a stable public role. The individual becomes unique through witnessed
 relationship, knowledge, consequence, and Rest. The table chooses when a resident
 deserves deeper state.
 
+Use the lightest depth that can answer the current question:
+
+```text
+population  -> job, location, ordinary response, need, boundary
+functional  -> one touched capability, knowledge scope, or local pressure
+named       -> identity, relationship, memory, and witnessed history
+persistent  -> State Capsule fields and consequences that change future play
+```
+
+Promote a resident when a question, offer, gift, exchange, threat, or request
+changes what the resident or a receiving body can legally do. A routine greeting
+may remain ordinary play. When deeper detail no longer changes a legal future,
+compress the resident to an aggregate while preserving its witness and open
+consequences.
+
 Jobs provide public capabilities, tools, ordinary knowledge, permissions, and
 obligations. A baker is a baker because the job is shared; a particular baker
 becomes memorable because the relationship is not.

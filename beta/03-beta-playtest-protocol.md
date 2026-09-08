@@ -49,6 +49,21 @@ Observe:
 - whether the campaign module could be run without designer intervention;
 - whether the module offered enough content and structure for another session;
 
+For the Alpha 4 procedure infusion, deliberately observe these seams:
+
+- on an opposed tie, whether both bodies understand the resulting strained
+  contact and their legal next choices;
+- during a multi-cycle action, whether the interrupt example makes reaction timing
+  unambiguous;
+- whether players can tell ordinary Rest from material somatic care;
+- whether attention has a concrete cost in the current habitat;
+- whether land retuning feels like a meaningful choice rather than free setup;
+- whether a beast away-tick creates a memorable return state without chore work;
+- whether a generic resident becomes deeper at a clear first-touch boundary;
+- whether asking, investigating, and exposing knowledge preserve scope and privacy;
+- whether every neighborhood register has an obvious owner and payer;
+- whether a strained or failed neighborhood action produces a lawful changed future.
+
 ## After play
 
 Record:

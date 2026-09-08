@@ -32,6 +32,27 @@ The player is not outside the machine. The player supplies intention, selection,
 interpretation, and care. The objects supply persistent state and constrained
 possibility.
 
+## Alpha 5: The Witnessed Return Alpha
+
+The current body is the **Witnessed Return Alpha**. It keeps the bounded
+Responsive Neighborhood from Alpha 4 and closes the procedures that let players
+and facilitators resolve, witness, Rest, and return from its most important
+transitions.
+
+```text
+declare
+-> quote cost and uncertainty
+-> commit or refuse
+-> resolve
+-> change the owned state
+-> witness the consequence
+-> Rest or continue
+-> return to what changed
+```
+
+Alpha 4 remains the historical **Responsive Neighborhood Alpha**: the release
+that first made a populated place answer back.
+
 ## Alpha 4: Responsive Neighborhood Alpha
 
 The next alpha is called the **Responsive Neighborhood Alpha** because it is the
@@ -55,10 +76,9 @@ Waterdeep neighborhood
 -> return
 ```
 
-We are building the systems to support a larger world iteratively. This pass
-makes the world more inhabited without pretending that every NPC, market,
-language, or region must be continuously simulated. A later pass will tighten
-numbers and calculation procedures; this pass preserves the intended spirit.
+Alpha 5 preserves the spirit pass and adds the calculation and witness
+procedures. It still does not pretend that every NPC, market, language, or region
+must be continuously simulated.
 
 ## What this document is
 
@@ -78,8 +98,9 @@ Product Identity, trademark, copyright, and attribution boundaries.
 Deep Hearth can also sit beside an existing campaign module as a conversion
 layer. The host module supplies its setting, maps, characters, and premise;
 Deep Hearth supplies job stamps, body projections, relationships, ecology,
-T-Stops, witnesses, and return state. The Alpha 4 Responsive Neighborhood is the
-first authored slice of that larger conversion path.
+T-Stops, witnesses, and return state. The Responsive Neighborhood is the first
+authored slice of that larger conversion path, and Alpha 5 makes its conversion
+boundary runnable.
 
 ## How to read it
 

@@ -158,6 +158,26 @@ No interrupt may create an infinite chain. If a body has no cycle remaining, it
 cannot react through ordinary action. A declared passive boundary may still
 apply if the world rules already establish it.
 
+For a multi-cycle action, declare its start face, cost, and resolution face. A
+three-cycle action from face 6 occupies the scheduling faces 6, 5, and 4, then
+resolves at face 3. After spending the cycle at face 6, advance to face 5 and
+present one interrupt window; after spending the next cycle, advance to face 4
+and present one final interrupt window. A one-cycle interrupt may be declared at
+the current face when
+the reacting body has a legal reaction and can pay its cycle. Resolve the
+interrupt first, then continue or stop the original action against the changed
+state. A one-cycle event receives one interrupt window. A multi-cycle event
+receives one window after each cycle it spends before resolution, and no window
+exists at the initial face before the action spends its first cycle. An interrupt
+cannot silently create another interrupt chain.
+
+Example: a strike spending three cycles from face 6 resolves at face 3. A
+defender may spend one cycle at face 5 or 4 to Guard or Dodge before the strike
+resolves. The reaction is one declared window for that event; it records its
+outcome and witness before the original action resumes. If the reaction changes
+the event into a T-Stop, the original action records `INTERRUPTED` or its other
+declared canonical status rather than resolving through the stopped state.
+
 ## End states
 
 Combat ends when the pressure ecology reaches a new stable state:
@@ -182,6 +202,10 @@ all endings as victory or defeat:
 COMPLETE / RETREATED / SURRENDERED / SEPARATED / INCAPACITATED /
 RECOVERING / DEAD / REST / CONTINUE
 ```
+
+`SEPARATED` is a local combat description, not a stored canonical status. Record
+the relation as `WITHDRAWN` with the separation witness, or as `CONTINUE` if the
+combatants remain active and the relation persists.
 
 If a body reaches zero Integrity, the scene pauses long enough for its legal
 T-Stop to be chosen or established. No death occurs merely because arithmetic

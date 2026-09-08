@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.1.0-alpha.5
+
+**The Witnessed Return Alpha**
+
+- Closed the Alpha 4 procedure seams for opposed ties, interrupt timing,
+  attention, Natural Rest, Somatic Care, land retuning, and beast away-time.
+- Added explicit first-touch depth transitions and compression back to aggregate
+  state without losing witnesses or open consequences.
+- Added source-bound knowledge disclosure procedures for asking, investigating,
+  exposing, and negotiating.
+- Replaced the Responsive Neighborhood's spirit-first action defaults with
+  owned-register procedures, Alpha 5 Demand profiles, costs, T-Stops, witnesses,
+  recovery paths, and bounded consequence propagation.
+- Added complete Alpha 5 action, care, retuning, knowledge, neighborhood, and
+  beast fields to the quick-reference and printable toolkit forms.
+- Normalized local ecological, combat, relation, and Familiar labels to canonical
+  State Capsule statuses while preserving local fiction labels.
+- Added the Alpha 5 closure pass to the authoritative review procedure.
+- Preserved Alpha 4 as the historical Responsive Neighborhood release and kept
+  Beta graduation gated on real human table reports.
+
 ## 0.1.0-alpha.4
 
 - Named the next body the **Responsive Neighborhood Alpha**.

@@ -117,14 +117,24 @@ Reserve value, current Reserve cannot fall below zero, and a cost must be fully
 available before it is paid. Reserve does not recover automatically; a care,
 resource, relationship, or Rest path must name the amount restored.
 
-The alpha care default is one declared care input at a safe Rest: it restores one
-Integrity and removes one named condition, up to the body's maximums. A care path
-may restore a different amount, but must name its material, time, permission,
-recipient, and witness. Rest alone does not heal a body by implication.
+Natural Rest requires the body to declare a safe shelter and sleep receiving
+state. The scene declares the Rest period before play; if it does not, the Alpha
+default is one uninterrupted hour. It restores 1 Reserve and does not
+heal physical Integrity damage or remove a severe bodily condition by implication.
+The body pays safe shelter and sleep as its input, records `REST` as the T-Stop,
+and leaves unresolved consequences in place. Its witness is the character,
+party, or receiving shelter cell, and its resume condition is the next declared
+safe action.
 
-The default Reserve care input at a safe Rest restores 1 Reserve. A different
-amount must be named by the care path. Integrity, Reserve, and condition changes
-are separate witnessed transitions unless the care path explicitly couples them.
+Somatic Care requires one declared care material, labor, permission, recipient,
+and one care period at a safe receiving state. The scene declares the care period
+before play; if it does not, use one uninterrupted hour. It restores 1 Integrity or removes
+1 named bodily condition, up to the body's maximums. A care path may restore a
+different amount, but must name its input, time, and receiving state. Successful
+care records `RECOVERED`; insufficient, interrupted, or unavailable care records
+`RECOVERING`, `INTERRUPTED`, or `UNAVAILABLE` with its next care condition.
+Integrity, Reserve, and condition changes are separate witnessed transitions
+unless the care path explicitly couples them.
 
 At zero Integrity, the scene or card first declares the legal still-point set. The
 player chooses one option within that set: withdraw, incapacitate, surrender,
@@ -135,7 +145,7 @@ witnesses why. Death is a world transition, not an automatic arithmetic result.
 The table records the chosen T-Stop:
 
 ```text
-status: WITHDRAWN / INCAPACITATED / SURRENDERED / RECOVERING / DEAD / REST
+status: WITHDRAWN / INCAPACITATED / SURRENDERED / RECOVERING / RECOVERED / DEAD / REST
 reason: ______________________
 last legal state: ____________
 custody or shelter: __________

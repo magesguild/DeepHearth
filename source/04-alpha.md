@@ -43,9 +43,10 @@ one Rest
 one return
 ```
 
-The systems are being built to support a larger world iteratively. This pass
-captures the spirit of that world. A later review pass will tighten numbers,
-calculation procedures, and exact registers after the experience is coherent.
+The systems are being built to support a larger world iteratively. Alpha 4
+captured the spirit of that world; Alpha 5 adds the witnessed action procedures,
+Demand profiles, ownership, recovery, and exact register closures without
+expanding the neighborhood into a city simulation.
 
 The Responsive Neighborhood may be authored directly or converted from an
 existing campaign module. Conversion preserves the host's premise and spatial

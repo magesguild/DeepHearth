@@ -162,7 +162,7 @@ reason: _______________________________
 held witness: returned / archived / private
 last Rest: ____________________________
 relationship: released / paused / repairable
-terminal status: RESTING / WITHDRAWN / PAUSED / RELEASED / DEPARTED
+terminal status: REST / WITHDRAWN / INTERRUPTED / REFUSED / COMPLETE
 resume condition: __________________
 witness: __________________________
 ```
@@ -196,6 +196,11 @@ interaction between agents, not a command channel with a friendly skin.
 Every operation also has a T-Stop set. `REFUSED`, `WITHDRAWN`, `PAUSED`, and
 `DEPARTED` preserve the Lantern's agency; none is a system fault, punishment, or
 automatic destruction of the relationship.
+
+The familiar may keep the local labels `PAUSED`, `RELEASED`, and `DEPARTED` in
+the fiction, but the State Capsule stores their canonical meanings: `PAUSED`
+maps to `REST` or `INTERRUPTED` as declared, `RELEASED` maps to `COMPLETE` or
+`REFUSED` as the relationship declares, and `DEPARTED` maps to `WITHDRAWN`.
 
 ## Magic host examples
 
